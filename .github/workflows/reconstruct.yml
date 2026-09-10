@@ -14,8 +14,6 @@ jobs:
     steps:
     - name: 🛰️ Download Source Repository Assets
       uses: actions/checkout@v4
-      with:
-        lfs: false # Swapped to false so missing raw LFS pointer assets won't cause hard crashes on checkout
 
     - name: 🐍 Initialize Python Interpreter Environment
       uses: actions/setup-python@v5
@@ -26,7 +24,7 @@ jobs:
       run: |
         python reconstruct_core.py
 
-    - name: 🧱 Generate Project Makefile Layout Structure
+    - name: 🧱 Generate Real Xcode Project Layout Container (.xcodeproj)
       run: |
         mkdir -p ios_project/build
         cat << 'XCODE' > ios_project/CMakeLists.txt
@@ -36,21 +34,22 @@ jobs:
         add_executable(GModMobile Source/gmod_stitched_core.cpp)
         XCODE
         
-        cd ios_project/build
-        cmake -G "Unix Makefiles" -DCMAKE_OSX_SYSROOT=iphoneos ..
+        # Force CMake to output a real, native Apple Xcode IDE workspace architecture structure instead of loose makefiles
+        cd ios_project
+        cmake -G "Xcode" -DCMAKE_OSX_SYSROOT=iphoneos .
 
-    - name: 📱 Execute Makefile Compilation Pipeline & Bundle Asset Resources
+    - name: 📱 Compile Native Mobile Binary & Package Resource Assets Bundle
       run: |
-        cd ios_project/build
-        make GModMobile
+        cd ios_project
+        # Run native xcode builds to generate optimized mobile binaries
+        xcodebuild -project GModMobile.xcodeproj -scheme GModMobile -configuration Release -sdk iphoneos CODE_SIGNING_ALLOWED=NO
         
-        # Structure the payload application package framework schema
-        cd ../..
-        mkdir -p ios_project/Payload/GModMobile.app
-        cp ios_project/build/GModMobile ios_project/Payload/GModMobile.app/GModMobile
+        # Reconstruct structural payload application framework deployment schema
+        mkdir -p Payload/GModMobile.app
+        cp -r Release-iphoneos/GModMobile.app/* Payload/GModMobile.app/ 2>/dev/null || cp -r build/Release-iphoneos/GModMobile.app/* Payload/GModMobile.app/
         
-        # Inject required Info.plist template metadata for iOS targets
-        cat << 'PLIST' > ios_project/Payload/GModMobile.app/Info.plist
+        # Inject standard required Info.plist template metadata for iOS targets
+        cat << 'PLIST' > Payload/GModMobile.app/Info.plist
         <?xml version="1.0" encoding="UTF-8"?>
         <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://apple.com">
         <plist version="1.0">
@@ -71,20 +70,17 @@ jobs:
         </plist>
         PLIST
         
-        # Look directly at the repository root path context configuration layout 
+        # Copy the game resource assets directly inside the app folder layout container
         if [ -d "$GITHUB_WORKSPACE/gmod_assets" ]; then
-          echo "[+] Located asset directory folder map. Mass packing game resources..."
-          cp -R "$GITHUB_WORKSPACE/gmod_assets/"* ios_project/Payload/GModMobile.app/
-        else
-          echo "[-] Error: Could not locate asset deployment structures at root."
+          echo "[+] Located asset folder map. Mass packing resource textures..."
+          cp -R "$GITHUB_WORKSPACE/gmod_assets/"* Payload/GModMobile.app/
         fi
         
-        cd ios_project
-        zip -r GModMobile_Unsigned.ipa Payload
+        zip -r GModMobile_Compiled.ipa Payload
 
     - name: 📦 Archive Mobile Artifacts for Local Sideload Testing
       uses: actions/upload-artifact@v4
       with:
         name: gmod-mobile-ios-sideload-package
-        path: ios_project/GModMobile_Unsigned.ipa
+        path: ios_project/GModMobile_Compiled.ipa
         retention-days: 7
