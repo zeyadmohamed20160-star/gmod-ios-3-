@@ -40,13 +40,10 @@ jobs:
     - name: 📱 Compile Native Mobile Binary & Package Resource Assets Bundle
       run: |
         cd ios_project
-        # Run native xcode builds to generate optimized mobile binaries
         xcodebuild -project GModMobile.xcodeproj -scheme GModMobile -configuration Release -sdk iphoneos CODE_SIGNING_ALLOWED=NO
         
-        # Explicitly build the required Payload identity structure layers manually
         mkdir -p Payload/GModMobile.app
         
-        # Copy the native executable target into the structural framework
         if [ -f "Release-iphoneos/GModMobile" ]; then
           cp "Release-iphoneos/GModMobile" Payload/GModMobile.app/GModMobile
         elif [ -f "build/Release-iphoneos/GModMobile" ]; then
@@ -55,7 +52,6 @@ jobs:
           cp -r Release-iphoneos/GModMobile.app/* Payload/GModMobile.app/ 2>/dev/null || cp -r build/Release-iphoneos/GModMobile.app/* Payload/GModMobile.app/
         fi
         
-        # Inject standard required Info.plist template metadata for iOS targets
         cat << 'PLIST' > Payload/GModMobile.app/Info.plist
         <?xml version="1.0" encoding="UTF-8"?>
         <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://apple.com">
@@ -77,7 +73,6 @@ jobs:
         </plist>
         PLIST
         
-        # Copy the game resource assets directly inside the app folder layout container
         if [ -d "$GITHUB_WORKSPACE/gmod_assets" ]; then
           echo "[+] Located asset folder map. Mass packing resource textures..."
           cp -R "$GITHUB_WORKSPACE/gmod_assets/"* Payload/GModMobile.app/
@@ -85,9 +80,21 @@ jobs:
         
         zip -r GModMobile_Compiled.ipa Payload
 
-    - name: 📦 Archive Mobile Artifacts for Local Sideload Testing
+    - name: 📦 Archive Mobile Installer Sideload Package
       uses: actions/upload-artifact@v4
       with:
         name: gmod-mobile-ios-sideload-package
         path: ios_project/GModMobile_Compiled.ipa
+        retention-days: 7
+
+    # --- NEW EXTRA EXPORT: XCODE SOURCE WORKSPACE PACKER ---
+    - name: 🗜️ Compress Raw Xcode Source Project Structure (.xcodeproj)
+      run: |
+        zip -r src_workspace.zip ios_project/GModMobile.xcodeproj ios_project/Source/
+
+    - name: 📦 Archive Compiled Xcode Workspace and Source Layers
+      uses: actions/upload-artifact@v4
+      with:
+        name: gmod-mobile-xcode-src-workspace
+        path: src_workspace.zip
         retention-days: 7
