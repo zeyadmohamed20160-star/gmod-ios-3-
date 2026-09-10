@@ -1,0 +1,12 @@
+[*] Loaded file: C:/Users/Zezo/Documents/GitHub/gmod ios 2\bin\d3dcompiler_47.dll (3657992 bytes)
+[*] Located C++ Code Section (.text)
+[*] Size: 3488768 bytes | Base Address: 0x356000
+[*] Forcing instruction dump pipeline...
+[*] Translating assembly pipeline to C++ pseudocode...
+
+    // Assembly fallback: pop rax
+    // Assembly fallback: mov bl, 0x35
+    // Assembly fallback: adc byte ptr [rax - 0x7fefca4d], ch
+    return;
+}
+    dl, byte ptr [rax] -= ...; // Subtraction operation

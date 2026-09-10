@@ -1,0 +1,175 @@
+[*] Loaded file: C:/Users/Zezo/Documents/GitHub/gmod ios 2\bin\GameAnalytics.dll (1783296 bytes)
+[*] Located C++ Code Section (.text)
+[*] Size: 1437184 bytes | Base Address: 0x161000
+[*] Forcing instruction dump pipeline...
+[*] Translating assembly pipeline to C++ pseudocode...
+
+
+// --- Recovered Function Block ---
+void function_0x161000() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push -1
+    // Assembly fallback: push 0x10155f86
+    // Assembly fallback: movabs eax, dword ptr fs:[0x54ec815000000000]
+    dword ptr [rax], eax += ...; // Addition operation
+    byte ptr [rcx + 0x1019f60c], ah += ...; // Addition operation
+    eax, ebp = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov dword ptr [rbp - 0x10], eax
+    // Assembly fallback: push rax
+    // Assembly fallback: lea eax, [rbp - 0xc]
+    // Assembly fallback: movabs dword ptr fs:[0x2468036a00000000], eax
+    // Assembly fallback: or edx, dword ptr [rsi]
+    // Assembly fallback: adc byte ptr [rbp - 0x15b73], cl
+    // Assembly fallback: inc edi
+    // Assembly fallback: test dword ptr [rax + 0x1fffffe], esp
+    byte ptr [rax], al += ...; // Addition operation
+    bh, al += ...; // Addition operation
+    // Assembly fallback: test dword ptr [rsi + rdi*8 + 0xffff], esi
+    byte ptr [rax], al += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rbp - 0x148], 0xf
+    // Assembly fallback: mov byte ptr [rbp - 0x15c], 0
+    // Assembly fallback: call 0x169c70
+    // Assembly fallback: push 3
+    // Assembly fallback: push 0x10160b28
+    // Assembly fallback: lea ecx, [rbp - 0x140]
+    // Assembly fallback: mov dword ptr [rbp - 4], 0
+    // Assembly fallback: mov dword ptr [rbp - 0x144], 2
+    // Assembly fallback: mov dword ptr [rbp - 0x130], 0
+    // Assembly fallback: mov dword ptr [rbp - 0x12c], 0xf
+    // Assembly fallback: mov byte ptr [rbp - 0x140], 0
+    // Assembly fallback: call 0x169c70
+    // Assembly fallback: push 3
+    // Assembly fallback: push 0x10160b2c
+    // Assembly fallback: lea ecx, [rbp - 0x124]
+    // Assembly fallback: mov byte ptr [rbp - 4], 1
+    // Assembly fallback: mov dword ptr [rbp - 0x128], 3
+    // Assembly fallback: mov dword ptr [rbp - 0x114], 0
+    // Assembly fallback: mov dword ptr [rbp - 0x110], 0xf
+    // Assembly fallback: mov byte ptr [rbp - 0x124], 0
+    // Assembly fallback: call 0x169c70
+    // Assembly fallback: push 3
+    // Assembly fallback: push 0x10160b30
+    // Assembly fallback: lea ecx, [rbp - 0x108]
+    // Assembly fallback: mov byte ptr [rbp - 4], 2
+    // Assembly fallback: mov dword ptr [rbp - 0x10c], 4
+    // Assembly fallback: mov dword ptr [rbp - 0xf8], 0
+    // Assembly fallback: mov dword ptr [rbp - 0xf4], 0xf
+    // Assembly fallback: mov byte ptr [rbp - 0x108], 0
+    // Assembly fallback: call 0x169c70
+    // Assembly fallback: push 3
+    // Assembly fallback: push 0x10160b34
+    // Assembly fallback: lea ecx, [rbp - 0xec]
+    // Assembly fallback: mov byte ptr [rbp - 4], 3
+    // Assembly fallback: mov dword ptr [rbp - 0xf0], 5
+    // Assembly fallback: mov dword ptr [rbp - 0xdc], 0
+    // Assembly fallback: mov dword ptr [rbp - 0xd8], 0xf
+    // Assembly fallback: mov byte ptr [rbp - 0xec], 0
+    // Assembly fallback: call 0x169c70
+    // Assembly fallback: push 3
+    // Assembly fallback: push 0x10160b38
+    // Assembly fallback: lea ecx, [rbp - 0xd0]
+    // Assembly fallback: mov byte ptr [rbp - 4], 4
+    // Assembly fallback: mov dword ptr [rbp - 0xd4], 6
+    // Assembly fallback: mov dword ptr [rbp - 0xc0], 0
+    // Assembly fallback: mov dword ptr [rbp - 0xbc], 0xf
+    // Assembly fallback: mov byte ptr [rbp - 0xd0], 0
+    // Assembly fallback: call 0x169c70
+    // Assembly fallback: push 3
+    // Assembly fallback: push 0x10160b3c
+    // Assembly fallback: lea ecx, [rbp - 0xb4]
+    // Assembly fallback: mov byte ptr [rbp - 4], 5
+    // Assembly fallback: mov dword ptr [rbp - 0xb8], 7
+    // Assembly fallback: mov dword ptr [rbp - 0xa4], 0
+    // Assembly fallback: mov dword ptr [rbp - 0xa0], 0xf
+    // Assembly fallback: mov byte ptr [rbp - 0xb4], 0
+    // Assembly fallback: call 0x169c70
+    // Assembly fallback: push 3
+    // Assembly fallback: push 0x10160b40
+    // Assembly fallback: lea ecx, [rbp - 0x98]
+    // Assembly fallback: mov byte ptr [rbp - 4], 6
+    // Assembly fallback: mov dword ptr [rbp - 0x9c], 8
+    // Assembly fallback: mov dword ptr [rbp - 0x88], 0
+    // Assembly fallback: mov dword ptr [rbp - 0x84], 0xf
+    // Assembly fallback: mov byte ptr [rbp - 0x98], 0
+    // Assembly fallback: call 0x169c70
+    // Assembly fallback: mov byte ptr [rbp - 4], 7
+    // Assembly fallback: mov dword ptr [rbp - 0x80], 9
+    // Assembly fallback: push 3
+    // Assembly fallback: push 0x10160b44
+    // Assembly fallback: lea ecx, [rbp - 0x7c]
+    // Assembly fallback: mov dword ptr [rbp - 0x6c], 0
+    // Assembly fallback: mov dword ptr [rbp - 0x68], 0xf
+    // Assembly fallback: mov byte ptr [rbp - 0x7c], 0
+    // Assembly fallback: call 0x169c70
+    // Assembly fallback: push 3
+    // Assembly fallback: push 0x10160b48
+    // Assembly fallback: lea ecx, [rbp - 0x60]
+    // Assembly fallback: mov byte ptr [rbp - 4], 8
+    // Assembly fallback: mov dword ptr [rbp - 0x64], 0xa
+    // Assembly fallback: mov dword ptr [rbp - 0x50], 0
+    // Assembly fallback: mov dword ptr [rbp - 0x4c], 0xf
+    // Assembly fallback: mov byte ptr [rbp - 0x60], 0
+    // Assembly fallback: call 0x169c70
+    // Assembly fallback: push 3
+    // Assembly fallback: push 0x10160b4c
+    // Assembly fallback: lea ecx, [rbp - 0x44]
+    // Assembly fallback: mov byte ptr [rbp - 4], 9
+    // Assembly fallback: mov dword ptr [rbp - 0x48], 0xb
+    // Assembly fallback: mov dword ptr [rbp - 0x34], 0
+    // Assembly fallback: mov dword ptr [rbp - 0x30], 0xf
+    // Assembly fallback: mov byte ptr [rbp - 0x44], 0
+    // Assembly fallback: call 0x169c70
+    // Assembly fallback: push 3
+    // Assembly fallback: push 0x10160b50
+    // Assembly fallback: lea ecx, [rbp - 0x28]
+    // Assembly fallback: mov byte ptr [rbp - 4], 0xa
+    // Assembly fallback: mov dword ptr [rbp - 0x2c], 0xc
+    // Assembly fallback: mov dword ptr [rbp - 0x18], 0
+    // Assembly fallback: mov dword ptr [rbp - 0x14], 0xf
+    // Assembly fallback: mov byte ptr [rbp - 0x28], 0
+    // Assembly fallback: call 0x169c70
+    // Assembly fallback: lea eax, [rbp - 0x10]
+    // Assembly fallback: mov dword ptr [rbp - 4], 0xb
+    // Assembly fallback: lea ecx, [rbp - 0x160]
+    // Assembly fallback: push rax
+    // Assembly fallback: push rcx
+    // Assembly fallback: mov ecx, 0x101a487c
+    // Assembly fallback: call 0x16bce0
+    // Assembly fallback: push 0x1000be10
+    // Assembly fallback: push 0xc
+    // Assembly fallback: push 0x1c
+    // Assembly fallback: lea eax, [rbp - 0x160]
+    // Assembly fallback: mov dword ptr [rbp - 4], 0xffffffff
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x277aef
+    // Assembly fallback: push 0x1015e950
+    // Assembly fallback: call 0x277f3b
+    esp, 4 += ...; // Addition operation
+    // Assembly fallback: mov ecx, dword ptr [rbp - 0xc]
+    // Assembly fallback: mov dword ptr fs:[rip], ecx
+    // Assembly fallback: pop rcx
+    // Assembly fallback: mov ecx, dword ptr [rbp - 0x10]
+    ecx, ebp = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: call 0x277a8e
+    // Assembly fallback: mov esp, ebp
+    // Assembly fallback: pop rbp
+    return;
+}
+
+// --- Recovered Function Block ---
+void function_0x161310() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push -1
+    // Assembly fallback: push 0x10155fff
+    // Assembly fallback: movabs eax, dword ptr fs:[0xc8ec815000000000]
+    byte ptr [rax], al += ...; // Addition operation
+    byte ptr [rcx + 0x1019f60c], ah += ...; // Addition operation
+    eax, ebp = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov dword ptr [rbp - 0x10], eax
+    // Assembly fallback: push rax
+    // Assembly fallback: lea eax, [rbp - 0xc]
+    // Assembly fallback: movabs dword ptr fs:[0x868036a00000000], eax
+    // Assembly fallback: or edx, dword ptr [rsi]
+    // Assembly fallback: adc byte ptr [rbp - 0xcf73], cl
+    // Assembly fallback: inc edi
+    // Assembly fallback: test dword ptr [rdi + rdi*8], ebp

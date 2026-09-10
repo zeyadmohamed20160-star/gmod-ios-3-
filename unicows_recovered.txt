@@ -1,0 +1,5 @@
+[*] Loaded file: C:/Users/Zezo/Documents/GitHub/gmod ios 2\bin\unicows.dll (245408 bytes)
+[*] Located C++ Code Section (.text)
+[*] Size: 221184 bytes | Base Address: 0x38000
+[*] Forcing instruction dump pipeline...
+[-] Failed to extract readable code.

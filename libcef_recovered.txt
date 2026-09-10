@@ -1,0 +1,474 @@
+[*] Loaded file: C:/Users/Zezo/Documents/GitHub/gmod ios 2\bin\libcef.dll (117340672 bytes)
+[*] Located C++ Code Section (.text)
+[*] Size: 97524224 bytes | Base Address: 0x1000
+[*] Forcing instruction dump pipeline...
+[*] Translating assembly pipeline to C++ pseudocode...
+
+
+// --- Recovered Function Block ---
+void function_0x1000() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: mov eax, ecx
+    // Assembly fallback: mov dword ptr [rcx + 4], 0
+    // Assembly fallback: mov dword ptr [rcx], 0x15d03000
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1020() {
+    // Assembly fallback: mov ebp, esp
+    eax, eax = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1030() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push rsi
+    // Assembly fallback: mov esi, ecx
+    // Assembly fallback: mov eax, dword ptr [rcx - 4]
+    // Assembly fallback: mov ecx, dword ptr [rax + 4]
+    // Assembly fallback: test ecx, ecx
+    // Assembly fallback: je 0x1043
+    // Assembly fallback: push rax
+    // Assembly fallback: call rcx
+    // Assembly fallback: lock inc dword ptr [rsi + 4]
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1050() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push rdi
+    // Assembly fallback: push rsi
+    // Assembly fallback: mov esi, ecx
+    // Assembly fallback: mov eax, dword ptr [rcx - 4]
+    // Assembly fallback: mov ecx, dword ptr [rax + 8]
+    // Assembly fallback: test ecx, ecx
+    // Assembly fallback: je 0x1064
+    // Assembly fallback: push rax
+    // Assembly fallback: call rcx
+    edi, edi = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: lock xadd dword ptr [rsi + 4], edi
+    if (edi, 1) {
+        // Jump Target: 0x107d if check fails
+    esi, -8 += ...; // Addition operation
+    // Assembly fallback: push rsi
+    // Assembly fallback: call 0x5cc4ab0
+    esp, 4 += ...; // Addition operation
+    // Assembly fallback: cmp edi, 1
+    // Assembly fallback: sete al
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rdi
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1090() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: mov eax, dword ptr [rcx - 4]
+    // Assembly fallback: mov ecx, dword ptr [rax + 0xc]
+    // Assembly fallback: test ecx, ecx
+    // Assembly fallback: je 0x10a7
+    // Assembly fallback: push rax
+    // Assembly fallback: call rcx
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: setne al
+    // Assembly fallback: jmp 0x10a9
+    eax, eax = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x10b0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: mov eax, dword ptr [rcx - 4]
+    if (dword ptr [rax + 0xc], 0) {
+        // Jump Target: 0x10c7 if check fails
+    // Assembly fallback: push rax
+    // Assembly fallback: call qword ptr [rax + 0x10]
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: setne al
+    // Assembly fallback: jmp 0x10c9
+    eax, eax = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x10d0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push rsi
+    // Assembly fallback: mov esi, ecx
+    if (dword ptr [rbp + 8], 0) {
+        // Jump Target: 0x10e5 if check fails
+    // Assembly fallback: push rsi
+    // Assembly fallback: call 0x5cc4ab0
+    esp, 4 += ...; // Addition operation
+    // Assembly fallback: mov eax, esi
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x10f0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push rbx
+    // Assembly fallback: push rdi
+    // Assembly fallback: push rsi
+    esp, 0x10 -= ...; // Subtraction operation
+    // Assembly fallback: mov eax, dword ptr [rbp + 8]
+    // Assembly fallback: mov ecx, dword ptr [rip + 0x16c13388]
+    ecx, ebp = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov dword ptr [rbp - 0x10], ecx
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: je 0x114f
+    // Assembly fallback: mov edi, esp
+    ecx, ecx = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: lea ebx, [rbp - 0x1c]
+    // Assembly fallback: mov dword ptr [rbx + 8], ecx
+    // Assembly fallback: mov dword ptr [rbx + 4], ecx
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0xc]
+    // Assembly fallback: mov dword ptr [rbx], 0x15d03014
+    // Assembly fallback: mov eax, dword ptr [rax]
+    // Assembly fallback: mov dword ptr [rbx + 4], eax
+    // Assembly fallback: push rax
+    esp, 8 -= ...; // Subtraction operation
+    // Assembly fallback: mov esi, esp
+    // Assembly fallback: lea eax, [rsi + 4]
+    // Assembly fallback: push rcx
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x1166
+    esp, 8 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rsi], ebx
+    // Assembly fallback: mov eax, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov dword ptr [rsi + 8], eax
+    // Assembly fallback: call 0x1fa9780
+    esp, 0xc += ...; // Addition operation
+    // Assembly fallback: mov esi, eax
+    // Assembly fallback: mov esp, edi
+    // Assembly fallback: jmp 0x1151
+    esi, esi = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov ecx, dword ptr [rbp - 0x10]
+    ecx, ebp = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: call 0x5cc4afa
+    // Assembly fallback: mov eax, esi
+    // Assembly fallback: lea esp, [rbp - 0xc]
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rdi
+    // Assembly fallback: pop rbx
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1166() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push rbx
+    // Assembly fallback: push rdi
+    // Assembly fallback: push rsi
+    // Assembly fallback: mov eax, dword ptr [rbp + 8]
+    // Assembly fallback: mov esi, dword ptr [rbp + 0xc]
+    // Assembly fallback: test esi, esi
+    // Assembly fallback: je 0x11bc
+    // Assembly fallback: push 0x1c
+    // Assembly fallback: call 0x5cc4a26
+    esp, 4 += ...; // Addition operation
+    // Assembly fallback: mov ebx, eax
+    // Assembly fallback: lea edi, [rax + 8]
+    // Assembly fallback: mov ecx, edi
+    // Assembly fallback: push 1
+    // Assembly fallback: call 0x46e4
+    // Assembly fallback: movabs eax, dword ptr [0x7389038916bf9008]
+    al, 0x8b += ...; // Addition operation
+    // Assembly fallback: or al, 0x8b
+    al, 0x8d += ...; // Addition operation
+    // Assembly fallback: or al, 0x18
+    ecx, 0xc += ...; // Addition operation
+    // Assembly fallback: mov eax, dword ptr [rcx]
+    // Assembly fallback: call qword ptr [rax]
+    // Assembly fallback: mov eax, dword ptr [rbx + 4]
+    // Assembly fallback: mov ecx, dword ptr [rax + 8]
+    // Assembly fallback: test ecx, ecx
+    // Assembly fallback: je 0x11b5
+    // Assembly fallback: push rax
+    // Assembly fallback: call rcx
+    // Assembly fallback: mov eax, dword ptr [rbp + 8]
+    // Assembly fallback: mov dword ptr [rax], edi
+    // Assembly fallback: jmp 0x11c2
+    // Assembly fallback: mov dword ptr [rax], 0
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rdi
+    // Assembly fallback: pop rbx
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x11d0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push rbx
+    // Assembly fallback: push rdi
+    // Assembly fallback: push rsi
+    esp, 0x10c -= ...; // Subtraction operation
+    // Assembly fallback: mov eax, dword ptr [rbp + 8]
+    // Assembly fallback: mov ecx, dword ptr [rip + 0x16c13388]
+    ecx, ebp = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov dword ptr [rbp - 0x10], ecx
+    esi, esi = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: je 0x12b0
+    if (dword ptr [rbp + 0xc], 0) {
+        // Jump Target: 0x12b0 if check fails
+    ecx, ecx = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: lea ebx, [rbp - 0x1c]
+    // Assembly fallback: mov dword ptr [rbx + 8], ecx
+    // Assembly fallback: mov dword ptr [rbx + 4], ecx
+    ecx, ecx = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov dword ptr [rbx], 0x15d03014
+    // Assembly fallback: mov eax, dword ptr [rax]
+    // Assembly fallback: mov dword ptr [rbx + 4], eax
+    // Assembly fallback: mov eax, 0x15d03018
+    // Assembly fallback: lea edi, [rbp - 0x110]
+    // Assembly fallback: mov dword ptr [rdi - 4], eax
+    // Assembly fallback: lea eax, [rbp - 0x10c]
+    // Assembly fallback: mov esi, 0xf0
+    // Assembly fallback: push rsi
+    // Assembly fallback: push rcx
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x5cc9c30
+    esp, 0xc += ...; // Addition operation
+    // Assembly fallback: lea eax, [rbp - 0x10c]
+    // Assembly fallback: mov dword ptr [rax - 4], esi
+    eax, eax = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: push rax
+    // Assembly fallback: push rdi
+    // Assembly fallback: push qword ptr [rbp + 0xc]
+    // Assembly fallback: call 0x31be
+    esp, 0xc += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rbp - 0x118], esp
+    esp, 0x10 -= ...; // Subtraction operation
+    // Assembly fallback: mov edi, esp
+    // Assembly fallback: lea eax, [rdi + 8]
+    // Assembly fallback: push qword ptr [rbp + 0x10]
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x1166
+    esp, 8 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rdi], ebx
+    // Assembly fallback: lea esi, [rbp - 0x114]
+    // Assembly fallback: mov dword ptr [rdi + 4], esi
+    // Assembly fallback: mov eax, dword ptr [rbp + 0x14]
+    // Assembly fallback: mov dword ptr [rdi + 0xc], eax
+    // Assembly fallback: call 0x1fa9824
+    esp, 0x10 += ...; // Addition operation
+    // Assembly fallback: mov ebx, eax
+    // Assembly fallback: mov esp, dword ptr [rbp - 0x118]
+    // Assembly fallback: mov eax, 0x15d03018
+    // Assembly fallback: mov dword ptr [rsi], eax
+    eax, eax = 0; // Register cleared (XOR optimization)
+    if (dword ptr [rsi + 0xf4], eax) {
+        // Jump Target: 0x12ad if check fails
+    // Assembly fallback: lea eax, [rbp - 0x110]
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x30ea
+    esp, 4 += ...; // Addition operation
+    // Assembly fallback: movzx esi, bl
+    // Assembly fallback: mov ecx, dword ptr [rbp - 0x10]
+    ecx, ebp = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: call 0x5cc4afa
+    // Assembly fallback: mov eax, esi
+    // Assembly fallback: lea esp, [rbp - 0xc]
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rdi
+    // Assembly fallback: pop rbx
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x12d0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp 0x1fa9c44
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x12e0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp 0x1fa9dde
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x12f0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp 0x1fa9e38
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1300() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp 0x1fa9e70
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1310() {
+    // Assembly fallback: mov ebp, esp
+    eax, eax = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: cmp dword ptr [rbp + 8], 0
+    // Assembly fallback: setne al
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x1fa9eb0
+    esp, 4 += ...; // Addition operation
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1330() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp 0x1fc3ff9
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1340() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x1fc5838
+    // Assembly fallback: movzx eax, al
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1350() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push rbx
+    // Assembly fallback: push rdi
+    // Assembly fallback: push rsi
+    esp, 0x1c -= ...; // Subtraction operation
+    // Assembly fallback: mov edi, dword ptr [rbp + 8]
+    // Assembly fallback: movabs eax, dword ptr [0x4589e83116c13388]

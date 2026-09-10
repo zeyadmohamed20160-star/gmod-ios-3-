@@ -1,0 +1,112 @@
+[*] Loaded file: C:/Users/Zezo/Documents/GitHub/gmod ios 2\bin\glview.exe (200104 bytes)
+[*] Located C++ Code Section (.text)
+[*] Size: 121344 bytes | Base Address: 0x20000
+[*] Forcing instruction dump pipeline...
+[*] Translating assembly pipeline to C++ pseudocode...
+
+    // Assembly fallback: mov eax, dword ptr [rsp + 4]
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x20010() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: fld dword ptr [rbp + 8]
+    // Assembly fallback: fcos 
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x20020() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: mov eax, dword ptr [rbp + 8]
+    eax, -0x1b += ...; // Addition operation
+    // Assembly fallback: push rsi
+    // Assembly fallback: mov esi, 1
+    if (eax, 0x55) {
+        // Jump Target: 0x200d2 if check fails
+    // Assembly fallback: movzx eax, byte ptr [rax + 0x4010fc]
+    // Assembly fallback: jmp qword ptr [rax*4 + 0x4010dc]
+    // Assembly fallback: mov dword ptr [rip + 0x42b01c], esi
+    // Assembly fallback: mov dword ptr [rip + 0x42b018], 0
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: push 0xb44
+    // Assembly fallback: call 0x24968
+    // Assembly fallback: push 0x404
+    // Assembly fallback: call 0x24962
+    // Assembly fallback: mov dword ptr [rip + 0x42b01c], esi
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rbp
+    return;
+}
+    dword ptr [rip + 0x42d4b8], esi = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: push 0xbe2
+    // Assembly fallback: je 0x20091
+    // Assembly fallback: call 0x24968
+    // Assembly fallback: mov dword ptr [rip + 0x42b01c], esi
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: call 0x2495c
+    // Assembly fallback: mov dword ptr [rip + 0x42b01c], esi
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rbp
+    return;
+}
+    dword ptr [rip + 0x42b010], esi = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov dword ptr [rip + 0x42b01c], esi
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rbp
+    return;
+}
+    dword ptr [rip + 0x42b014], esi = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov dword ptr [rip + 0x42b01c], esi
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rbp
+    return;
+}
+    dword ptr [rip + 0x42d4c0], esi = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov dword ptr [rip + 0x42b01c], esi
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rbp
+    return;
+}
+    dword ptr [rip + 0x42d4c4], esi = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov dword ptr [rip + 0x42b01c], esi
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: nop 
+    // Assembly fallback: adc byte ptr [rax], r8b
+    // Assembly fallback: lahf 
+    // Assembly fallback: adc byte ptr [rax], al
+    // Assembly fallback: scasb al, byte ptr [rdi]
+    // Assembly fallback: adc byte ptr [rax], al
+    // Assembly fallback: jbe 0x200fa
+    spl, cl += ...; // Addition operation
+    // Assembly fallback: adc byte ptr [rax], al
+    // Assembly fallback: mov ebp, 0x59004010
+    // Assembly fallback: adc byte ptr [rax], al
+    // Assembly fallback: rcl byte ptr [rax], cl
+    byte ptr [rax], al += ...; // Addition operation

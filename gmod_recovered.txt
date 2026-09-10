@@ -1,0 +1,91 @@
+[*] Loaded file: C:/Users/Zezo/Documents/GitHub/gmod ios 2\gmod.exe (969352 bytes)
+[*] Located C++ Code Section (.text)
+[*] Size: 645120 bytes | Base Address: 0xA0000
+[*] Forcing instruction dump pipeline...
+[*] Translating assembly pipeline to C++ pseudocode...
+
+
+// --- Recovered Function Block ---
+void function_0xa0000() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push rsi
+    // Assembly fallback: push 8
+    // Assembly fallback: call 0x118e78
+    esp, 4 += ...; // Addition operation
+    // Assembly fallback: mov esi, eax
+    eax, eax = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov dword ptr [rsi + 4], eax
+    // Assembly fallback: mov dword ptr [rsi], eax
+    // Assembly fallback: call 0xa0770
+    // Assembly fallback: mov dword ptr [rsi], eax
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: je 0xa0033
+    // Assembly fallback: push 0
+    // Assembly fallback: push 0x403
+    // Assembly fallback: call 0xa080c
+    esp, 8 += ...; // Addition operation
+    // Assembly fallback: jmp 0xa003b
+    // Assembly fallback: call 0xa07c2
+    // Assembly fallback: mov dword ptr [rsi + 4], eax
+    // Assembly fallback: mov eax, esi
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rbp
+    return;
+}
+
+// --- Recovered Function Block ---
+void function_0xa0040() {
+    // Assembly fallback: mov ebp, esp
+    if (dword ptr [rbp + 8], 0) {
+        // Jump Target: 0xa004f if check fails
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp 0x119158
+    // Assembly fallback: pop rbp
+    return;
+}
+
+// --- Recovered Function Block ---
+void function_0xa0051() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push rsi
+    // Assembly fallback: and esp, 0xfffffff8
+    esp, 0xc8 -= ...; // Subtraction operation
+    // Assembly fallback: movabs eax, dword ptr [0x8489e831004cc1f4]
+    // Assembly fallback: and al, 0xc0
+    byte ptr [rax], al += ...; // Addition operation
+    byte ptr [rdx + 3], ch += ...; // Addition operation
+    // Assembly fallback: call 0xa1340
+    esp, 4 += ...; // Addition operation
+    // Assembly fallback: test al, al
+    // Assembly fallback: je 0xa00a5
+    // Assembly fallback: mov esi, esp
+    // Assembly fallback: mov ecx, esi
+    // Assembly fallback: push 3
+    // Assembly fallback: push 0x31
+    // Assembly fallback: push 0x49fbd0
+    // Assembly fallback: call 0xa13d0
+    // Assembly fallback: lea eax, [rsp + 0x10]
+    // Assembly fallback: push 0x49fbfc
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0xa00b9
+    esp, 8 += ...; // Addition operation
+    // Assembly fallback: mov ecx, esi
+    // Assembly fallback: call 0xa18c0
+    // Assembly fallback: mov ecx, dword ptr [rsp + 0xc0]
+    ecx, ebp = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: call 0x11915d
+    // Assembly fallback: lea esp, [rbp - 4]
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rbp
+    return;
+}
+
+// --- Recovered Function Block ---
+void function_0xa00b9() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push rbx
+    // Assembly fallback: push rdi
+    // Assembly fallback: push rsi
+    esp, 0x14 -= ...; // Subtraction operation
+    // Assembly fallback: mov esi, dword ptr [rbp + 8]
+    // Assembly fallback: movabs eax, dword ptr [0x4589e831004cc1f4]

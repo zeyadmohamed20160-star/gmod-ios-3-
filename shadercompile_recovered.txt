@@ -1,0 +1,144 @@
+[*] Loaded file: C:/Users/Zezo/Documents/GitHub/gmod ios 2\bin\shadercompile.exe (157832 bytes)
+[*] Located C++ Code Section (.text)
+[*] Size: 95232 bytes | Base Address: 0x1A000
+[*] Forcing instruction dump pipeline...
+[*] Translating assembly pipeline to C++ pseudocode...
+
+    // Assembly fallback: mov eax, 0x424928
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1a010() {
+    // Assembly fallback: mov ebp, esp
+    esp, 0x604 -= ...; // Subtraction operation
+    // Assembly fallback: push rbx
+    // Assembly fallback: push rsi
+    // Assembly fallback: push rdi
+    // Assembly fallback: call qword ptr [rip + 0x419138]
+    // Assembly fallback: mov ebx, dword ptr [rbp + 0xc]
+    // Assembly fallback: mov ecx, eax
+    // Assembly fallback: push rbx
+    // Assembly fallback: push qword ptr [rbp + 8]
+    // Assembly fallback: mov edx, dword ptr [rax]
+    // Assembly fallback: call qword ptr [rdx]
+    // Assembly fallback: mov esi, dword ptr [rbx]
+    // Assembly fallback: mov al, byte ptr [rsi]
+    if (al, 0x2f) {
+        // Jump Target: 0x1a083 if check fails
+    if (al, 0x5c) {
+        // Jump Target: 0x1a083 if check fails
+    if (byte ptr [rsi + 1], 0x3a) {
+        // Jump Target: 0x1a083 if check fails
+    // Assembly fallback: lea eax, [rbp - 0x404]
+    // Assembly fallback: push 0x200
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x1e675
+    // Assembly fallback: push -1
+    // Assembly fallback: push 0x200
+    // Assembly fallback: lea eax, [rbp - 0x404]
+    // Assembly fallback: push 0x4191b0
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x1a8f0
+    // Assembly fallback: push -1
+    // Assembly fallback: push 0x200
+    // Assembly fallback: lea eax, [rbp - 0x404]
+    // Assembly fallback: push rsi
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x1a8f0
+    esp, 0x28 += ...; // Addition operation
+    // Assembly fallback: jmp 0x1a098
+    // Assembly fallback: push 0x200
+    // Assembly fallback: lea eax, [rbp - 0x404]
+    // Assembly fallback: push rsi
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x1a950
+    esp, 0xc += ...; // Addition operation
+    // Assembly fallback: lea eax, [rbp - 0x404]
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x1a7c0
+    // Assembly fallback: push 0x4191b4
+    // Assembly fallback: lea eax, [rbp - 0x404]
+    // Assembly fallback: push rax
+    // Assembly fallback: push 0x4191c4
+    // Assembly fallback: lea eax, [rbp - 0x604]
+    // Assembly fallback: push 0x200
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x1a800
+    // Assembly fallback: lea eax, [rbp - 0x604]
+    // Assembly fallback: push 0x4191cc
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x1eca6
+    // Assembly fallback: mov esi, eax
+    esp, 0x20 += ...; // Addition operation
+    // Assembly fallback: test esi, esi
+    // Assembly fallback: je 0x1a19b
+    // Assembly fallback: push rsi
+    // Assembly fallback: lea eax, [rbp - 0x204]
+    // Assembly fallback: push 0x200
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x1ebe4
+    esp, 0xc += ...; // Addition operation
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: je 0x1a192
+    // Assembly fallback: lea eax, [rbp - 0x204]
+    // Assembly fallback: push 0x4191d0
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x1b5f0
+    esp, 8 += ...; // Addition operation
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: je 0x1a11c
+    // Assembly fallback: mov byte ptr [rax], 0
+    // Assembly fallback: lea eax, [rbp - 0x204]
+    // Assembly fallback: push 0
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x1a440
+    esp, 8 += ...; // Addition operation
+    // Assembly fallback: mov edi, eax
+    // Assembly fallback: lea eax, [rbp - 0x204]
+    // Assembly fallback: push rax
+    // Assembly fallback: test edi, edi
+    // Assembly fallback: je 0x1a17d
+    // Assembly fallback: push 0x4191d4
+    // Assembly fallback: call 0x1a2c0
+    // Assembly fallback: push rsi
+    // Assembly fallback: call 0x1ea6a
+    esp, 0xc += ...; // Addition operation
+    // Assembly fallback: push rdi
+    // Assembly fallback: call 0x1a2f0
+    esp, 4 += ...; // Addition operation
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: jne 0x1a260
+    // Assembly fallback: push 0x419280
+    // Assembly fallback: call 0x1a2c0
+    // Assembly fallback: push rdi
+    // Assembly fallback: call 0x1a5b0
+    esp, 8 += ...; // Addition operation
+    // Assembly fallback: mov eax, 2
+    // Assembly fallback: pop rdi
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rbx
+    // Assembly fallback: mov esp, ebp
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: push 0x419210
+    // Assembly fallback: call 0x1a2c0
+    // Assembly fallback: push rsi
+    // Assembly fallback: call 0x1ea6a
+    esp, 0xc += ...; // Addition operation
+    // Assembly fallback: jmp 0x1a19b
+    // Assembly fallback: push rsi
+    // Assembly fallback: call 0x1ea6a
+    esp, 4 += ...; // Addition operation
+    // Assembly fallback: movabs eax, dword ptr [0xfdfc858900419240]

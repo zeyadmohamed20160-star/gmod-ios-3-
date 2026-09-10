@@ -1,0 +1,494 @@
+[*] Loaded file: C:/Users/Zezo/Documents/GitHub/gmod ios 2\bin\ServerBrowser.dll (1002632 bytes)
+[*] Located C++ Code Section (.text)
+[*] Size: 704000 bytes | Base Address: 0xAE000
+[*] Forcing instruction dump pipeline...
+[*] Translating assembly pipeline to C++ pseudocode...
+
+    // Assembly fallback: push 0x100ac8d0
+    // Assembly fallback: call 0x12f6e7
+    // Assembly fallback: pop rcx
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x100ad3a8
+    // Assembly fallback: push 0
+    // Assembly fallback: push 0x100ad384
+    // Assembly fallback: push 0x100ad404
+    // Assembly fallback: mov ecx, 0x100defe8
+    // Assembly fallback: call 0xcded0
+    // Assembly fallback: push 0x100ac940
+    // Assembly fallback: call 0x12f6e7
+    // Assembly fallback: pop rcx
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0
+    // Assembly fallback: push 0x100ad380
+    // Assembly fallback: push 0x100ad388
+    // Assembly fallback: mov ecx, 0x100def98
+    // Assembly fallback: call 0xce000
+    // Assembly fallback: push 0x100ac950
+    // Assembly fallback: call 0x12f6e7
+    // Assembly fallback: pop rcx
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x100af570
+    // Assembly fallback: push 0
+    // Assembly fallback: push 0x100ad380
+    // Assembly fallback: push 0x100af4f8
+    // Assembly fallback: mov ecx, 0x100df2f8
+    // Assembly fallback: call 0xcded0
+    // Assembly fallback: push 0x100ac960
+    // Assembly fallback: call 0x12f6e7
+    // Assembly fallback: pop rcx
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x10010d60
+    // Assembly fallback: push 0x100b0080
+    // Assembly fallback: mov ecx, 0x100df388
+    // Assembly fallback: call 0x106af0
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x100b4c6c
+    // Assembly fallback: push 0x10018620
+    // Assembly fallback: mov ecx, 0x100df5e8
+    // Assembly fallback: call 0xcfa00
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x100b4c80
+    // Assembly fallback: push 0x100186b0
+    // Assembly fallback: mov ecx, 0x100df5dc
+    // Assembly fallback: call 0xcfa00
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x100ac990
+    // Assembly fallback: call 0x12f6e7
+    // Assembly fallback: pop rcx
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x100b4c9c
+    // Assembly fallback: push 2
+    // Assembly fallback: push 0x100ad380
+    // Assembly fallback: push 0x100b4cd4
+    // Assembly fallback: mov ecx, 0x100df5f8
+    // Assembly fallback: call 0xcded0
+    // Assembly fallback: push 0x100ac9b0
+    // Assembly fallback: call 0x12f6e7
+    // Assembly fallback: pop rcx
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x100b4ce8
+    // Assembly fallback: push 2
+    // Assembly fallback: push 0x100ad380
+    // Assembly fallback: push 0x100b4d34
+    // Assembly fallback: mov ecx, 0x100df590
+    // Assembly fallback: call 0xcded0
+    // Assembly fallback: push 0x100ac9c0
+    // Assembly fallback: call 0x12f6e7
+    // Assembly fallback: pop rcx
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0
+    // Assembly fallback: push 0x100b4dfc
+    // Assembly fallback: push 0x100b4e00
+    // Assembly fallback: mov ecx, 0x100df650
+    // Assembly fallback: call 0xce000
+    // Assembly fallback: push 0x100ac9d0
+    // Assembly fallback: call 0x12f6e7
+    // Assembly fallback: pop rcx
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf714a3100e6760]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf748a3100e4dd0]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf788a3100e6b98]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf760a3100e8360]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf77ca3100e526c]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf75ca3100e7580]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf78ca3100e5760]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf71ca3100e6fb8]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf754a3100e494c]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf72ca3100e6fec]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf770a3100e7024]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf794a3100e6220]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf734a3100e3110]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf750a3100e52a4]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf740a3100e7058]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf780a3100e70ac]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf778a3100e58c4]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf718a3100e70e4]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf74ca3100e586c]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf774a3100e58fc]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf764a3100e2e58]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf76ca3100e711c]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf758a3100e5de4]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf728a3100e75b4]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf768a3100e7a20]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf73ca3100e7e60]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf730a3100e7e5c]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf720a3100e7e58]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf724a3100e7eb8]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf790a3100e5318]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf744a3100e5238]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf784a3100e82f0]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: movabs eax, dword ptr [0xdf738a3100e5954]
+    // Assembly fallback: adc bl, al
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0
+    // Assembly fallback: call 0x138c3b
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x13d1b3
+    esp, 8 += ...; // Addition operation
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: mov ecx, 0x100ad380
+    // Assembly fallback: lea edx, [rcx + 1]
+    // Assembly fallback: mov al, byte ptr [rcx]
+    // Assembly fallback: test r8b, al
+    // Assembly fallback: jne 0xae3d8
+    ecx, edx -= ...; // Subtraction operation
+    // Assembly fallback: lea eax, [rcx + 1]
+    // Assembly fallback: push rax
+    // Assembly fallback: movabs dword ptr [0x15d31e8100dc260], eax
+    bh, bh += ...; // Addition operation
+    eax, 0x100dc260 = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: movabs dword ptr [0xc25835ff100dc25c], eax
+    // Assembly fallback: or eax, 0x3ae85010
+    byte ptr [rax], cl -= ...; // Subtraction operation
+    byte ptr [rbx - 0x7f46ef3c], al += ...; // Addition operation
+    return;
+}
+    // Assembly fallback: push 0x100ad46d
+    // Assembly fallback: call 0xcd3b0
+    // Assembly fallback: push qword ptr [rip + 0x100dc25c]
+    // Assembly fallback: mov byte ptr [rip + 0x100dc26c], 0
+    // Assembly fallback: mov dword ptr [rip + 0x100dc270], 0
+    // Assembly fallback: mov byte ptr [rip + 0x100dc274], 0
+    // Assembly fallback: mov dword ptr [rip + 0x100dc278], 0
+    // Assembly fallback: mov dword ptr [rip + 0x100dc27c], 0
+    // Assembly fallback: call 0x13e904
+    // Assembly fallback: push qword ptr [rip + 0x100dc25c]
+    // Assembly fallback: fstp dword ptr [rip + 0x100dc264]
+    // Assembly fallback: call 0x138544
+    // Assembly fallback: mov ecx, dword ptr [rip + 0x100e1924]
+    esp, 8 += ...; // Addition operation
+    // Assembly fallback: movabs dword ptr [0xdc284a1100dc268], eax
+    // Assembly fallback: adc byte ptr [rbx + 0x100dc248], ah
+    // Assembly fallback: movabs eax, dword ptr [0xc24005c6100e1920]
+    // Assembly fallback: or eax, 0x5c70010
+    return;
+}
+    // Assembly fallback: insd dword ptr [rdi], dx

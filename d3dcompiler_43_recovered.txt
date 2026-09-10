@@ -1,0 +1,5 @@
+[*] Loaded file: C:/Users/Zezo/Documents/GitHub/gmod ios 2\bin\d3dcompiler_43.dll (2106216 bytes)
+[*] Located C++ Code Section (.text)
+[*] Size: 2023936 bytes | Base Address: 0x1F1000
+[*] Forcing instruction dump pipeline...
+[-] Failed to extract readable code.

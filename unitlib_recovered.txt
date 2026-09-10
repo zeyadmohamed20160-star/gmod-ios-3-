@@ -1,0 +1,79 @@
+[*] Loaded file: C:/Users/Zezo/Documents/GitHub/gmod ios 2\bin\unitlib.dll (92808 bytes)
+[*] Located C++ Code Section (.text)
+[*] Size: 49152 bytes | Base Address: 0xE000
+[*] Forcing instruction dump pipeline...
+[*] Translating assembly pipeline to C++ pseudocode...
+
+
+// --- Recovered Function Block ---
+void function_0xe000() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: movabs eax, dword ptr [0x8b0875ff1000d104]
+    // Assembly fallback: or byte ptr [rbx + 0x1450ff01], cl
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0xe020() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: movabs eax, dword ptr [0x8b0875ff1000d104]
+    // Assembly fallback: or byte ptr [rbx + 0x450ff01], cl
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0xe040() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: movabs eax, dword ptr [0x8b0875ff1000d104]
+    // Assembly fallback: or byte ptr [rbx + 0x2050ff01], cl
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0xe060() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: movabs eax, dword ptr [0x7d8b57561000d104]
+    // Assembly fallback: or byte ptr [rbx + 0x7daf0f08], cl
+    // Assembly fallback: or al, 0x8b
+    dword ptr [rdi - 1], edx += ...; // Addition operation
+    // Assembly fallback: push rax
+    al, 0x8b += ...; // Addition operation

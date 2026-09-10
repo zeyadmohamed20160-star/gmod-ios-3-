@@ -1,0 +1,815 @@
+[*] Loaded file: C:/Users/Zezo/Documents/GitHub/gmod ios 2\bin\libEGL.dll (323072 bytes)
+[*] Located C++ Code Section (.text)
+[*] Size: 236032 bytes | Base Address: 0x1000
+[*] Forcing instruction dump pipeline...
+[*] Translating assembly pipeline to C++ pseudocode...
+
+
+// --- Recovered Function Block ---
+void function_0x1000() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cb88]
+
+// --- Recovered Function Block ---
+void function_0x100f() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push rsi
+    if (byte ptr [rip + 0x1004cb74], 0) {
+        // Jump Target: 0x1077 if check fails
+    // Assembly fallback: call 0x15ef
+    // Assembly fallback: mov esi, eax
+    // Assembly fallback: push 0
+    // Assembly fallback: push 0x1003b000
+    // Assembly fallback: call 0x1748
+    esp, 8 += ...; // Addition operation
+    // Assembly fallback: mov ecx, dword ptr [rsi]
+    // Assembly fallback: mov dword ptr [rsi], eax
+    // Assembly fallback: test ecx, ecx
+    // Assembly fallback: je 0x1040
+    // Assembly fallback: mov eax, dword ptr [rcx]
+    // Assembly fallback: push 1
+    // Assembly fallback: call qword ptr [rax]
+    // Assembly fallback: push 0x10001650
+    // Assembly fallback: call 0x18e8
+    esp, 4 += ...; // Addition operation
+    if (dword ptr [rip + 0x1004cc28], 0) {
+        // Jump Target: 0x105f if check fails
+    // Assembly fallback: mov byte ptr [rip + 0x1004cb74], 1
+    // Assembly fallback: jmp 0x1077
+    // Assembly fallback: push 2
+    // Assembly fallback: call 0x1c5f4
+    esp, 4 += ...; // Addition operation
+    // Assembly fallback: push 0x1003b00a
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0x1660
+    esp, 8 += ...; // Addition operation
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1080() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cb8c]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1090() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cb90]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x10a0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cb94]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x10b0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cb98]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x10c0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cb9c]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x10d0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cba0]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x10e0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cba4]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x10f0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cba8]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1100() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbac]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1110() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbb0]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1120() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbb4]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1130() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbb8]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1140() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbbc]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1150() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbc4]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1160() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbc8]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1170() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbcc]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1180() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbd0]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1190() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbd4]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x11a0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbd8]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x11b0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbdc]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x11c0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbe0]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x11d0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbe4]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x11e0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbe8]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x11f0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbec]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1200() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbf0]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1210() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbf4]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1220() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbf8]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1230() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbfc]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1240() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc00]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1250() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc04]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1260() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc08]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1270() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc0c]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1280() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc10]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1290() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc14]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x12a0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc18]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x12b0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc1c]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x12c0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc20]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x12d0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc24]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x12e0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc28]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x12f0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc2c]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1300() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc30]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1310() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc34]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1320() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc88]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1330() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cd04]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1340() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccb4]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1350() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccb0]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1360() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccac]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1370() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cca8]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1380() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc64]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1390() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cca0]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x13a0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cca4]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x13b0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccd4]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x13c0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccd8]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x13d0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc5c]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x13e0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc60]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x13f0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cbc0]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1400() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccdc]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1410() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cce0]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1420() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccec]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1430() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cce4]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1440() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cce8]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1450() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccf4]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1460() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccf0]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1470() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccf8]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1480() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cd08]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1490() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc8c]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x14a0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc90]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x14b0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc9c]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x14c0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc98]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x14d0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccfc]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x14e0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc58]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x14f0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc78]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1500() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc80]
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1510() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc7c]
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1520() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc84]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1530() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccb8]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1540() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccc0]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1550() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccbc]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1560() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc38]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1570() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc68]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1580() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc50]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1590() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cc54]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x15a0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccc8]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x15b0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cccc]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x15c0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccc4]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x15d0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004ccd0]
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x15e0() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x100f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rip + 0x1004cd00]
+
+// --- Recovered Function Block ---
+void function_0x15ef() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: movabs eax, dword ptr [0xd8c00d8b1004cb7c]
+    al, 0x10 += ...; // Addition operation
+    // Assembly fallback: mov edx, dword ptr fs:[rip + 0x2c]
+    // Assembly fallback: mov ecx, dword ptr [rdx + rcx*4]
+    if (eax, dword ptr [rcx + 4]) {
+        // Jump Target: 0x1616 if check fails
+    // Assembly fallback: mov eax, 0x1004cb78
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: push 0x1004cb7c
+    // Assembly fallback: call 0x183e7
+    esp, 4 += ...; // Addition operation
+    if (dword ptr [rip + 0x1004cb7c], -1) {
+        // Jump Target: 0x160f if check fails
+    // Assembly fallback: mov dword ptr [rip + 0x1004cb78], 0
+    // Assembly fallback: push 0x1004cb7c
+    // Assembly fallback: call 0x1845d
+    esp, 4 += ...; // Addition operation
+    // Assembly fallback: jmp 0x160f
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1650() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: call 0x15ef
+    // Assembly fallback: mov ecx, dword ptr [rax]
+    // Assembly fallback: mov eax, dword ptr [rcx]
+    // Assembly fallback: pop rbp
+    // Assembly fallback: jmp qword ptr [rax + 4]
+
+// --- Recovered Function Block ---
+void function_0x1660() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push rbx
+    // Assembly fallback: push rdi
+    // Assembly fallback: push rsi
+    esp, 8 -= ...; // Subtraction operation
+    // Assembly fallback: mov esi, dword ptr [rbp + 8]
+    // Assembly fallback: mov edi, dword ptr [rbp + 0xc]
+    // Assembly fallback: movabs eax, dword ptr [0x4589e8311004c0b4]

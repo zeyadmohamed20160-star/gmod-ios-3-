@@ -1,0 +1,41 @@
+[*] Loaded file: C:/Users/Zezo/Documents/GitHub/gmod ios 2\bin\awesomium_process.exe (42568 bytes)
+[*] Located C++ Code Section (.text)
+[*] Size: 17408 bytes | Base Address: 0x7000
+[*] Forcing instruction dump pipeline...
+[*] Translating assembly pipeline to C++ pseudocode...
+
+    // Assembly fallback: push 8
+    // Assembly fallback: push 0x407900
+    // Assembly fallback: call 0x7040
+    // Assembly fallback: and dword ptr [rbp - 4], 0
+    // Assembly fallback: push qword ptr [rbp + 8]
+    // Assembly fallback: call qword ptr [rip + 0x4060dc]
+    // Assembly fallback: pop rcx
+    // Assembly fallback: mov dword ptr [rbp - 4], 0xfffffffe
+    // Assembly fallback: call 0x7085
+    return;
+}
+    eax, eax = 0; // Register cleared (XOR optimization)
+    return;
+}
+    // Assembly fallback: mov esp, dword ptr [rbp - 0x18]
+    // Assembly fallback: push 1
+    // Assembly fallback: call qword ptr [rip + 0x406000]
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x4010a0
+    // Assembly fallback: push qword ptr fs:[rip]
+    // Assembly fallback: mov eax, dword ptr [rsp + 0x10]
+    // Assembly fallback: mov dword ptr [rsp + 0x10], ebp
+    // Assembly fallback: lea ebp, [rsp + 0x10]
+    esp, eax -= ...; // Subtraction operation
+    // Assembly fallback: push rbx
+    // Assembly fallback: push rsi
+    // Assembly fallback: push rdi
+    // Assembly fallback: movabs eax, dword ptr [0x33fc453100409004]

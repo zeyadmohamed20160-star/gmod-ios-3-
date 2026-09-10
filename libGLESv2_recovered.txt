@@ -1,0 +1,50 @@
+[*] Loaded file: C:/Users/Zezo/Documents/GitHub/gmod ios 2\bin\libGLESv2.dll (5441536 bytes)
+[*] Located C++ Code Section (.text)
+[*] Size: 3775488 bytes | Base Address: 0x1000
+[*] Forcing instruction dump pipeline...
+[*] Translating assembly pipeline to C++ pseudocode...
+
+
+// --- Recovered Function Block ---
+void function_0x1000() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push rbx
+    // Assembly fallback: push rdi
+    // Assembly fallback: push rsi
+    // Assembly fallback: call 0x3c9f8
+    // Assembly fallback: mov esi, eax
+    // Assembly fallback: mov ecx, eax
+    // Assembly fallback: call 0x2db5c8
+    // Assembly fallback: call 0x3ca46
+    // Assembly fallback: mov edi, eax
+    // Assembly fallback: mov ecx, eax
+    // Assembly fallback: call 0x4c240
+    // Assembly fallback: mov ebx, eax
+    // Assembly fallback: mov ecx, edi
+    // Assembly fallback: call 0x9d730
+    // Assembly fallback: mov ecx, esi
+    // Assembly fallback: call 0x2db5f0
+    // Assembly fallback: mov eax, ebx
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rdi
+    // Assembly fallback: pop rbx
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1040() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push rbx
+    // Assembly fallback: push rdi
+    // Assembly fallback: push rsi
+    esp, 0x10 -= ...; // Subtraction operation
+    // Assembly fallback: mov ebx, dword ptr [rbp + 8]
+    // Assembly fallback: movabs eax, dword ptr [0x4589e831104e23f8]

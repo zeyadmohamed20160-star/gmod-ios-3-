@@ -1,0 +1,4137 @@
+[*] Loaded file: C:/Users/Zezo/Documents/GitHub/gmod ios 2\garrysmod\bin\lua_shared.dll (545416 bytes)
+[*] Located C++ Code Section (.text)
+[*] Size: 434176 bytes | Base Address: 0x6C000
+[*] Forcing instruction dump pipeline...
+[*] Translating assembly pipeline to C++ pseudocode...
+
+    if (dword ptr [rdx + rcx*8 + 4], -0xe) {
+        // Jump Target: 0x6dab1 if check fails
+    if (dword ptr [rdx + rax*8 + 4], -0xe) {
+        // Jump Target: 0x6dab1 if check fails
+    // Assembly fallback: fld qword ptr [rdx + rcx*8]
+    // Assembly fallback: fld qword ptr [rdx + rax*8]
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: fucompi st(1)
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: jbe 0x6c030
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    if (dword ptr [rdx + rcx*8 + 4], -0xe) {
+        // Jump Target: 0x6dab1 if check fails
+    if (dword ptr [rdx + rax*8 + 4], -0xe) {
+        // Jump Target: 0x6dab1 if check fails
+    // Assembly fallback: fld qword ptr [rdx + rcx*8]
+    // Assembly fallback: fld qword ptr [rdx + rax*8]
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: fucompi st(1)
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: ja 0x6c071
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    if (dword ptr [rdx + rcx*8 + 4], -0xe) {
+        // Jump Target: 0x6dab1 if check fails
+    if (dword ptr [rdx + rax*8 + 4], -0xe) {
+        // Jump Target: 0x6dab1 if check fails
+    // Assembly fallback: fld qword ptr [rdx + rcx*8]
+    // Assembly fallback: fld qword ptr [rdx + rax*8]
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: fucompi st(1)
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: jb 0x6c0b2
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    if (dword ptr [rdx + rcx*8 + 4], -0xe) {
+        // Jump Target: 0x6dab1 if check fails
+    if (dword ptr [rdx + rax*8 + 4], -0xe) {
+        // Jump Target: 0x6dab1 if check fails
+    // Assembly fallback: fld qword ptr [rdx + rcx*8]
+    // Assembly fallback: fld qword ptr [rdx + rax*8]
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: fucompi st(1)
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: jae 0x6c0f3
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ebp, dword ptr [rdx + rax*8 + 4]
+    esi, 4 += ...; // Addition operation
+    if (ebp, -0xe) {
+        // Jump Target: 0x6c141 if check fails
+    if (dword ptr [rdx + rcx*8 + 4], -0xe) {
+        // Jump Target: 0x6c141 if check fails
+    // Assembly fallback: fld qword ptr [rdx + rcx*8]
+    // Assembly fallback: fld qword ptr [rdx + rax*8]
+    // Assembly fallback: fucompi st(1)
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: jp 0x6c130
+    // Assembly fallback: jne 0x6c130
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    if (dword ptr [rdx + rcx*8 + 4], ebp) {
+        // Jump Target: 0x6c130 if check fails
+    if (ebp, -3) {
+        // Jump Target: 0x6c125 if check fails
+    // Assembly fallback: mov ecx, dword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rdx + rax*8]
+    if (ecx, eax) {
+        // Jump Target: 0x6c125 if check fails
+    if (ebp, -0xc) {
+        // Jump Target: 0x6c130 if check fails
+    // Assembly fallback: mov ebp, dword ptr [rcx + 0x10]
+    // Assembly fallback: test ebp, ebp
+    // Assembly fallback: je 0x6c130
+    // Assembly fallback: test byte ptr [rbp + 6], 0x10
+    // Assembly fallback: jne 0x6c130
+    ebp, ebp = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: jmp 0x6db18
+    // Assembly fallback: mov ebp, dword ptr [rdx + rax*8 + 4]
+    esi, 4 += ...; // Addition operation
+    if (ebp, -0xe) {
+        // Jump Target: 0x6c1ac if check fails
+    if (dword ptr [rdx + rcx*8 + 4], -0xe) {
+        // Jump Target: 0x6c1ac if check fails
+    // Assembly fallback: fld qword ptr [rdx + rcx*8]
+    // Assembly fallback: fld qword ptr [rdx + rax*8]
+    // Assembly fallback: fucompi st(1)
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: jp 0x6c190
+    // Assembly fallback: je 0x6c19b
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    if (dword ptr [rdx + rcx*8 + 4], ebp) {
+        // Jump Target: 0x6c190 if check fails
+    if (ebp, -3) {
+        // Jump Target: 0x6c19b if check fails
+    // Assembly fallback: mov ecx, dword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rdx + rax*8]
+    if (ecx, eax) {
+        // Jump Target: 0x6c19b if check fails
+    if (ebp, -0xc) {
+        // Jump Target: 0x6c190 if check fails
+    // Assembly fallback: mov ebp, dword ptr [rcx + 0x10]
+    // Assembly fallback: test ebp, ebp
+    // Assembly fallback: je 0x6c190
+    // Assembly fallback: test byte ptr [rbp + 6], 0x10
+    // Assembly fallback: jne 0x6c190
+    // Assembly fallback: mov ebp, 1
+    // Assembly fallback: jmp 0x6db18
+    // Assembly fallback: not eax
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx*8 + 4]
+    esi, 4 += ...; // Addition operation
+    if (ebp, -5) {
+        // Jump Target: 0x6c1fe if check fails
+    // Assembly fallback: mov ecx, dword ptr [rdx + rcx*8]
+    if (ecx, dword ptr [rdi + rax*4]) {
+        // Jump Target: 0x6c1fe if check fails
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: not eax
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx*8 + 4]
+    esi, 4 += ...; // Addition operation
+    if (ebp, -5) {
+        // Jump Target: 0x6c225 if check fails
+    // Assembly fallback: mov ecx, dword ptr [rdx + rcx*8]
+    if (ecx, dword ptr [rdi + rax*4]) {
+        // Jump Target: 0x6c230 if check fails
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx*8 + 4]
+    esi, 4 += ...; // Addition operation
+    if (ebp, -0xe) {
+        // Jump Target: 0x6c266 if check fails
+    // Assembly fallback: fld qword ptr [rdi + rax*8]
+    // Assembly fallback: fld qword ptr [rdx + rcx*8]
+    // Assembly fallback: fucompi st(1)
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: jp 0x6c266
+    // Assembly fallback: jne 0x6c266
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx*8 + 4]
+    esi, 4 += ...; // Addition operation
+    if (ebp, -0xe) {
+        // Jump Target: 0x6c291 if check fails
+    // Assembly fallback: fld qword ptr [rdi + rax*8]
+    // Assembly fallback: fld qword ptr [rdx + rcx*8]
+    // Assembly fallback: fucompi st(1)
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: jp 0x6c291
+    // Assembly fallback: je 0x6c29c
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: not eax
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx*8 + 4]
+    esi, 4 += ...; // Addition operation
+    if (ebp, eax) {
+        // Jump Target: 0x6c2c5 if check fails
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: not eax
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx*8 + 4]
+    esi, 4 += ...; // Addition operation
+    if (ebp, eax) {
+        // Jump Target: 0x6c2ee if check fails
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ebp, dword ptr [rdx + rax*8 + 4]
+    esi, 4 += ...; // Addition operation
+    if (ebp, -2) {
+        // Jump Target: 0x6c320 if check fails
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], ebp
+    // Assembly fallback: mov ebp, dword ptr [rdx + rax*8]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8], ebp
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ebp, dword ptr [rdx + rax*8 + 4]
+    esi, 4 += ...; // Addition operation
+    if (ebp, -2) {
+        // Jump Target: 0x6c352 if check fails
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], ebp
+    // Assembly fallback: mov ebp, dword ptr [rdx + rax*8]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8], ebp
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ebp, dword ptr [rdx + rax*8 + 4]
+    esi, 4 += ...; // Addition operation
+    if (ebp, -2) {
+        // Jump Target: 0x6c37a if check fails
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ebp, dword ptr [rdx + rax*8 + 4]
+    esi, 4 += ...; // Addition operation
+    if (ebp, -2) {
+        // Jump Target: 0x6c3a2 if check fails
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ebp, dword ptr [rdx + rax*8 + 4]
+    // Assembly fallback: mov eax, dword ptr [rdx + rax*8]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], ebp
+    // Assembly fallback: mov dword ptr [rdx + rcx*8], eax
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    ebp, ebp = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: cmp dword ptr [rdx + rax*8 + 4], -2
+    // Assembly fallback: adc ebp, -3
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], ebp
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    if (dword ptr [rdx + rax*8 + 4], -0xe) {
+        // Jump Target: 0x6db4a if check fails
+    // Assembly fallback: fld qword ptr [rdx + rax*8]
+    // Assembly fallback: fchs 
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    if (dword ptr [rdx + rax*8 + 4], -5) {
+        // Jump Target: 0x6c436 if check fails
+    // Assembly fallback: mov eax, dword ptr [rdx + rax*8]
+    // Assembly fallback: fild dword ptr [rax + 0xc]
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    if (dword ptr [rdx + rax*8 + 4], -0xc) {
+        // Jump Target: 0x6dba0 if check fails
+    // Assembly fallback: mov ecx, dword ptr [rdx + rax*8]
+    // Assembly fallback: mov ebp, edx
+    // Assembly fallback: call 0x858a0
+    // Assembly fallback: mov dword ptr [rsp], eax
+    // Assembly fallback: fild dword ptr [rsp]
+    // Assembly fallback: mov edx, ebp
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: jmp 0x6c422
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xe) {
+        // Jump Target: 0x6db3c if check fails
+    // Assembly fallback: fld qword ptr [rdx + rbp*8]
+    // Assembly fallback: fadd qword ptr [rdi + rax*8]
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xe) {
+        // Jump Target: 0x6db3c if check fails
+    // Assembly fallback: fld qword ptr [rdx + rbp*8]
+    // Assembly fallback: fsub qword ptr [rdi + rax*8]
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xe) {
+        // Jump Target: 0x6db3c if check fails
+    // Assembly fallback: fld qword ptr [rdx + rbp*8]
+    // Assembly fallback: fmul qword ptr [rdi + rax*8]
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xe) {
+        // Jump Target: 0x6db3c if check fails
+    // Assembly fallback: fld qword ptr [rdx + rbp*8]
+    // Assembly fallback: fdiv qword ptr [rdi + rax*8]
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xe) {
+        // Jump Target: 0x6db3c if check fails
+    // Assembly fallback: fld qword ptr [rdx + rbp*8]
+    // Assembly fallback: fld qword ptr [rdi + rax*8]
+    // Assembly fallback: call 0x6f130
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xe) {
+        // Jump Target: 0x6db41 if check fails
+    // Assembly fallback: fld qword ptr [rdi + rax*8]
+    // Assembly fallback: fadd qword ptr [rdx + rbp*8]
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xe) {
+        // Jump Target: 0x6db41 if check fails
+    // Assembly fallback: fld qword ptr [rdi + rax*8]
+    // Assembly fallback: fsub qword ptr [rdx + rbp*8]
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xe) {
+        // Jump Target: 0x6db41 if check fails
+    // Assembly fallback: fld qword ptr [rdi + rax*8]
+    // Assembly fallback: fmul qword ptr [rdx + rbp*8]
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xe) {
+        // Jump Target: 0x6db41 if check fails
+    // Assembly fallback: fld qword ptr [rdi + rax*8]
+    // Assembly fallback: fdiv qword ptr [rdx + rbp*8]
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xe) {
+        // Jump Target: 0x6db41 if check fails
+    // Assembly fallback: fld qword ptr [rdi + rax*8]
+    // Assembly fallback: fld qword ptr [rdx + rbp*8]
+    // Assembly fallback: jmp 0x6c51c
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xe) {
+        // Jump Target: 0x6db51 if check fails
+    if (dword ptr [rdx + rax*8 + 4], -0xe) {
+        // Jump Target: 0x6db51 if check fails
+    // Assembly fallback: fld qword ptr [rdx + rbp*8]
+    // Assembly fallback: fadd qword ptr [rdx + rax*8]
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xe) {
+        // Jump Target: 0x6db51 if check fails
+    if (dword ptr [rdx + rax*8 + 4], -0xe) {
+        // Jump Target: 0x6db51 if check fails
+    // Assembly fallback: fld qword ptr [rdx + rbp*8]
+    // Assembly fallback: fsub qword ptr [rdx + rax*8]
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xe) {
+        // Jump Target: 0x6db51 if check fails
+    if (dword ptr [rdx + rax*8 + 4], -0xe) {
+        // Jump Target: 0x6db51 if check fails
+    // Assembly fallback: fld qword ptr [rdx + rbp*8]
+    // Assembly fallback: fmul qword ptr [rdx + rax*8]
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xe) {
+        // Jump Target: 0x6db51 if check fails
+    if (dword ptr [rdx + rax*8 + 4], -0xe) {
+        // Jump Target: 0x6db51 if check fails
+    // Assembly fallback: fld qword ptr [rdx + rbp*8]
+    // Assembly fallback: fdiv qword ptr [rdx + rax*8]
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xe) {
+        // Jump Target: 0x6db51 if check fails
+    if (dword ptr [rdx + rax*8 + 4], -0xe) {
+        // Jump Target: 0x6db51 if check fails
+    // Assembly fallback: fld qword ptr [rdx + rbp*8]
+    // Assembly fallback: fld qword ptr [rdx + rax*8]
+    // Assembly fallback: jmp 0x6c51c
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xe) {
+        // Jump Target: 0x6db51 if check fails
+    if (dword ptr [rdx + rax*8 + 4], -0xe) {
+        // Jump Target: 0x6db51 if check fails
+    // Assembly fallback: fld qword ptr [rdx + rbp*8]
+    // Assembly fallback: fld qword ptr [rdx + rax*8]
+    // Assembly fallback: call 0x6f196
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    // Assembly fallback: lea ecx, [rdx + rax*8]
+    eax, ebp -= ...; // Subtraction operation
+    // Assembly fallback: mov dword ptr [rsp + 4], ecx
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: call 0x86e60
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: jne 0x6db8c
+    // Assembly fallback: movzx ebp, byte ptr [rsi - 1]
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: mov eax, dword ptr [rdx + rbp*8 + 4]
+    // Assembly fallback: mov ebp, dword ptr [rdx + rbp*8]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], eax
+    // Assembly fallback: mov dword ptr [rdx + rcx*8], ebp
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: not eax
+    // Assembly fallback: mov eax, dword ptr [rdi + rax*4]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], 0xfffffffb
+    // Assembly fallback: mov dword ptr [rdx + rcx*8], eax
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: fild word ptr [rsi - 2]
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: fld qword ptr [rdi + rax*8]
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: not eax
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], eax
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: lea ecx, [rdx + rcx*8 + 0xc]
+    // Assembly fallback: lea eax, [rdx + rax*8 + 4]
+    // Assembly fallback: mov ebp, 0xffffffff
+    // Assembly fallback: mov dword ptr [rcx - 8], ebp
+    // Assembly fallback: mov dword ptr [rcx], ebp
+    ecx, 8 += ...; // Addition operation
+    if (ecx, eax) {
+        // Jump Target: 0x6c805 if check fails
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: mov ebp, dword ptr [rbp + rax*4 + 0x14]
+    // Assembly fallback: mov ebp, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov eax, dword ptr [rbp + 4]
+    // Assembly fallback: mov ebp, dword ptr [rbp]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], eax
+    // Assembly fallback: mov dword ptr [rdx + rcx*8], ebp
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: mov ebp, dword ptr [rbp + rcx*4 + 0x14]
+    // Assembly fallback: cmp byte ptr [rbp + 6], 0
+    // Assembly fallback: mov ebp, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov ecx, dword ptr [rdx + rax*8]
+    // Assembly fallback: mov eax, dword ptr [rdx + rax*8 + 4]
+    // Assembly fallback: mov dword ptr [rbp], ecx
+    // Assembly fallback: mov dword ptr [rbp + 4], eax
+    // Assembly fallback: je 0x6c86a
+    // Assembly fallback: test byte ptr [rbp - 4], 4
+    // Assembly fallback: jne 0x6c87b
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    eax, -4 -= ...; // Subtraction operation
+    if (eax, -0xa) {
+        // Jump Target: 0x6c86a if check fails
+    // Assembly fallback: test byte ptr [rcx + 4], 3
+    // Assembly fallback: je 0x6c86a
+    // Assembly fallback: xchg ebp, edx
+    // Assembly fallback: lea ecx, [rbx - 0xb00]
+    // Assembly fallback: call 0x82ec0
+    // Assembly fallback: mov edx, ebp
+    // Assembly fallback: jmp 0x6c86a
+    // Assembly fallback: not eax
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: mov ebp, dword ptr [rbp + rcx*4 + 0x14]
+    // Assembly fallback: mov ecx, dword ptr [rdi + rax*4]
+    // Assembly fallback: mov eax, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov dword ptr [rax], ecx
+    // Assembly fallback: mov dword ptr [rax + 4], 0xfffffffb
+    // Assembly fallback: test byte ptr [rbp + 4], 4
+    // Assembly fallback: jne 0x6c8c9
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: test byte ptr [rcx + 4], 3
+    // Assembly fallback: je 0x6c8b8
+    if (byte ptr [rbp + 6], 0) {
+        // Jump Target: 0x6c8b8 if check fails
+    // Assembly fallback: mov ebp, edx
+    // Assembly fallback: mov edx, eax
+    // Assembly fallback: lea ecx, [rbx - 0xb00]
+    // Assembly fallback: call 0x82ec0
+    // Assembly fallback: mov edx, ebp
+    // Assembly fallback: jmp 0x6c8b8
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: fld qword ptr [rdi + rax*8]
+    // Assembly fallback: mov ebp, dword ptr [rbp + rcx*4 + 0x14]
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x10]
+    // Assembly fallback: fstp qword ptr [rcx]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: not eax
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: mov ebp, dword ptr [rbp + rcx*4 + 0x14]
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov dword ptr [rcx + 4], eax
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    if (dword ptr [rbp + 0x20], 0) {
+        // Jump Target: 0x6c949 if check fails
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: lea edx, [rdx + rcx*8]
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: call 0x86830
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: not eax
+    // Assembly fallback: mov ecx, dword ptr [rdx - 8]
+    // Assembly fallback: mov eax, dword ptr [rdi + rax*4]
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rsp + 8], ecx
+    // Assembly fallback: mov dword ptr [rsp + 4], eax
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: call 0x86a60
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8], eax
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], 0xfffffff7
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov ecx, dword ptr [rbx - 0xaec]
+    // Assembly fallback: cmp ecx, dword ptr [rbx - 0xae8]
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: jae 0x6ca04
+    // Assembly fallback: mov ecx, eax
+    // Assembly fallback: and eax, 0x7ff
+    // Assembly fallback: shr ecx, 0xb
+    // Assembly fallback: mov dword ptr [rsp + 8], ecx
+    if (eax, 0x7ff) {
+        // Jump Target: 0x6c9fd if check fails
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: mov dword ptr [rsp + 4], eax
+    // Assembly fallback: call 0x85b40
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8], eax
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], 0xfffffff4
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov eax, 0x801
+    // Assembly fallback: jmp 0x6c9ce
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: call 0x83210
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: jmp 0x6c9b9
+    // Assembly fallback: not eax
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov ecx, dword ptr [rbx - 0xaec]
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: cmp ecx, dword ptr [rbx - 0xae8]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: jae 0x6ca59
+    // Assembly fallback: mov edx, dword ptr [rdi + rax*4]
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: call 0x856b0
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8], eax
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], 0xfffffff4
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: call 0x83210
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: not eax
+    // Assembly fallback: jmp 0x6ca2c
+    // Assembly fallback: not eax
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: mov ebp, dword ptr [rbp + 8]
+    // Assembly fallback: mov eax, dword ptr [rdi + rax*4]
+    // Assembly fallback: jmp 0x6cb35
+    // Assembly fallback: not eax
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: mov ebp, dword ptr [rbp + 8]
+    // Assembly fallback: mov eax, dword ptr [rdi + rax*4]
+    // Assembly fallback: jmp 0x6ccc5
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xc) {
+        // Jump Target: 0x6d98f if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx + rbp*8]
+    if (dword ptr [rdx + rax*8 + 4], -0xe) {
+        // Jump Target: 0x6cb0c if check fails
+    // Assembly fallback: fld qword ptr [rdx + rax*8]
+    // Assembly fallback: fist dword ptr [rsp]
+    // Assembly fallback: fild dword ptr [rsp]
+    // Assembly fallback: fucompi st(1)
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: mov eax, dword ptr [rsp]
+    // Assembly fallback: jne 0x6d98f
+    if (eax, dword ptr [rbp + 0x18]) {
+        // Jump Target: 0x6d98f if check fails
+    // Assembly fallback: shl eax, 3
+    eax, dword ptr [rbp + 8] += ...; // Addition operation
+    if (dword ptr [rax + 4], -1) {
+        // Jump Target: 0x6caeb if check fails
+    // Assembly fallback: mov ebp, dword ptr [rax]
+    // Assembly fallback: mov eax, dword ptr [rax + 4]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8], ebp
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], eax
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    if (dword ptr [rbp + 0x10], 0) {
+        // Jump Target: 0x6cb02 if check fails
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x10]
+    // Assembly fallback: test byte ptr [rcx + 6], 1
+    // Assembly fallback: je 0x6d98f
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], 0xffffffff
+    // Assembly fallback: jmp 0x6cada
+    if (dword ptr [rdx + rax*8 + 4], -5) {
+        // Jump Target: 0x6d98f if check fails
+    // Assembly fallback: mov eax, dword ptr [rdx + rax*8]
+    // Assembly fallback: jmp 0x6cb35
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    // Assembly fallback: not eax
+    // Assembly fallback: mov eax, dword ptr [rdi + rax*4]
+    if (dword ptr [rdx + rbp*8 + 4], -0xc) {
+        // Jump Target: 0x6d950 if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx + rbp*8]
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x1c]
+    // Assembly fallback: and ecx, dword ptr [rax + 8]
+    // Assembly fallback: imul ecx, ecx, 0x18
+    ecx, dword ptr [rbp + 0x14] += ...; // Addition operation
+    if (dword ptr [rcx + 0xc], -5) {
+        // Jump Target: 0x6cb81 if check fails
+    if (dword ptr [rcx + 8], eax) {
+        // Jump Target: 0x6cb81 if check fails
+    if (dword ptr [rcx + 4], -1) {
+        // Jump Target: 0x6cb88 if check fails
+    // Assembly fallback: movzx eax, byte ptr [rsi - 3]
+    // Assembly fallback: mov ebp, dword ptr [rcx]
+    // Assembly fallback: mov ecx, dword ptr [rcx + 4]
+    // Assembly fallback: mov dword ptr [rdx + rax*8], ebp
+    // Assembly fallback: mov dword ptr [rdx + rax*8 + 4], ecx
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: movzx eax, byte ptr [rsi - 3]
+    // Assembly fallback: mov dword ptr [rdx + rax*8 + 4], 0xffffffff
+    // Assembly fallback: jmp 0x6cb62
+    // Assembly fallback: mov ecx, dword ptr [rcx + 0x10]
+    // Assembly fallback: test ecx, ecx
+    // Assembly fallback: jne 0x6cb41
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x10]
+    // Assembly fallback: test ecx, ecx
+    // Assembly fallback: je 0x6cb73
+    // Assembly fallback: test byte ptr [rcx + 6], 1
+    // Assembly fallback: jne 0x6cb73
+    // Assembly fallback: jmp 0x6d950
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xc) {
+        // Jump Target: 0x6d979 if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx + rbp*8]
+    if (eax, dword ptr [rbp + 0x18]) {
+        // Jump Target: 0x6d979 if check fails
+    // Assembly fallback: shl eax, 3
+    eax, dword ptr [rbp + 8] += ...; // Addition operation
+    if (dword ptr [rax + 4], -1) {
+        // Jump Target: 0x6cbe0 if check fails
+    // Assembly fallback: mov ebp, dword ptr [rax]
+    // Assembly fallback: mov eax, dword ptr [rax + 4]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8], ebp
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], eax
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    if (dword ptr [rbp + 0x10], 0) {
+        // Jump Target: 0x6cbf7 if check fails
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x10]
+    // Assembly fallback: test byte ptr [rcx + 6], 1
+    // Assembly fallback: je 0x6d979
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], 0xffffffff
+    // Assembly fallback: jmp 0x6cbcf
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xc) {
+        // Jump Target: 0x6da37 if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx + rbp*8]
+    if (dword ptr [rdx + rax*8 + 4], -0xe) {
+        // Jump Target: 0x6cc83 if check fails
+    // Assembly fallback: fld qword ptr [rdx + rax*8]
+    // Assembly fallback: fist dword ptr [rsp]
+    // Assembly fallback: fild dword ptr [rsp]
+    // Assembly fallback: fucompi st(1)
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: mov eax, dword ptr [rsp]
+    // Assembly fallback: jne 0x6da37
+    if (eax, dword ptr [rbp + 0x18]) {
+        // Jump Target: 0x6da37 if check fails
+    // Assembly fallback: shl eax, 3
+    eax, dword ptr [rbp + 8] += ...; // Addition operation
+    if (dword ptr [rax + 4], -1) {
+        // Jump Target: 0x6cc6a if check fails
+    // Assembly fallback: test byte ptr [rbp + 4], 4
+    // Assembly fallback: jne 0x6cc93
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx*8 + 4]
+    // Assembly fallback: mov ecx, dword ptr [rdx + rcx*8]
+    // Assembly fallback: mov dword ptr [rax + 4], ebp
+    // Assembly fallback: mov dword ptr [rax], ecx
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    if (dword ptr [rbp + 0x10], 0) {
+        // Jump Target: 0x6cc47 if check fails
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x10]
+    // Assembly fallback: test byte ptr [rcx + 6], 2
+    // Assembly fallback: je 0x6da37
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: jmp 0x6cc47
+    if (dword ptr [rdx + rax*8 + 4], -5) {
+        // Jump Target: 0x6da37 if check fails
+    // Assembly fallback: mov eax, dword ptr [rdx + rax*8]
+    // Assembly fallback: jmp 0x6ccc5
+    // Assembly fallback: and byte ptr [rbp + 4], 0xfb
+    // Assembly fallback: mov ecx, dword ptr [rbx - 0xad0]
+    // Assembly fallback: mov dword ptr [rbx - 0xad0], ebp
+    // Assembly fallback: mov dword ptr [rbp + 0xc], ecx
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: jmp 0x6cc4d
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    // Assembly fallback: not eax
+    // Assembly fallback: mov eax, dword ptr [rdi + rax*4]
+    if (dword ptr [rdx + rbp*8 + 4], -0xc) {
+        // Jump Target: 0x6d9f8 if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx + rbp*8]
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x1c]
+    // Assembly fallback: and ecx, dword ptr [rax + 8]
+    // Assembly fallback: imul ecx, ecx, 0x18
+    // Assembly fallback: mov byte ptr [rbp + 6], 0
+    ecx, dword ptr [rbp + 0x14] += ...; // Addition operation
+    if (dword ptr [rcx + 0xc], -5) {
+        // Jump Target: 0x6cd2e if check fails
+    if (dword ptr [rcx + 8], eax) {
+        // Jump Target: 0x6cd2e if check fails
+    if (dword ptr [rcx + 4], -1) {
+        // Jump Target: 0x6cd11 if check fails
+    // Assembly fallback: test byte ptr [rbp + 4], 4
+    // Assembly fallback: jne 0x6cd83
+    // Assembly fallback: movzx eax, byte ptr [rsi - 3]
+    // Assembly fallback: mov ebp, dword ptr [rdx + rax*8 + 4]
+    // Assembly fallback: mov eax, dword ptr [rdx + rax*8]
+    // Assembly fallback: mov dword ptr [rcx + 4], ebp
+    // Assembly fallback: mov dword ptr [rcx], eax
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    if (dword ptr [rbp + 0x10], 0) {
+        // Jump Target: 0x6cce6 if check fails
+    // Assembly fallback: mov dword ptr [rsp + 0x10], ecx
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x10]
+    // Assembly fallback: test byte ptr [rcx + 6], 2
+    // Assembly fallback: je 0x6d9f8
+    // Assembly fallback: mov ecx, dword ptr [rsp + 0x10]
+    // Assembly fallback: jmp 0x6cce6
+    // Assembly fallback: mov ecx, dword ptr [rcx + 0x10]
+    // Assembly fallback: test ecx, ecx
+    // Assembly fallback: jne 0x6ccd5
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x10]
+    // Assembly fallback: test ecx, ecx
+    // Assembly fallback: je 0x6cd46
+    // Assembly fallback: test byte ptr [rcx + 6], 2
+    // Assembly fallback: je 0x6d9f8
+    // Assembly fallback: mov dword ptr [rsp + 0x10], eax
+    // Assembly fallback: mov dword ptr [rsp + 0x14], 0xfffffffb
+    // Assembly fallback: mov dword ptr [rsp + 0xc], ebp
+    // Assembly fallback: lea eax, [rsp + 0x10]
+    // Assembly fallback: mov dword ptr [rsp + 4], ebp
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: call 0x85bb0
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0xc]
+    // Assembly fallback: mov ecx, eax
+    // Assembly fallback: jmp 0x6cce6
+    // Assembly fallback: and byte ptr [rbp + 4], 0xfb
+    // Assembly fallback: mov eax, dword ptr [rbx - 0xad0]
+    // Assembly fallback: mov dword ptr [rbx - 0xad0], ebp
+    // Assembly fallback: mov dword ptr [rbp + 0xc], eax
+    // Assembly fallback: jmp 0x6ccf0
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    if (dword ptr [rdx + rbp*8 + 4], -0xc) {
+        // Jump Target: 0x6da21 if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx + rbp*8]
+    if (eax, dword ptr [rbp + 0x18]) {
+        // Jump Target: 0x6da21 if check fails
+    // Assembly fallback: shl eax, 3
+    eax, dword ptr [rbp + 8] += ...; // Addition operation
+    if (dword ptr [rax + 4], -1) {
+        // Jump Target: 0x6cde7 if check fails
+    // Assembly fallback: test byte ptr [rbp + 4], 4
+    // Assembly fallback: jne 0x6ce00
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx*8 + 4]
+    // Assembly fallback: mov ecx, dword ptr [rdx + rcx*8]
+    // Assembly fallback: mov dword ptr [rax + 4], ebp
+    // Assembly fallback: mov dword ptr [rax], ecx
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    if (dword ptr [rbp + 0x10], 0) {
+        // Jump Target: 0x6cdc4 if check fails
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x10]
+    // Assembly fallback: test byte ptr [rcx + 6], 2
+    // Assembly fallback: je 0x6da21
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: jmp 0x6cdc4
+    // Assembly fallback: and byte ptr [rbp + 4], 0xfb
+    // Assembly fallback: mov ecx, dword ptr [rbx - 0xad0]
+    // Assembly fallback: mov dword ptr [rbx - 0xad0], ebp
+    // Assembly fallback: mov dword ptr [rbp + 0xc], ecx
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: jmp 0x6cdca
+    // Assembly fallback: mov dword ptr [rsp + 0x10], edi
+    // Assembly fallback: mov edi, dword ptr [rdi + rax*8]
+    // Assembly fallback: lea ecx, [rdx + rcx*8]
+    // Assembly fallback: mov ebp, dword ptr [rcx - 8]
+    // Assembly fallback: test byte ptr [rbp + 4], 4
+    // Assembly fallback: jne 0x6ce92
+    // Assembly fallback: mov eax, dword ptr [rsp + 0x14]
+    eax, 1 -= ...; // Subtraction operation
+    // Assembly fallback: je 0x6ce59
+    eax, edi += ...; // Addition operation
+    if (eax, dword ptr [rbp + 0x18]) {
+        // Jump Target: 0x6ce6e if check fails
+    eax, edi -= ...; // Subtraction operation
+    // Assembly fallback: shl edi, 3
+    edi, dword ptr [rbp + 8] += ...; // Addition operation
+    // Assembly fallback: mov ebp, dword ptr [rcx]
+    // Assembly fallback: mov dword ptr [rdi], ebp
+    // Assembly fallback: mov ebp, dword ptr [rcx + 4]
+    ecx, 8 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rdi + 4], ebp
+    edi, 8 += ...; // Addition operation
+    eax, 1 -= ...; // Subtraction operation
+    // Assembly fallback: jne 0x6ce44
+    // Assembly fallback: mov edi, dword ptr [rsp + 0x10]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov dword ptr [rsp + 4], ebp
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: call 0x85e70
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: jmp 0x6ce20
+    // Assembly fallback: and byte ptr [rbp + 4], 0xfb
+    // Assembly fallback: mov eax, dword ptr [rbx - 0xad0]
+    // Assembly fallback: mov dword ptr [rbx - 0xad0], ebp
+    // Assembly fallback: mov dword ptr [rbp + 0xc], eax
+    // Assembly fallback: jmp 0x6ce2c
+    // Assembly fallback: movzx eax, al
+    eax, dword ptr [rsp + 0x14] += ...; // Addition operation
+    // Assembly fallback: cmp dword ptr [rdx + rcx*8 + 4], -9
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx*8]
+    // Assembly fallback: jne 0x6dbba
+    // Assembly fallback: lea edx, [rdx + rcx*8 + 8]
+    // Assembly fallback: mov dword ptr [rdx - 4], esi
+    // Assembly fallback: mov esi, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov ecx, dword ptr [rsi]
+    // Assembly fallback: movzx ebp, cl
+    // Assembly fallback: movzx ecx, ch
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: movzx eax, al
+    // Assembly fallback: cmp dword ptr [rdx + rcx*8 + 4], -9
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx*8]
+    // Assembly fallback: jne 0x6dbba
+    // Assembly fallback: lea edx, [rdx + rcx*8 + 8]
+    // Assembly fallback: mov dword ptr [rdx - 4], esi
+    // Assembly fallback: mov esi, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov ecx, dword ptr [rsi]
+    // Assembly fallback: movzx ebp, cl
+    // Assembly fallback: movzx ecx, ch
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    eax, dword ptr [rsp + 0x14] += ...; // Addition operation
+    // Assembly fallback: lea ecx, [rdx + rcx*8 + 8]
+    // Assembly fallback: mov edi, edx
+    // Assembly fallback: mov ebp, dword ptr [rcx - 8]
+    if (dword ptr [rcx - 4], -9) {
+        // Jump Target: 0x6dbbe if check fails
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: test esi, 3
+    // Assembly fallback: jne 0x6cf78
+    // Assembly fallback: mov dword ptr [rdx - 8], ebp
+    // Assembly fallback: mov dword ptr [rsp + 0x14], eax
+    eax, 1 -= ...; // Subtraction operation
+    // Assembly fallback: je 0x6cf43
+    // Assembly fallback: mov ebp, dword ptr [rcx]
+    // Assembly fallback: mov dword ptr [rdi], ebp
+    // Assembly fallback: mov ebp, dword ptr [rcx + 4]
+    ecx, 8 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rdi + 4], ebp
+    edi, 8 += ...; // Addition operation
+    eax, 1 -= ...; // Subtraction operation
+    // Assembly fallback: jne 0x6cf2b
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: mov eax, dword ptr [rsp + 0x14]
+    if (byte ptr [rbp + 6], 1) {
+        // Jump Target: 0x6cf5e if check fails
+    // Assembly fallback: mov esi, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov ecx, dword ptr [rsi]
+    // Assembly fallback: movzx ebp, cl
+    // Assembly fallback: movzx ecx, ch
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: test esi, 3
+    // Assembly fallback: jne 0x6cf4d
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: not ecx
+    // Assembly fallback: mov edi, dword ptr [rdx + rcx*8 - 8]
+    // Assembly fallback: mov edi, dword ptr [rdi + 0x10]
+    // Assembly fallback: mov edi, dword ptr [rdi - 0x30]
+    // Assembly fallback: jmp 0x6cf4d
+    esi, 3 -= ...; // Subtraction operation
+    // Assembly fallback: test esi, 7
+    // Assembly fallback: jne 0x6cf8c
+    edx, esi -= ...; // Subtraction operation
+    // Assembly fallback: mov edi, edx
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: jmp 0x6cf1f
+    esi, 3 += ...; // Addition operation
+    // Assembly fallback: jmp 0x6cf1f
+    // Assembly fallback: lea ecx, [rdx + rcx*8 + 8]
+    // Assembly fallback: mov ebp, dword ptr [rcx - 0x18]
+    // Assembly fallback: mov eax, dword ptr [rcx - 0x14]
+    // Assembly fallback: mov dword ptr [rcx], ebp
+    // Assembly fallback: mov dword ptr [rcx + 4], eax
+    // Assembly fallback: mov ebp, dword ptr [rcx - 0x10]
+    // Assembly fallback: mov eax, dword ptr [rcx - 0xc]
+    // Assembly fallback: mov dword ptr [rcx + 8], ebp
+    // Assembly fallback: mov dword ptr [rcx + 0xc], eax
+    // Assembly fallback: mov ebp, dword ptr [rcx - 0x20]
+    // Assembly fallback: mov eax, dword ptr [rcx - 0x1c]
+    // Assembly fallback: mov dword ptr [rcx - 8], ebp
+    // Assembly fallback: mov dword ptr [rcx - 4], eax
+    // Assembly fallback: cmp eax, -9
+    // Assembly fallback: mov eax, 3
+    // Assembly fallback: jne 0x6dbbe
+    // Assembly fallback: mov edx, ecx
+    // Assembly fallback: mov dword ptr [rdx - 4], esi
+    // Assembly fallback: mov esi, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov ecx, dword ptr [rsi]
+    // Assembly fallback: movzx ebp, cl
+    // Assembly fallback: movzx ecx, ch
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov dword ptr [rsp + 0x10], edi
+    // Assembly fallback: mov dword ptr [rsp + 0x14], ebx
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx*8 - 0x10]
+    // Assembly fallback: mov eax, dword ptr [rdx + rcx*8 - 8]
+    // Assembly fallback: mov ebx, dword ptr [rbp + 0x18]
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: mov edi, dword ptr [rbp + 8]
+    if (eax, ebx) {
+        // Jump Target: 0x6d04a if check fails
+    if (dword ptr [rdi + rax*8 + 4], -1) {
+        // Jump Target: 0x6d041 if check fails
+    // Assembly fallback: fild dword ptr [rdx + rcx*8 - 8]
+    // Assembly fallback: mov ebp, dword ptr [rdi + rax*8 + 4]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 0xc], ebp
+    // Assembly fallback: mov ebp, dword ptr [rdi + rax*8]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 8], ebp
+    eax, 1 += ...; // Addition operation
+    // Assembly fallback: fstp qword ptr [rdx + rcx*8]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 - 8], eax
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov ebx, dword ptr [rsp + 0x14]
+    // Assembly fallback: mov edi, dword ptr [rsp + 0x10]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    eax, 1 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 - 8], eax
+    // Assembly fallback: jmp 0x6cff5
+    eax, ebx -= ...; // Subtraction operation
+    if (eax, dword ptr [rbp + 0x1c]) {
+        // Jump Target: 0x6d028 if check fails
+    // Assembly fallback: imul edi, eax, 0x18
+    edi, dword ptr [rbp + 0x14] += ...; // Addition operation
+    if (dword ptr [rdi + 4], -1) {
+        // Jump Target: 0x6d081 if check fails
+    // Assembly fallback: lea ebx, [rax + rbx + 1]
+    // Assembly fallback: mov ebp, dword ptr [rdi + 8]
+    // Assembly fallback: mov eax, dword ptr [rdi + 0xc]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8], ebp
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], eax
+    // Assembly fallback: mov ebp, dword ptr [rdi]
+    // Assembly fallback: mov eax, dword ptr [rdi + 4]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 8], ebp
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 0xc], eax
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 - 8], ebx
+    // Assembly fallback: jmp 0x6d01d
+    eax, 1 += ...; // Addition operation
+    // Assembly fallback: jmp 0x6d04c
+    // Assembly fallback: movzx ebp, ah
+    // Assembly fallback: movzx eax, al
+    // Assembly fallback: mov dword ptr [rsp + 0x10], edi
+    // Assembly fallback: lea edi, [rdx + rax*8 + 0xb]
+    // Assembly fallback: lea ecx, [rdx + rcx*8]
+    edi, dword ptr [rdx - 4] -= ...; // Subtraction operation
+    // Assembly fallback: test ebp, ebp
+    // Assembly fallback: je 0x6d0e2
+    // Assembly fallback: lea ebp, [rcx + rbp*8 - 8]
+    if (edi, edx) {
+        // Jump Target: 0x6d0bf if check fails
+    // Assembly fallback: mov eax, dword ptr [rdi - 8]
+    // Assembly fallback: mov dword ptr [rcx], eax
+    // Assembly fallback: mov eax, dword ptr [rdi - 4]
+    edi, 8 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rcx + 4], eax
+    ecx, 8 += ...; // Addition operation
+    if (ecx, ebp) {
+        // Jump Target: 0x6d0cd if check fails
+    if (edi, edx) {
+        // Jump Target: 0x6d0a6 if check fails
+    // Assembly fallback: mov dword ptr [rcx + 4], 0xffffffff
+    ecx, 8 += ...; // Addition operation
+    if (ecx, ebp) {
+        // Jump Target: 0x6d0bf if check fails
+    // Assembly fallback: mov edi, dword ptr [rsp + 0x10]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov dword ptr [rsp + 0x14], 1
+    // Assembly fallback: mov eax, edx
+    eax, edi -= ...; // Subtraction operation
+    // Assembly fallback: jbe 0x6d0cd
+    // Assembly fallback: mov ebp, eax
+    // Assembly fallback: shr ebp, 3
+    ebp, 1 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rsp + 0x14], ebp
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    eax, ecx += ...; // Addition operation
+    if (eax, dword ptr [rbp + 0x18]) {
+        // Jump Target: 0x6d11e if check fails
+    // Assembly fallback: mov eax, dword ptr [rdi - 8]
+    // Assembly fallback: mov dword ptr [rcx], eax
+    // Assembly fallback: mov eax, dword ptr [rdi - 4]
+    edi, 8 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rcx + 4], eax
+    ecx, 8 += ...; // Addition operation
+    if (edi, edx) {
+        // Jump Target: 0x6d107 if check fails
+    // Assembly fallback: jmp 0x6d0cd
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rbp + 0x14], ecx
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    edi, edx -= ...; // Subtraction operation
+    // Assembly fallback: mov edx, dword ptr [rsp + 0x14]
+    edx, 1 -= ...; // Subtraction operation
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: call 0x7cbc0
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x14]
+    edi, edx += ...; // Addition operation
+    // Assembly fallback: jmp 0x6d107
+    if (dword ptr [rdx + rcx*8 - 0x14], -9) {
+        // Jump Target: 0x6d189 if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx*8 - 0x18]
+    if (dword ptr [rdx + rcx*8 - 0xc], -0xc) {
+        // Jump Target: 0x6d189 if check fails
+    if (dword ptr [rdx + rcx*8 - 4], -1) {
+        // Jump Target: 0x6d189 if check fails
+    if (byte ptr [rbp + 6], 4) {
+        // Jump Target: 0x6d189 if check fails
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 - 8], 0
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 - 4], 0xfffe7fff
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov byte ptr [rsi - 4], 0x54
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov byte ptr [rsi], 0x41
+    // Assembly fallback: jmp 0x6d178
+    eax, dword ptr [rsp + 0x14] += ...; // Addition operation
+    // Assembly fallback: shl ecx, 3
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov dword ptr [rsp + 0x14], eax
+    // Assembly fallback: test esi, 3
+    // Assembly fallback: jne 0x6d209
+    // Assembly fallback: mov edi, edx
+    eax, 1 -= ...; // Subtraction operation
+    // Assembly fallback: je 0x6d1cb
+    // Assembly fallback: mov ebp, dword ptr [rdi + rcx]
+    // Assembly fallback: mov dword ptr [rdi - 8], ebp
+    // Assembly fallback: mov ebp, dword ptr [rdi + rcx + 4]
+    // Assembly fallback: mov dword ptr [rdi - 4], ebp
+    edi, 8 += ...; // Addition operation
+    eax, 1 -= ...; // Subtraction operation
+    // Assembly fallback: jne 0x6d1b6
+    // Assembly fallback: mov eax, dword ptr [rsp + 0x14]
+    // Assembly fallback: movzx ebp, byte ptr [rsi - 1]
+    if (ebp, eax) {
+        // Jump Target: 0x6d1fa if check fails
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: not ecx
+    // Assembly fallback: lea edx, [rdx + rcx*8]
+    // Assembly fallback: mov edi, dword ptr [rdx - 8]
+    // Assembly fallback: mov edi, dword ptr [rdi + 0x10]
+    // Assembly fallback: mov edi, dword ptr [rdi - 0x30]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov dword ptr [rdi - 4], 0xffffffff
+    edi, 8 += ...; // Addition operation
+    eax, 1 += ...; // Addition operation
+    // Assembly fallback: jmp 0x6d1d3
+    // Assembly fallback: lea ebp, [rsi - 3]
+    // Assembly fallback: test ebp, 7
+    // Assembly fallback: jne 0x6d690
+    edx, ebp -= ...; // Subtraction operation
+    ecx, ebp += ...; // Addition operation
+    // Assembly fallback: jmp 0x6d1a0
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov dword ptr [rsp + 0x14], eax
+    // Assembly fallback: test esi, 3
+    // Assembly fallback: jne 0x6d262
+    if (byte ptr [rsi - 1], al) {
+        // Jump Target: 0x6d255 if check fails
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: not ecx
+    // Assembly fallback: lea edx, [rdx + rcx*8]
+    // Assembly fallback: mov edi, dword ptr [rdx - 8]
+    // Assembly fallback: mov edi, dword ptr [rdi + 0x10]
+    // Assembly fallback: mov edi, dword ptr [rdi - 0x30]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov dword ptr [rdx + rax*8 - 0xc], 0xffffffff
+    eax, 1 += ...; // Addition operation
+    // Assembly fallback: jmp 0x6d22d
+    // Assembly fallback: lea ebp, [rsi - 3]
+    // Assembly fallback: test ebp, 7
+    // Assembly fallback: jne 0x6d690
+    edx, ebp -= ...; // Subtraction operation
+    // Assembly fallback: jmp 0x6d21e
+    // Assembly fallback: shl ecx, 3
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov dword ptr [rsp + 0x14], eax
+    // Assembly fallback: test esi, 3
+    // Assembly fallback: jne 0x6d2c9
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx + 4]
+    // Assembly fallback: mov dword ptr [rdx - 4], ebp
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx]
+    // Assembly fallback: mov dword ptr [rdx - 8], ebp
+    if (byte ptr [rsi - 1], al) {
+        // Jump Target: 0x6d2bc if check fails
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: not ecx
+    // Assembly fallback: lea edx, [rdx + rcx*8]
+    // Assembly fallback: mov edi, dword ptr [rdx - 8]
+    // Assembly fallback: mov edi, dword ptr [rdi + 0x10]
+    // Assembly fallback: mov edi, dword ptr [rdi - 0x30]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov dword ptr [rdx + rax*8 - 0xc], 0xffffffff
+    eax, 1 += ...; // Addition operation
+    // Assembly fallback: jmp 0x6d294
+    // Assembly fallback: lea ebp, [rsi - 3]
+    // Assembly fallback: test ebp, 7
+    // Assembly fallback: jne 0x6d690
+    edx, ebp -= ...; // Subtraction operation
+    ecx, ebp += ...; // Addition operation
+    // Assembly fallback: jmp 0x6d278
+    // Assembly fallback: lea ecx, [rdx + rcx*8]
+    if (dword ptr [rcx + 4], -0xe) {
+        // Jump Target: 0x6dc16 if check fails
+    if (dword ptr [rcx + 0xc], -0xe) {
+        // Jump Target: 0x6dc16 if check fails
+    // Assembly fallback: mov ebp, dword ptr [rcx + 0x14]
+    if (ebp, -0xe) {
+        // Jump Target: 0x6dc16 if check fails
+    // Assembly fallback: fld qword ptr [rcx + 8]
+    // Assembly fallback: fld qword ptr [rcx]
+    // Assembly fallback: fst qword ptr [rcx + 0x18]
+    // Assembly fallback: jl 0x6d30d
+    // Assembly fallback: fxch st(1)
+    // Assembly fallback: fucompi st(1)
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: jae 0x6d31a
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: lea ecx, [rdx + rcx*8]
+    if (dword ptr [rcx + 4], -0xe) {
+        // Jump Target: 0x6dc16 if check fails
+    if (dword ptr [rcx + 0xc], -0xe) {
+        // Jump Target: 0x6dc16 if check fails
+    // Assembly fallback: mov ebp, dword ptr [rcx + 0x14]
+    if (ebp, -0xe) {
+        // Jump Target: 0x6dc16 if check fails
+    // Assembly fallback: fld qword ptr [rcx + 8]
+    // Assembly fallback: fld qword ptr [rcx]
+    // Assembly fallback: fst qword ptr [rcx + 0x18]
+    // Assembly fallback: jl 0x6d35a
+    // Assembly fallback: fxch st(1)
+    // Assembly fallback: fucompi st(1)
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: jae 0x6d486
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ebp, esi
+    // Assembly fallback: shr ebp, 1
+    // Assembly fallback: and ebp, 0x7e
+    word ptr [rbx + rbp - 0x80], 2 -= ...; // Subtraction operation
+    // Assembly fallback: jb 0x6ee50
+    // Assembly fallback: lea ecx, [rdx + rcx*8]
+    // Assembly fallback: mov ebp, dword ptr [rcx + 0x14]
+    // Assembly fallback: fld qword ptr [rcx + 8]
+    // Assembly fallback: fld qword ptr [rcx]
+    // Assembly fallback: fadd qword ptr [rcx + 0x10]
+    // Assembly fallback: fst qword ptr [rcx]
+    // Assembly fallback: fst qword ptr [rcx + 0x18]
+    // Assembly fallback: test ebp, ebp
+    // Assembly fallback: js 0x6d3ac
+    // Assembly fallback: fxch st(1)
+    // Assembly fallback: fucompi st(1)
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: jb 0x6d3b9
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: lea ecx, [rdx + rcx*8]
+    // Assembly fallback: mov ebp, dword ptr [rcx + 0x14]
+    // Assembly fallback: fld qword ptr [rcx + 8]
+    // Assembly fallback: fld qword ptr [rcx]
+    // Assembly fallback: fadd qword ptr [rcx + 0x10]
+    // Assembly fallback: fst qword ptr [rcx]
+    // Assembly fallback: fst qword ptr [rcx + 0x18]
+    // Assembly fallback: test ebp, ebp
+    // Assembly fallback: js 0x6d3e3
+    // Assembly fallback: fxch st(1)
+    // Assembly fallback: fucompi st(1)
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: jae 0x6d486
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ebp, esi
+    // Assembly fallback: shr ebp, 1
+    // Assembly fallback: and ebp, 0x7e
+    word ptr [rbx + rbp - 0x80], 2 -= ...; // Subtraction operation
+    // Assembly fallback: jb 0x6ee50
+    // Assembly fallback: lea ecx, [rdx + rcx*8]
+    // Assembly fallback: mov ebp, dword ptr [rcx + 4]
+    if (ebp, -1) {
+        // Jump Target: 0x6d42b if check fails
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rcx]
+    // Assembly fallback: mov dword ptr [rcx - 4], ebp
+    // Assembly fallback: mov dword ptr [rcx - 8], eax
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: lea ecx, [rdx + rcx*8]
+    // Assembly fallback: mov ebp, dword ptr [rcx + 4]
+    if (ebp, -1) {
+        // Jump Target: 0x6d451 if check fails
+    // Assembly fallback: mov dword ptr [rcx - 4], ebp
+    // Assembly fallback: mov ebp, dword ptr [rcx]
+    // Assembly fallback: mov dword ptr [rcx - 8], ebp
+    // Assembly fallback: jmp 0x6d486
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ebp, esi
+    // Assembly fallback: shr ebp, 1
+    // Assembly fallback: and ebp, 0x7e
+    word ptr [rbx + rbp - 0x80], 2 -= ...; // Subtraction operation
+    // Assembly fallback: jb 0x6ee50
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ecx, dword ptr [rbx - 0x88c]
+    // Assembly fallback: mov eax, dword ptr [rcx + rax*4]
+    // Assembly fallback: mov eax, dword ptr [rax + 0x34]
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rbx - 0xa24], edx
+    // Assembly fallback: mov dword ptr [rbx - 0xa28], ebp
+    // Assembly fallback: jmp rax
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ebp, esi
+    // Assembly fallback: shr ebp, 1
+    // Assembly fallback: and ebp, 0x7e
+    word ptr [rbx + rbp - 0x80], 1 -= ...; // Subtraction operation
+    // Assembly fallback: jb 0x6ee86
+    // Assembly fallback: mov edi, dword ptr [rsi - 0x34]
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: lea ecx, [rdx + rcx*8]
+    if (ecx, dword ptr [rbp + 0x18]) {
+        // Jump Target: 0x6d785 if check fails
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 0x3e]
+    if (eax, ecx) {
+        // Jump Target: 0x6d4fb if check fails
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov dword ptr [rdx + rax*8 - 4], 0xffffffff
+    eax, 1 += ...; // Addition operation
+    if (eax, ecx) {
+        // Jump Target: 0x6d4fb if check fails
+    // Assembly fallback: jmp 0x6d4ea
+    // Assembly fallback: mov edi, dword ptr [rsi - 0x34]
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: lea ecx, [rdx + rcx*8]
+    if (ecx, dword ptr [rbp + 0x18]) {
+        // Jump Target: 0x6d785 if check fails
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 0x3e]
+    if (eax, ecx) {
+        // Jump Target: 0x6d530 if check fails
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: jmp 0x6d486
+    // Assembly fallback: mov dword ptr [rdx + rax*8 - 4], 0xffffffff
+    eax, 1 += ...; // Addition operation
+    if (eax, ecx) {
+        // Jump Target: 0x6d530 if check fails
+    // Assembly fallback: jmp 0x6d527
+    // Assembly fallback: lea ebp, [rax*8 + 3]
+    // Assembly fallback: lea eax, [rdx + rax*8]
+    // Assembly fallback: mov edi, dword ptr [rdx - 8]
+    // Assembly fallback: mov dword ptr [rax - 4], ebp
+    // Assembly fallback: mov dword ptr [rax - 8], edi
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: lea ecx, [rax + rcx*8]
+    if (ecx, dword ptr [rbp + 0x18]) {
+        // Jump Target: 0x6d780 if check fails
+    // Assembly fallback: mov ecx, edx
+    // Assembly fallback: mov edx, eax
+    // Assembly fallback: movzx ebp, byte ptr [rsi - 0x3e]
+    // Assembly fallback: test ebp, ebp
+    // Assembly fallback: je 0x6d591
+    ecx, 8 += ...; // Addition operation
+    if (ecx, edx) {
+        // Jump Target: 0x6d5a5 if check fails
+    // Assembly fallback: mov edi, dword ptr [rcx - 8]
+    // Assembly fallback: mov dword ptr [rax], edi
+    // Assembly fallback: mov edi, dword ptr [rcx - 4]
+    // Assembly fallback: mov dword ptr [rax + 4], edi
+    eax, 8 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rcx - 4], 0xffffffff
+    ebp, 1 -= ...; // Subtraction operation
+    // Assembly fallback: jne 0x6d570
+    // Assembly fallback: mov edi, dword ptr [rsi - 0x34]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov dword ptr [rax + 4], 0xffffffff
+    eax, 8 += ...; // Addition operation
+    ebp, 1 -= ...; // Subtraction operation
+    // Assembly fallback: jne 0x6d5a5
+    // Assembly fallback: jmp 0x6d591
+    // Assembly fallback: int3 
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: mov edi, dword ptr [rbp + 0x14]
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: lea eax, [rdx + rax*8 - 8]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: lea ecx, [rax + 0xa0]
+    // Assembly fallback: cmp ecx, dword ptr [rbp + 0x18]
+    // Assembly fallback: mov dword ptr [rbp + 0x14], eax
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: ja 0x6d779
+    // Assembly fallback: mov dword ptr [rbx - 0xa34], 0xfffffffe
+    // Assembly fallback: call rdi
+    // Assembly fallback: mov dword ptr [rbx - 0xa34], 0xffffffff
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: lea ecx, [rdx + rax*8]
+    // Assembly fallback: neg ecx
+    ecx, dword ptr [rbp + 0x14] += ...; // Addition operation
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: jmp 0x6d677
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: mov edi, dword ptr [rbp + 0x14]
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: lea eax, [rdx + rax*8 - 8]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: lea ecx, [rax + 0xa0]
+    // Assembly fallback: cmp ecx, dword ptr [rbp + 0x18]
+    // Assembly fallback: mov dword ptr [rbp + 0x14], eax
+    // Assembly fallback: mov dword ptr [rsp + 4], edi
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: ja 0x6d779
+    // Assembly fallback: mov dword ptr [rbx - 0xa34], 0xfffffffe
+    // Assembly fallback: call qword ptr [rbx - 0xa3c]
+    // Assembly fallback: mov dword ptr [rbx - 0xa34], 0xffffffff
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: lea ecx, [rdx + rax*8]
+    // Assembly fallback: neg ecx
+    ecx, dword ptr [rbp + 0x14] += ...; // Addition operation
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: jmp 0x6d677
+    // Assembly fallback: test esi, 4
+    // Assembly fallback: je 0x6d8fd
+    // Assembly fallback: and esi, 0xfffffff8
+    edx, esi -= ...; // Subtraction operation
+    // Assembly fallback: lea ecx, [rcx + rsi - 8]
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov dword ptr [rdx + rcx + 4], 0xfffffffd
+    eax, 1 += ...; // Addition operation
+    // Assembly fallback: je 0x6d726
+    // Assembly fallback: mov dword ptr [rsp + 0x14], eax
+    // Assembly fallback: test esi, 3
+    // Assembly fallback: je 0x6d1af
+    esi, 1 = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: test esi, 3
+    // Assembly fallback: jne 0x6d657
+    // Assembly fallback: mov dword ptr [rbx - 0xa34], 0xfffffffe
+    // Assembly fallback: and esi, 0xfffffff8
+    esi, edx -= ...; // Subtraction operation
+    // Assembly fallback: neg esi
+    eax, 1 -= ...; // Subtraction operation
+    // Assembly fallback: je 0x6d6c6
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx]
+    // Assembly fallback: mov dword ptr [rdx - 8], ebp
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx + 4]
+    // Assembly fallback: mov dword ptr [rdx - 4], ebp
+    edx, 8 += ...; // Addition operation
+    eax, 1 -= ...; // Subtraction operation
+    // Assembly fallback: jne 0x6d6b1
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], esi
+    // Assembly fallback: mov eax, dword ptr [rsp + 0x14]
+    // Assembly fallback: mov ecx, dword ptr [rsp + 0x38]
+    if (ecx, eax) {
+        // Jump Target: 0x6d6f0 if check fails
+    edx, 8 -= ...; // Subtraction operation
+    // Assembly fallback: mov dword ptr [rbp + 0x14], edx
+    // Assembly fallback: mov ecx, dword ptr [rsp + 0x34]
+    // Assembly fallback: mov dword ptr [rbp + 0x28], ecx
+    eax, eax = 0; // Register cleared (XOR optimization)
+    esp, 0x1c += ...; // Addition operation
+    // Assembly fallback: pop rbx
+    // Assembly fallback: pop rsi
+    // Assembly fallback: pop rdi
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: jb 0x6d706
+    if (edx, dword ptr [rbp + 0x18]) {
+        // Jump Target: 0x6d711 if check fails
+    // Assembly fallback: mov dword ptr [rdx - 4], 0xffffffff
+    edx, 8 += ...; // Addition operation
+    eax, 1 += ...; // Addition operation
+    // Assembly fallback: jmp 0x6d6d5
+    // Assembly fallback: test ecx, ecx
+    // Assembly fallback: je 0x6d6d9
+    ecx, eax -= ...; // Subtraction operation
+    // Assembly fallback: lea edx, [rdx + rcx*8]
+    // Assembly fallback: jmp 0x6d6d9
+    // Assembly fallback: mov dword ptr [rbp + 0x14], edx
+    // Assembly fallback: mov dword ptr [rsp + 0x14], eax
+    // Assembly fallback: mov edx, ecx
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: call 0x7cbc0
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x14]
+    // Assembly fallback: jmp 0x6d6cd
+    // Assembly fallback: mov al, 1
+    // Assembly fallback: jmp 0x6d72e
+    // Assembly fallback: mov eax, edx
+    // Assembly fallback: mov esp, ecx
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov ebp, dword ptr [rbp + 8]
+    // Assembly fallback: mov dword ptr [rbp + 0xcc], 0xfffffffe
+    // Assembly fallback: jmp 0x6d6e8
+    // Assembly fallback: and ecx, 0xfffffffc
+    // Assembly fallback: mov esp, ecx
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov ecx, 0xfffffff8
+    // Assembly fallback: mov eax, 2
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov ebx, dword ptr [rbp + 8]
+    ebx, 0xb00 += ...; // Addition operation
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov dword ptr [rdx - 4], 0xfffffffe
+    // Assembly fallback: mov dword ptr [rbx - 0xa34], 0xffffffff
+    // Assembly fallback: jmp 0x6d677
+    // Assembly fallback: mov edx, 0x14
+    // Assembly fallback: jmp 0x6d79c
+    eax, 8 -= ...; // Subtraction operation
+    // Assembly fallback: jmp 0x6d789
+    // Assembly fallback: lea eax, [rdx + rax*8 - 8]
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 0x3d]
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rbp + 0x14], eax
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: mov edx, ecx
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: call 0x7cbc0
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov eax, dword ptr [rbp + 0x14]
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    eax, edx -= ...; // Subtraction operation
+    // Assembly fallback: shr eax, 3
+    eax, 1 += ...; // Addition operation
+    // Assembly fallback: mov esi, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov ecx, dword ptr [rsi]
+    // Assembly fallback: movzx ebp, cl
+    // Assembly fallback: movzx ecx, ch
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+
+// --- Recovered Function Block ---
+void function_0x6d7c5() {
+    // Assembly fallback: push rdi
+    // Assembly fallback: push rsi
+    // Assembly fallback: push rbx
+    esp, 0x1c -= ...; // Subtraction operation
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov ecx, dword ptr [rsp + 0x34]
+    // Assembly fallback: mov esi, 5
+    eax, eax = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: lea edi, [rsp + 1]
+    // Assembly fallback: mov ebx, dword ptr [rbp + 8]
+    ebx, 0xb00 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rbp + 0x28], edi
+    // Assembly fallback: mov dword ptr [rsp + 0x18], eax
+    // Assembly fallback: mov dword ptr [rsp + 0x34], eax
+    if (byte ptr [rbp + 7], al) {
+        // Jump Target: 0x6d866 if check fails
+    // Assembly fallback: mov dword ptr [rbx - 0xa34], 0xffffffff
+    // Assembly fallback: mov byte ptr [rbp + 7], al
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov eax, dword ptr [rbp + 0x14]
+    eax, ecx -= ...; // Subtraction operation
+    // Assembly fallback: shr eax, 3
+    eax, 1 += ...; // Addition operation
+    ecx, edx -= ...; // Subtraction operation
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov dword ptr [rsp + 0x14], eax
+    // Assembly fallback: test esi, 3
+    // Assembly fallback: je 0x6d1af
+    // Assembly fallback: jmp 0x6d690
+
+// --- Recovered Function Block ---
+void function_0x6d82d() {
+    // Assembly fallback: push rdi
+    // Assembly fallback: push rsi
+    // Assembly fallback: push rbx
+    esp, 0x1c -= ...; // Subtraction operation
+    // Assembly fallback: mov esi, 5
+    // Assembly fallback: jmp 0x6d847
+
+// --- Recovered Function Block ---
+void function_0x6d83b() {
+    // Assembly fallback: push rdi
+    // Assembly fallback: push rsi
+    // Assembly fallback: push rbx
+    esp, 0x1c -= ...; // Subtraction operation
+    // Assembly fallback: mov esi, 1
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov ecx, dword ptr [rsp + 0x34]
+    // Assembly fallback: mov edi, dword ptr [rbp + 0x28]
+    // Assembly fallback: mov dword ptr [rsp + 0x34], edi
+    // Assembly fallback: mov dword ptr [rsp + 0x18], ebp
+    // Assembly fallback: mov dword ptr [rbp + 0x28], esp
+    // Assembly fallback: mov ebx, dword ptr [rbp + 8]
+    ebx, 0xb00 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rbx - 0xa34], 0xffffffff
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    esi, ecx += ...; // Addition operation
+    esi, edx -= ...; // Subtraction operation
+    // Assembly fallback: mov eax, dword ptr [rbp + 0x14]
+    eax, ecx -= ...; // Subtraction operation
+    // Assembly fallback: shr eax, 3
+    eax, 1 += ...; // Addition operation
+    // Assembly fallback: mov ebp, dword ptr [rcx - 8]
+    if (dword ptr [rcx - 4], -9) {
+        // Jump Target: 0x6dbbe if check fails
+    // Assembly fallback: mov edx, ecx
+    // Assembly fallback: mov dword ptr [rdx - 4], esi
+    // Assembly fallback: mov esi, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov ecx, dword ptr [rsi]
+    // Assembly fallback: movzx ebp, cl
+    // Assembly fallback: movzx ecx, ch
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+
+// --- Recovered Function Block ---
+void function_0x6d8a5() {
+    // Assembly fallback: push rdi
+    // Assembly fallback: push rsi
+    // Assembly fallback: push rbx
+    esp, 0x1c -= ...; // Subtraction operation
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov eax, dword ptr [rsp + 0x38]
+    // Assembly fallback: mov ecx, dword ptr [rsp + 0x34]
+    // Assembly fallback: mov edx, dword ptr [rsp + 0x3c]
+    // Assembly fallback: mov dword ptr [rsp + 0x18], ebp
+    // Assembly fallback: mov edi, dword ptr [rbp + 0x1c]
+    edi, dword ptr [rbp + 0x14] -= ...; // Subtraction operation
+    // Assembly fallback: mov dword ptr [rsp + 0x3c], 0
+    // Assembly fallback: mov dword ptr [rsp + 0x38], edi
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov dword ptr [rsp + 4], ecx
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: mov edi, dword ptr [rbp + 0x28]
+    // Assembly fallback: mov dword ptr [rsp + 0x34], edi
+    // Assembly fallback: mov dword ptr [rbp + 0x28], esp
+    // Assembly fallback: call rdx
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: je 0x6d6df
+    // Assembly fallback: mov ecx, eax
+    // Assembly fallback: mov esi, 5
+    // Assembly fallback: jmp 0x6d85d
+    ecx, edx += ...; // Addition operation
+    // Assembly fallback: and esi, 0xfffffff8
+    // Assembly fallback: mov ebp, edx
+    edx, esi -= ...; // Subtraction operation
+    // Assembly fallback: mov dword ptr [rcx + rax*8 - 4], 0xffffffff
+    // Assembly fallback: mov eax, ecx
+    // Assembly fallback: mov esi, dword ptr [rbp - 0xc]
+    // Assembly fallback: mov ecx, dword ptr [rbp - 0x10]
+    // Assembly fallback: mov edi, dword ptr [rdx - 8]
+    // Assembly fallback: mov edi, dword ptr [rdi + 0x10]
+    // Assembly fallback: mov edi, dword ptr [rdi - 0x30]
+    // Assembly fallback: jmp rcx
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 1]
+    ebp, 0x10 -= ...; // Subtraction operation
+    // Assembly fallback: lea ecx, [rdx + rcx*8]
+    ecx, ebp -= ...; // Subtraction operation
+    // Assembly fallback: je 0x6d9bf
+    // Assembly fallback: neg ecx
+    // Assembly fallback: shr ecx, 3
+    // Assembly fallback: mov dword ptr [rsp + 8], ecx
+    // Assembly fallback: mov ecx, dword ptr [rax + 4]
+    // Assembly fallback: mov eax, dword ptr [rax]
+    // Assembly fallback: mov dword ptr [rbp + 4], ecx
+    // Assembly fallback: mov dword ptr [rbp], eax
+    // Assembly fallback: mov dword ptr [rsp + 4], ebp
+    // Assembly fallback: jmp 0x6c74a
+    // Assembly fallback: mov dword ptr [rsp + 0x10], eax
+    // Assembly fallback: mov dword ptr [rsp + 0x14], 0xfffffffb
+    // Assembly fallback: lea eax, [rsp + 0x10]
+    if (byte ptr [rsi - 4], 0x34) {
+        // Jump Target: 0x6d996 if check fails
+    // Assembly fallback: lea ecx, [rbx - 0xa70]
+    // Assembly fallback: mov dword ptr [rcx], ebp
+    // Assembly fallback: mov dword ptr [rcx + 4], 0xfffffff4
+    // Assembly fallback: mov ebp, ecx
+    // Assembly fallback: jmp 0x6d99d
+    // Assembly fallback: movzx eax, byte ptr [rsi - 2]
+    // Assembly fallback: mov dword ptr [rsp + 0xc], eax
+    // Assembly fallback: fild dword ptr [rsp + 0xc]
+    // Assembly fallback: fstp qword ptr [rsp + 0x10]
+    // Assembly fallback: lea eax, [rsp + 0x10]
+    // Assembly fallback: jmp 0x6d996
+    // Assembly fallback: movzx eax, byte ptr [rsi - 2]
+    // Assembly fallback: lea eax, [rdx + rax*8]
+    // Assembly fallback: movzx ebp, byte ptr [rsi - 1]
+    // Assembly fallback: lea ebp, [rdx + rbp*8]
+    // Assembly fallback: mov dword ptr [rsp + 4], ebp
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: call 0x87430
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: je 0x6d9e0
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: mov ebp, dword ptr [rax + 4]
+    // Assembly fallback: mov eax, dword ptr [rax]
+    // Assembly fallback: mov dword ptr [rdx + rcx*8 + 4], ebp
+    // Assembly fallback: mov dword ptr [rdx + rcx*8], eax
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x14]
+    // Assembly fallback: mov dword ptr [rcx - 0xc], esi
+    // Assembly fallback: lea esi, [rcx + 2]
+    esi, edx -= ...; // Subtraction operation
+    // Assembly fallback: mov ebp, dword ptr [rcx - 8]
+    // Assembly fallback: mov eax, 3
+    // Assembly fallback: jmp 0x6d88f
+    // Assembly fallback: mov dword ptr [rsp + 0x10], eax
+    // Assembly fallback: mov dword ptr [rsp + 0x14], 0xfffffffb
+    // Assembly fallback: lea eax, [rsp + 0x10]
+    if (byte ptr [rsi - 4], 0x35) {
+        // Jump Target: 0x6da3e if check fails
+    // Assembly fallback: lea ecx, [rbx - 0xa70]
+    // Assembly fallback: mov dword ptr [rcx], ebp
+    // Assembly fallback: mov dword ptr [rcx + 4], 0xfffffff4
+    // Assembly fallback: mov ebp, ecx
+    // Assembly fallback: jmp 0x6da45
+    // Assembly fallback: movzx eax, byte ptr [rsi - 2]
+    // Assembly fallback: mov dword ptr [rsp + 0xc], eax
+    // Assembly fallback: fild dword ptr [rsp + 0xc]
+    // Assembly fallback: fstp qword ptr [rsp + 0x10]
+    // Assembly fallback: lea eax, [rsp + 0x10]
+    // Assembly fallback: jmp 0x6da3e
+    // Assembly fallback: movzx eax, byte ptr [rsi - 2]
+    // Assembly fallback: lea eax, [rdx + rax*8]
+    // Assembly fallback: movzx ebp, byte ptr [rsi - 1]
+    // Assembly fallback: lea ebp, [rdx + rbp*8]
+    // Assembly fallback: mov dword ptr [rsp + 4], ebp
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: call 0x87570
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: je 0x6da88
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: mov ebp, dword ptr [rdx + rcx*8 + 4]
+    // Assembly fallback: mov ecx, dword ptr [rdx + rcx*8]
+    // Assembly fallback: mov dword ptr [rax + 4], ebp
+    // Assembly fallback: mov dword ptr [rax], ecx
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x14]
+    // Assembly fallback: mov dword ptr [rcx - 0xc], esi
+    // Assembly fallback: movzx eax, byte ptr [rsi - 3]
+    // Assembly fallback: mov ebp, dword ptr [rdx + rax*8 + 4]
+    // Assembly fallback: mov eax, dword ptr [rdx + rax*8]
+    // Assembly fallback: mov dword ptr [rcx + 0x14], ebp
+    // Assembly fallback: mov dword ptr [rcx + 0x10], eax
+    // Assembly fallback: lea esi, [rcx + 2]
+    esi, edx -= ...; // Subtraction operation
+    // Assembly fallback: mov ebp, dword ptr [rcx - 8]
+    // Assembly fallback: mov eax, 4
+    // Assembly fallback: jmp 0x6d88f
+    // Assembly fallback: movzx ebp, byte ptr [rsi - 4]
+    // Assembly fallback: lea eax, [rdx + rax*8]
+    // Assembly fallback: lea ecx, [rdx + rcx*8]
+    // Assembly fallback: mov dword ptr [rsp + 0xc], ebp
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov dword ptr [rsp + 4], ecx
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: call 0x87160
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    if (eax, 1) {
+        // Jump Target: 0x6db8c if check fails
+    // Assembly fallback: lea esi, [rsi + 4]
+    // Assembly fallback: jb 0x6daf6
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: lea esi, [rsi + rax*4 - 0x20000]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    esi, 4 += ...; // Addition operation
+    if (dword ptr [rax + 4], -2) {
+        // Jump Target: 0x6daeb if check fails
+    // Assembly fallback: jmp 0x6daf6
+    // Assembly fallback: cmp dword ptr [rax + 4], -2
+    // Assembly fallback: jmp 0x6dae6
+    esi, 4 -= ...; // Subtraction operation
+    // Assembly fallback: mov dword ptr [rsp + 0xc], ebp
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov dword ptr [rsp + 4], ecx
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: call 0x87270
+    // Assembly fallback: jmp 0x6dada
+    // Assembly fallback: lea eax, [rdi + rax*8]
+    // Assembly fallback: jmp 0x6db54
+    // Assembly fallback: lea eax, [rdi + rax*8]
+    // Assembly fallback: lea ebp, [rdx + rbp*8]
+    // Assembly fallback: xchg ebp, eax
+    // Assembly fallback: jmp 0x6db57
+    // Assembly fallback: lea eax, [rdx + rax*8]
+    // Assembly fallback: mov ebp, eax
+    // Assembly fallback: jmp 0x6db57
+    // Assembly fallback: lea eax, [rdx + rax*8]
+    // Assembly fallback: lea ebp, [rdx + rbp*8]
+    // Assembly fallback: lea ecx, [rdx + rcx*8]
+    // Assembly fallback: mov dword ptr [rsp + 8], ebp
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rsp + 0xc], eax
+    // Assembly fallback: movzx eax, byte ptr [rsi - 4]
+    // Assembly fallback: mov dword ptr [rsp + 4], ecx
+    // Assembly fallback: mov dword ptr [rsp + 0x10], eax
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: call 0x86cd0
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: je 0x6da77
+    // Assembly fallback: mov ecx, eax
+    eax, edx -= ...; // Subtraction operation
+    // Assembly fallback: mov dword ptr [rcx - 0xc], esi
+    // Assembly fallback: lea esi, [rax + 2]
+    // Assembly fallback: mov eax, 3
+    // Assembly fallback: jmp 0x6d882
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: lea edx, [rdx + rax*8]
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: call 0x86c80
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: jmp 0x6db8c
+    // Assembly fallback: lea ecx, [rdx + rcx*8 + 8]
+    // Assembly fallback: mov dword ptr [rsp + 0x14], ecx
+    // Assembly fallback: mov dword ptr [rsp + 0x10], eax
+    ecx, 8 -= ...; // Subtraction operation
+    // Assembly fallback: lea eax, [rcx + rax*8]
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rsp + 4], ecx
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: call 0x86e10
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov ecx, dword ptr [rsp + 0x14]
+    // Assembly fallback: mov eax, dword ptr [rsp + 0x10]
+    // Assembly fallback: mov ebp, dword ptr [rcx - 8]
+    eax, 1 += ...; // Addition operation
+    if (edi, edx) {
+        // Jump Target: 0x6cf14 if check fails
+    // Assembly fallback: mov edx, ecx
+    // Assembly fallback: mov dword ptr [rdx - 4], esi
+    // Assembly fallback: mov esi, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov ecx, dword ptr [rsi]
+    // Assembly fallback: movzx ebp, cl
+    // Assembly fallback: movzx ecx, ch
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov edx, ecx
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: call 0x86c00
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov eax, dword ptr [rsi - 4]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4 + 0x26c]
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx + 4]
+    if (ebp, -2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov dword ptr [rsp + 0x14], eax
+    // Assembly fallback: mov dword ptr [rdx - 4], ebp
+    // Assembly fallback: mov ebp, dword ptr [rdx]
+    // Assembly fallback: mov dword ptr [rdx - 8], ebp
+    eax, 2 -= ...; // Subtraction operation
+    // Assembly fallback: je 0x6dc7e
+    // Assembly fallback: mov ecx, edx
+    ecx, 8 += ...; // Addition operation
+    // Assembly fallback: mov ebp, dword ptr [rcx + 4]
+    // Assembly fallback: mov dword ptr [rcx - 4], ebp
+    // Assembly fallback: mov ebp, dword ptr [rcx]
+    // Assembly fallback: mov dword ptr [rcx - 8], ebp
+    eax, 1 -= ...; // Subtraction operation
+    // Assembly fallback: jne 0x6dc6b
+    // Assembly fallback: mov eax, dword ptr [rsp + 0x14]
+    // Assembly fallback: jmp 0x6e2ac
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx + 4]
+    // Assembly fallback: mov eax, 0xd
+    // Assembly fallback: not ebp
+    // Assembly fallback: cmp eax, ebp
+    // Assembly fallback: cmova eax, ebp
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: mov eax, dword ptr [rbp + rax*8 + 0x18]
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov dword ptr [rdx - 4], 0xfffffffb
+    // Assembly fallback: mov dword ptr [rdx - 8], eax
+    // Assembly fallback: jmp 0x6e2a3
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx + 4]
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    if (ebp, -0xc) {
+        // Jump Target: 0x6dd2c if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx]
+    // Assembly fallback: mov ebp, dword ptr [rbp + 0x10]
+    // Assembly fallback: test ebp, ebp
+    // Assembly fallback: mov dword ptr [rdx - 4], 0xffffffff
+    // Assembly fallback: je 0x6e2a3
+    // Assembly fallback: mov eax, dword ptr [rbx - 0x9d8]
+    // Assembly fallback: mov dword ptr [rdx - 4], 0xfffffff4
+    // Assembly fallback: mov dword ptr [rdx - 8], ebp
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x1c]
+    // Assembly fallback: and ecx, dword ptr [rax + 8]
+    // Assembly fallback: imul ecx, ecx, 0x18
+    ecx, dword ptr [rbp + 0x14] += ...; // Addition operation
+    if (dword ptr [rcx + 0xc], -5) {
+        // Jump Target: 0x6dd07 if check fails
+    if (dword ptr [rcx + 8], eax) {
+        // Jump Target: 0x6dd13 if check fails
+    // Assembly fallback: mov ecx, dword ptr [rcx + 0x10]
+    // Assembly fallback: test ecx, ecx
+    // Assembly fallback: jne 0x6dcfc
+    // Assembly fallback: jmp 0x6e2a3
+    // Assembly fallback: mov ebp, dword ptr [rcx + 4]
+    if (ebp, -1) {
+        // Jump Target: 0x6e2a3 if check fails
+    // Assembly fallback: mov eax, dword ptr [rcx]
+    // Assembly fallback: mov dword ptr [rdx - 4], ebp
+    // Assembly fallback: mov dword ptr [rdx - 8], eax
+    // Assembly fallback: jmp 0x6e2a3
+    if (ebp, -0xd) {
+        // Jump Target: 0x6dccc if check fails
+    if (ebp, -0xe) {
+        // Jump Target: 0x6dd3b if check fails
+    // Assembly fallback: mov ebp, 0xfffffff2
+    // Assembly fallback: not ebp
+    // Assembly fallback: mov ebp, dword ptr [rbx + rbp*4 - 0x9cc]
+    // Assembly fallback: jmp 0x6dcd1
+    if (eax, 3) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xc) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx]
+    if (dword ptr [rbp + 0x10], 0) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 0xc], -0xc) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov eax, dword ptr [rdx + 8]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], eax
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov dword ptr [rdx - 4], 0xfffffff4
+    // Assembly fallback: mov dword ptr [rdx - 8], ebp
+    // Assembly fallback: test byte ptr [rbp + 4], 4
+    // Assembly fallback: je 0x6dd9b
+    // Assembly fallback: and byte ptr [rbp + 4], 0xfb
+    // Assembly fallback: mov eax, dword ptr [rbx - 0xad0]
+    // Assembly fallback: mov dword ptr [rbx - 0xad0], ebp
+    // Assembly fallback: mov dword ptr [rbp + 0xc], eax
+    // Assembly fallback: jmp 0x6e2a3
+    if (eax, 3) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xc) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov eax, dword ptr [rdx]
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rsp + 4], eax
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: mov ebp, edx
+    edx, 8 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rsp + 8], edx
+    // Assembly fallback: call 0x85a20
+    // Assembly fallback: mov edx, ebp
+    // Assembly fallback: mov ebp, dword ptr [rax]
+    // Assembly fallback: mov eax, dword ptr [rax + 4]
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov dword ptr [rdx - 8], ebp
+    // Assembly fallback: mov dword ptr [rdx - 4], eax
+    // Assembly fallback: jmp 0x6e2a3
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    if (dword ptr [rdx + 4], -5) {
+        // Jump Target: 0x6de20 if check fails
+    // Assembly fallback: mov eax, dword ptr [rdx]
+    // Assembly fallback: mov dword ptr [rdx - 4], 0xfffffffb
+    // Assembly fallback: mov dword ptr [rdx - 8], eax
+    // Assembly fallback: jmp 0x6e2a3
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rbx - 0x998], 0) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rbx - 0xaec]
+    if (ebp, dword ptr [rbx - 0xae8]) {
+        // Jump Target: 0x6de4a if check fails
+    // Assembly fallback: call 0x6eda9
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: call 0x84b80
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: jmp 0x6de11
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: je 0x6dec4
+    if (dword ptr [rdx + 4], -0xc) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rbp + 0x14], edx
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov eax, dword ptr [rdx]
+    // Assembly fallback: mov dword ptr [rsp + 4], eax
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    edx, 8 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rsp + 8], edx
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: call 0x85d00
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: je 0x6decd
+    // Assembly fallback: mov ebp, dword ptr [rdx + 8]
+    // Assembly fallback: mov eax, dword ptr [rdx + 0xc]
+    // Assembly fallback: mov dword ptr [rdx - 8], ebp
+    // Assembly fallback: mov dword ptr [rdx - 4], eax
+    // Assembly fallback: mov ebp, dword ptr [rdx + 0x10]
+    // Assembly fallback: mov eax, dword ptr [rdx + 0x14]
+    // Assembly fallback: mov dword ptr [rdx], ebp
+    // Assembly fallback: mov dword ptr [rdx + 4], eax
+    // Assembly fallback: mov eax, 3
+    // Assembly fallback: jmp 0x6e2a8
+    // Assembly fallback: mov dword ptr [rdx + 0xc], 0xffffffff
+    // Assembly fallback: jmp 0x6de6c
+    // Assembly fallback: mov dword ptr [rdx - 4], 0xffffffff
+    // Assembly fallback: jmp 0x6e2a3
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx]
+    if (dword ptr [rdx + 4], -0xc) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: mov eax, dword ptr [rbp + 0x18]
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov dword ptr [rdx - 4], 0xfffffff7
+    // Assembly fallback: mov dword ptr [rdx - 8], eax
+    // Assembly fallback: mov dword ptr [rdx + 0xc], 0xffffffff
+    // Assembly fallback: mov eax, 4
+    // Assembly fallback: jmp 0x6e2a8
+    if (eax, 3) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xc) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 0xc], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: fld qword ptr [rdx + 8]
+    // Assembly fallback: fld1 
+    // Assembly fallback: faddp st(1)
+    // Assembly fallback: fist dword ptr [rsp]
+    // Assembly fallback: fstp qword ptr [rdx - 8]
+    // Assembly fallback: mov eax, dword ptr [rsp]
+    // Assembly fallback: mov ebp, dword ptr [rdx]
+    if (eax, dword ptr [rbp + 0x18]) {
+        // Jump Target: 0x6df64 if check fails
+    // Assembly fallback: shl eax, 3
+    eax, dword ptr [rbp + 8] += ...; // Addition operation
+    if (dword ptr [rax + 4], -1) {
+        // Jump Target: 0x6df7b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rax]
+    // Assembly fallback: mov eax, dword ptr [rax + 4]
+    // Assembly fallback: mov dword ptr [rdx], ebp
+    // Assembly fallback: mov dword ptr [rdx + 4], eax
+    // Assembly fallback: jmp 0x6deba
+    if (dword ptr [rbp + 0x1c], 0) {
+        // Jump Target: 0x6df7b if check fails
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: mov ebp, edx
+    // Assembly fallback: mov edx, eax
+    // Assembly fallback: call 0x85830
+    // Assembly fallback: mov edx, ebp
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: jne 0x6df4f
+    // Assembly fallback: mov eax, 1
+    // Assembly fallback: jmp 0x6e2a8
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx]
+    if (dword ptr [rdx + 4], -0xc) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: mov eax, dword ptr [rbp + 0x18]
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov dword ptr [rdx - 4], 0xfffffff7
+    // Assembly fallback: mov dword ptr [rdx - 8], eax
+    // Assembly fallback: fldz 
+    // Assembly fallback: fstp qword ptr [rdx + 8]
+    // Assembly fallback: mov eax, 4
+    // Assembly fallback: jmp 0x6e2a8
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: lea ecx, [rdx + 8]
+    eax, 1 -= ...; // Subtraction operation
+    // Assembly fallback: mov esi, 0xe
+    // Assembly fallback: movzx ebp, byte ptr [rbx - 0xa7f]
+    // Assembly fallback: shr ebp, 4
+    // Assembly fallback: and ebp, 1
+    esi, ebp += ...; // Addition operation
+    // Assembly fallback: jmp 0x6d882
+    if (eax, 3) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 0xc], -9) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx + 4]
+    // Assembly fallback: mov dword ptr [rdx + 0xc], ebp
+    // Assembly fallback: mov dword ptr [rdx + 4], 0xfffffff7
+    // Assembly fallback: mov ebp, dword ptr [rdx]
+    // Assembly fallback: mov esi, dword ptr [rdx + 8]
+    // Assembly fallback: mov dword ptr [rdx + 8], ebp
+    // Assembly fallback: mov dword ptr [rdx], esi
+    // Assembly fallback: lea ecx, [rdx + 0x10]
+    eax, 2 -= ...; // Subtraction operation
+    // Assembly fallback: mov esi, 0x16
+    // Assembly fallback: jmp 0x6dfd0
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx]
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    if (dword ptr [rdx + 4], -7) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rbp + 0x28], 0) {
+        // Jump Target: 0x6ed1b if check fails
+    if (byte ptr [rbp + 7], 1) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x14]
+    // Assembly fallback: je 0x6e05c
+    if (ecx, dword ptr [rbp + 0x10]) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: lea esi, [rcx + rax*8 - 0x10]
+    if (esi, dword ptr [rbp + 0x18]) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov dword ptr [rbp + 0x14], esi
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    edx, 8 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rbp + 0x14], edx
+    // Assembly fallback: lea ebp, [rdx + rax*8 - 0x18]
+    ebp, esi -= ...; // Subtraction operation
+    if (esi, ecx) {
+        // Jump Target: 0x6e097 if check fails
+    // Assembly fallback: mov eax, dword ptr [rsi + rbp + 4]
+    // Assembly fallback: mov dword ptr [rsi - 4], eax
+    // Assembly fallback: mov eax, dword ptr [rsi + rbp]
+    // Assembly fallback: mov dword ptr [rsi - 8], eax
+    esi, 8 -= ...; // Subtraction operation
+    if (esi, ecx) {
+        // Jump Target: 0x6e083 if check fails
+    // Assembly fallback: mov dword ptr [rsp + 4], ecx
+    ecx, ecx = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov dword ptr [rsp + 0xc], ecx
+    // Assembly fallback: mov dword ptr [rsp + 8], ecx
+    // Assembly fallback: call 0x6d7c5
+    // Assembly fallback: mov dword ptr [rbx - 0xa34], 0xffffffff
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov esi, dword ptr [rsp]
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    if (eax, 1) {
+        // Jump Target: 0x6e11c if check fails
+    // Assembly fallback: mov ecx, dword ptr [rsi + 0x10]
+    // Assembly fallback: mov edi, dword ptr [rsi + 0x14]
+    // Assembly fallback: mov dword ptr [rsi + 0x14], ecx
+    // Assembly fallback: mov esi, edi
+    esi, ecx -= ...; // Subtraction operation
+    // Assembly fallback: je 0x6e0f4
+    // Assembly fallback: lea eax, [rdx + rsi]
+    // Assembly fallback: shr esi, 3
+    if (eax, dword ptr [rbp + 0x18]) {
+        // Jump Target: 0x6e13d if check fails
+    // Assembly fallback: mov ebp, edx
+    ebp, ecx -= ...; // Subtraction operation
+    // Assembly fallback: mov eax, dword ptr [rcx]
+    // Assembly fallback: mov dword ptr [rcx + rbp], eax
+    // Assembly fallback: mov eax, dword ptr [rcx + 4]
+    // Assembly fallback: mov dword ptr [rcx + rbp + 4], eax
+    ecx, 8 += ...; // Addition operation
+    if (ecx, edi) {
+        // Jump Target: 0x6e0e1 if check fails
+    // Assembly fallback: lea eax, [rsi + 2]
+    // Assembly fallback: mov dword ptr [rdx - 4], 0xfffffffd
+    // Assembly fallback: mov esi, dword ptr [rsp + 0x18]
+    // Assembly fallback: mov dword ptr [rsp + 0x14], eax
+    // Assembly fallback: mov ecx, 0xfffffff8
+    // Assembly fallback: test esi, 3
+    // Assembly fallback: je 0x6d1af
+    // Assembly fallback: jmp 0x6d690
+    // Assembly fallback: mov dword ptr [rdx - 4], 0xfffffffe
+    // Assembly fallback: mov ecx, dword ptr [rsi + 0x14]
+    ecx, 8 -= ...; // Subtraction operation
+    // Assembly fallback: mov dword ptr [rsi + 0x14], ecx
+    // Assembly fallback: mov eax, dword ptr [rcx]
+    // Assembly fallback: mov dword ptr [rdx], eax
+    // Assembly fallback: mov eax, dword ptr [rcx + 4]
+    // Assembly fallback: mov dword ptr [rdx + 4], eax
+    // Assembly fallback: mov eax, 3
+    // Assembly fallback: jmp 0x6e0fe
+    // Assembly fallback: mov ecx, dword ptr [rsp]
+    // Assembly fallback: mov dword ptr [rcx + 0x14], edi
+    // Assembly fallback: mov edx, esi
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: call 0x7cbc0
+    // Assembly fallback: mov esi, dword ptr [rsp]
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: jmp 0x6e0c3
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: mov ebp, dword ptr [rbp + 0x18]
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    if (dword ptr [rbp + 0x28], 0) {
+        // Jump Target: 0x6ed1b if check fails
+    if (byte ptr [rbp + 7], 1) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x14]
+    // Assembly fallback: je 0x6e189
+    if (ecx, dword ptr [rbp + 0x10]) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: lea esi, [rcx + rax*8 - 8]
+    if (esi, dword ptr [rbp + 0x18]) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov dword ptr [rbp + 0x14], esi
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rbp + 0x14], edx
+    // Assembly fallback: lea ebp, [rdx + rax*8 - 0x10]
+    ebp, esi -= ...; // Subtraction operation
+    if (esi, ecx) {
+        // Jump Target: 0x6e1c1 if check fails
+    // Assembly fallback: mov eax, dword ptr [rsi + rbp + 4]
+    // Assembly fallback: mov dword ptr [rsi - 4], eax
+    // Assembly fallback: mov eax, dword ptr [rsi + rbp]
+    // Assembly fallback: mov dword ptr [rsi - 8], eax
+    esi, 8 -= ...; // Subtraction operation
+    if (esi, ecx) {
+        // Jump Target: 0x6e1ad if check fails
+    // Assembly fallback: mov dword ptr [rsp + 4], ecx
+    ecx, ecx = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov dword ptr [rsp + 0xc], ecx
+    // Assembly fallback: mov dword ptr [rsp + 8], ecx
+    // Assembly fallback: call 0x6d7c5
+    // Assembly fallback: mov dword ptr [rbx - 0xa34], 0xffffffff
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov esi, dword ptr [rsp]
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    if (eax, 1) {
+        // Jump Target: 0x6e23c if check fails
+    // Assembly fallback: mov ecx, dword ptr [rsi + 0x10]
+    // Assembly fallback: mov edi, dword ptr [rsi + 0x14]
+    // Assembly fallback: mov dword ptr [rsi + 0x14], ecx
+    // Assembly fallback: mov esi, edi
+    esi, ecx -= ...; // Subtraction operation
+    // Assembly fallback: je 0x6e21e
+    // Assembly fallback: lea eax, [rdx + rsi]
+    // Assembly fallback: shr esi, 3
+    if (eax, dword ptr [rbp + 0x18]) {
+        // Jump Target: 0x6e245 if check fails
+    // Assembly fallback: mov ebp, edx
+    ebp, ecx -= ...; // Subtraction operation
+    // Assembly fallback: mov eax, dword ptr [rcx]
+    // Assembly fallback: mov dword ptr [rcx + rbp], eax
+    // Assembly fallback: mov eax, dword ptr [rcx + 4]
+    // Assembly fallback: mov dword ptr [rcx + rbp + 4], eax
+    ecx, 8 += ...; // Addition operation
+    if (ecx, edi) {
+        // Jump Target: 0x6e20b if check fails
+    // Assembly fallback: lea eax, [rsi + 1]
+    // Assembly fallback: mov esi, dword ptr [rsp + 0x18]
+    // Assembly fallback: mov dword ptr [rsp + 0x14], eax
+    ecx, ecx = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: test esi, 3
+    // Assembly fallback: je 0x6d1af
+    // Assembly fallback: jmp 0x6d690
+    // Assembly fallback: mov edx, esi
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: call 0x956b0
+    // Assembly fallback: mov ecx, dword ptr [rsp]
+    // Assembly fallback: mov dword ptr [rcx + 0x14], edi
+    // Assembly fallback: mov edx, esi
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: call 0x7cbc0
+    // Assembly fallback: mov esi, dword ptr [rsp]
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: jmp 0x6e1ed
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: test dword ptr [rbp + 0x28], 1
+    // Assembly fallback: je 0x6ed1b
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: lea eax, [rdx + rax*8 - 8]
+    // Assembly fallback: mov dword ptr [rbp + 0x14], eax
+    eax, eax = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov dword ptr [rbp + 0x28], eax
+    // Assembly fallback: mov al, 1
+    // Assembly fallback: mov byte ptr [rbp + 7], al
+    // Assembly fallback: jmp 0x6d6e8
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fabs 
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: fstp qword ptr [rdx - 8]
+    // Assembly fallback: mov eax, 2
+    // Assembly fallback: mov dword ptr [rsp + 0x14], eax
+    // Assembly fallback: test esi, 3
+    // Assembly fallback: jne 0x6e2e0
+    if (byte ptr [rsi - 1], al) {
+        // Jump Target: 0x6e2d3 if check fails
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: not ecx
+    // Assembly fallback: lea edx, [rdx + rcx*8]
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov dword ptr [rdx + rax*8 - 0xc], 0xffffffff
+    eax, 1 += ...; // Addition operation
+    // Assembly fallback: jmp 0x6e2b4
+    // Assembly fallback: mov ecx, 0xfffffff8
+    // Assembly fallback: jmp 0x6d690
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: call 0x6efb1
+    // Assembly fallback: jmp 0x6e29d
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: call 0x6f031
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fsqrt 
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fldln2 
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fyl2x 
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fldlg2 
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fyl2x 
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: call 0x6f162
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fsin 
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fcos 
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fptan 
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fld st(0)
+    // Assembly fallback: fmul st(0)
+    // Assembly fallback: fld1 
+    // Assembly fallback: fsubrp st(1)
+    // Assembly fallback: fsqrt 
+    // Assembly fallback: fpatan 
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fld st(0)
+    // Assembly fallback: fmul st(0)
+    // Assembly fallback: fld1 
+    // Assembly fallback: fsubrp st(1)
+    // Assembly fallback: fsqrt 
+    // Assembly fallback: fxch st(1)
+    // Assembly fallback: fpatan 
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fld1 
+    // Assembly fallback: fpatan 
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fstp qword ptr [rsp]
+    // Assembly fallback: mov ebp, edx
+    // Assembly fallback: call 0xab000
+    // Assembly fallback: mov edx, ebp
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fstp qword ptr [rsp]
+    // Assembly fallback: mov ebp, edx
+    // Assembly fallback: call 0xaaff0
+    // Assembly fallback: mov edx, ebp
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fstp qword ptr [rsp]
+    // Assembly fallback: mov ebp, edx
+    // Assembly fallback: call 0xab010
+    // Assembly fallback: mov edx, ebp
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: fmul qword ptr [rbp + 0x18]
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 3) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 0xc], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fld qword ptr [rdx + 8]
+    // Assembly fallback: fpatan 
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 3) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 0xc], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx + 8]
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fscale 
+    // Assembly fallback: fstp st(1)
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx + 4]
+    if (ebp, -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov eax, dword ptr [rdx]
+    // Assembly fallback: mov dword ptr [rdx - 4], ebp
+    // Assembly fallback: mov dword ptr [rdx - 8], eax
+    // Assembly fallback: shl ebp, 1
+    if (ebp, 0xffe00000) {
+        // Jump Target: 0x6e595 if check fails
+    // Assembly fallback: or eax, ebp
+    // Assembly fallback: je 0x6e595
+    // Assembly fallback: mov eax, 0x3fe
+    if (ebp, 0x200000) {
+        // Jump Target: 0x6e599 if check fails
+    // Assembly fallback: shr ebp, 0x15
+    ebp, eax -= ...; // Subtraction operation
+    // Assembly fallback: mov dword ptr [rsp + 0x10], ebp
+    // Assembly fallback: fild dword ptr [rsp + 0x10]
+    // Assembly fallback: mov ebp, dword ptr [rdx - 4]
+    // Assembly fallback: and ebp, 0x800fffff
+    // Assembly fallback: or ebp, 0x3fe00000
+    // Assembly fallback: mov dword ptr [rdx - 4], ebp
+    // Assembly fallback: fstp qword ptr [rdx]
+    // Assembly fallback: mov eax, 3
+    // Assembly fallback: jmp 0x6e2a8
+    // Assembly fallback: fldz 
+    // Assembly fallback: jmp 0x6e589
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: mov dword ptr [rsp + 0x10], 0x5a800000
+    // Assembly fallback: fmul dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rdx - 8]
+    // Assembly fallback: mov ebp, dword ptr [rdx - 4]
+    // Assembly fallback: mov eax, 0x434
+    // Assembly fallback: shl ebp, 1
+    // Assembly fallback: jmp 0x6e56a
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: mov ebp, dword ptr [rdx + 4]
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: shl ebp, 1
+    if (ebp, 0xffe00000) {
+        // Jump Target: 0x6e608 if check fails
+    // Assembly fallback: fld st(0)
+    // Assembly fallback: call 0x6f0b1
+    // Assembly fallback: fsub st(1), st(0)
+    // Assembly fallback: fstp qword ptr [rdx - 8]
+    // Assembly fallback: fstp qword ptr [rdx]
+    // Assembly fallback: mov eax, dword ptr [rdx - 4]
+    // Assembly fallback: mov ebp, dword ptr [rdx + 4]
+    eax, ebp = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: js 0x6e5fd
+    // Assembly fallback: mov eax, 3
+    // Assembly fallback: jmp 0x6e2a8
+    ebp, 0x80000000 = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov dword ptr [rdx + 4], ebp
+    // Assembly fallback: jmp 0x6e5f3
+    // Assembly fallback: fldz 
+    // Assembly fallback: fxch st(1)
+    // Assembly fallback: jmp 0x6e5e4
+    if (eax, 3) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 0xc], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx + 8]
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fprem 
+    // Assembly fallback: fnstsw ax
+    // Assembly fallback: and ax, 0x400
+    // Assembly fallback: jne 0x6e630
+    // Assembly fallback: fstp st(1)
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 3) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 0xc], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fld qword ptr [rdx + 8]
+    // Assembly fallback: call 0x6f196
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ecx, 2
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    if (ecx, eax) {
+        // Jump Target: 0x6e29d if check fails
+    if (dword ptr [rdx + rcx*8 - 4], -0xe) {
+        // Jump Target: 0x6e6dd if check fails
+    // Assembly fallback: fld qword ptr [rdx + rcx*8 - 8]
+    // Assembly fallback: fucomi st(1)
+    // Assembly fallback: fcmovnbe st(0), st(1)
+    // Assembly fallback: fstp st(1)
+    ecx, 1 += ...; // Addition operation
+    // Assembly fallback: jmp 0x6e687
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ecx, 2
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    if (ecx, eax) {
+        // Jump Target: 0x6e29d if check fails
+    if (dword ptr [rdx + rcx*8 - 4], -0xe) {
+        // Jump Target: 0x6e6dd if check fails
+    // Assembly fallback: fld qword ptr [rdx + rcx*8 - 8]
+    // Assembly fallback: fucomi st(1)
+    // Assembly fallback: fcmovbe st(0), st(1)
+    // Assembly fallback: fstp st(1)
+    ecx, 1 += ...; // Addition operation
+    // Assembly fallback: jmp 0x6e6bf
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: jmp 0x6ed1b
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -5) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx]
+    // Assembly fallback: fild dword ptr [rbp + 0xc]
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -5) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx]
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    if (dword ptr [rbp + 0xc], 1) {
+        // Jump Target: 0x6df7b if check fails
+    // Assembly fallback: movzx ebp, byte ptr [rbp + 0x10]
+    // Assembly fallback: mov dword ptr [rsp + 0x10], ebp
+    // Assembly fallback: fild dword ptr [rsp + 0x10]
+    // Assembly fallback: jmp 0x6e29d
+    // Assembly fallback: mov ebp, dword ptr [rbx - 0xaec]
+    if (ebp, dword ptr [rbx - 0xae8]) {
+        // Jump Target: 0x6e747 if check fails
+    // Assembly fallback: call 0x6eda9
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fistp dword ptr [rsp + 0x14]
+    if (dword ptr [rsp + 0x14], 0xff) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov dword ptr [rsp + 8], 1
+    // Assembly fallback: lea eax, [rsp + 0x14]
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rsp + 4], eax
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: call 0x84c70
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov dword ptr [rdx - 4], 0xfffffffb
+    // Assembly fallback: mov dword ptr [rdx - 8], eax
+    // Assembly fallback: jmp 0x6e2a3
+    // Assembly fallback: mov ebp, dword ptr [rbx - 0xaec]
+    if (ebp, dword ptr [rbx - 0xae8]) {
+        // Jump Target: 0x6e7b9 if check fails
+    // Assembly fallback: call 0x6eda9
+    // Assembly fallback: mov dword ptr [rsp + 0x14], 0xffffffff
+    if (eax, 3) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: jbe 0x6e7dd
+    if (dword ptr [rdx + 0x14], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx + 0x10]
+    // Assembly fallback: fistp dword ptr [rsp + 0x14]
+    if (dword ptr [rdx + 4], -5) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 0xc], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx]
+    // Assembly fallback: mov dword ptr [rsp + 0xc], ebp
+    // Assembly fallback: mov ebp, dword ptr [rbp + 0xc]
+    // Assembly fallback: fld qword ptr [rdx + 8]
+    // Assembly fallback: fistp dword ptr [rsp + 8]
+    // Assembly fallback: mov ecx, dword ptr [rsp + 8]
+    // Assembly fallback: mov eax, dword ptr [rsp + 0x14]
+    if (ebp, eax) {
+        // Jump Target: 0x6e82b if check fails
+    // Assembly fallback: test ecx, ecx
+    // Assembly fallback: jle 0x6e837
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0xc]
+    eax, ecx -= ...; // Subtraction operation
+    // Assembly fallback: jl 0x6e847
+    // Assembly fallback: lea ebp, [rbp + rcx + 0xf]
+    eax, 1 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov eax, ebp
+    // Assembly fallback: jmp 0x6e77a
+    // Assembly fallback: jl 0x6e833
+    // Assembly fallback: lea eax, [rax + rbp + 1]
+    // Assembly fallback: jmp 0x6e80d
+    // Assembly fallback: mov eax, ebp
+    // Assembly fallback: jmp 0x6e80d
+    // Assembly fallback: je 0x6e840
+    ecx, ebp += ...; // Addition operation
+    ecx, 1 += ...; // Addition operation
+    // Assembly fallback: jg 0x6e811
+    // Assembly fallback: mov ecx, 1
+    // Assembly fallback: jmp 0x6e811
+    eax, eax = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: jmp 0x6e820
+    // Assembly fallback: mov ebp, dword ptr [rbx - 0xaec]
+    if (ebp, dword ptr [rbx - 0xae8]) {
+        // Jump Target: 0x6e85e if check fails
+    // Assembly fallback: call 0x6eda9
+    if (eax, 3) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -5) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: cmp dword ptr [rdx + 0xc], -0xe
+    // Assembly fallback: mov ebp, dword ptr [rdx]
+    // Assembly fallback: jae 0x6ed1b
+    // Assembly fallback: fld qword ptr [rdx + 8]
+    // Assembly fallback: fistp dword ptr [rsp + 0x14]
+    // Assembly fallback: mov eax, dword ptr [rsp + 0x14]
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: jle 0x6e847
+    if (dword ptr [rbp + 0xc], 1) {
+        // Jump Target: 0x6e847 if check fails
+    // Assembly fallback: jne 0x6ed0f
+    if (dword ptr [rbx - 0xaac], eax) {
+        // Jump Target: 0x6ed0f if check fails
+    // Assembly fallback: movzx ecx, byte ptr [rbp + 0x10]
+    // Assembly fallback: mov ebp, dword ptr [rbx - 0xab4]
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov byte ptr [rbp], cl
+    ebp, 1 += ...; // Addition operation
+    eax, 1 -= ...; // Subtraction operation
+    // Assembly fallback: jne 0x6e8b2
+    // Assembly fallback: mov eax, dword ptr [rbx - 0xab4]
+    // Assembly fallback: jmp 0x6e77a
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rbx - 0xaec]
+    if (ebp, dword ptr [rbx - 0xae8]) {
+        // Jump Target: 0x6e8e4 if check fails
+    // Assembly fallback: call 0x6eda9
+    if (dword ptr [rdx + 4], -5) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx]
+    // Assembly fallback: mov eax, dword ptr [rbp + 0xc]
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: je 0x6e847
+    if (dword ptr [rbx - 0xaac], eax) {
+        // Jump Target: 0x6ed16 if check fails
+    ebp, 0x10 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rsp + 0x14], esi
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov esi, dword ptr [rbx - 0xab4]
+    // Assembly fallback: movzx ecx, byte ptr [rbp]
+    ebp, 1 += ...; // Addition operation
+    eax, 1 -= ...; // Subtraction operation
+    // Assembly fallback: mov byte ptr [rsi + rax], cl
+    // Assembly fallback: jne 0x6e918
+    // Assembly fallback: mov eax, esi
+    // Assembly fallback: mov esi, dword ptr [rsp + 0x14]
+    // Assembly fallback: jmp 0x6e77a
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rbx - 0xaec]
+    if (ebp, dword ptr [rbx - 0xae8]) {
+        // Jump Target: 0x6e94e if check fails
+    // Assembly fallback: call 0x6eda9
+    if (dword ptr [rdx + 4], -5) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx]
+    // Assembly fallback: mov eax, dword ptr [rbp + 0xc]
+    if (dword ptr [rbx - 0xaac], eax) {
+        // Jump Target: 0x6ed16 if check fails
+    ebp, 0x10 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rsp + 0x14], esi
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov esi, dword ptr [rbx - 0xab4]
+    // Assembly fallback: jmp 0x6e991
+    // Assembly fallback: movzx ecx, byte ptr [rbp + rax]
+    if (ecx, 0x41) {
+        // Jump Target: 0x6e98e if check fails
+    if (ecx, 0x5a) {
+        // Jump Target: 0x6e98e if check fails
+    ecx, 0x20 = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov byte ptr [rsi + rax], cl
+    eax, 1 -= ...; // Subtraction operation
+    // Assembly fallback: jns 0x6e97c
+    // Assembly fallback: mov eax, esi
+    // Assembly fallback: mov esi, dword ptr [rsp + 0x14]
+    // Assembly fallback: jmp 0x6e77a
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rbx - 0xaec]
+    if (ebp, dword ptr [rbx - 0xae8]) {
+        // Jump Target: 0x6e9bd if check fails
+    // Assembly fallback: call 0x6eda9
+    if (dword ptr [rdx + 4], -5) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, dword ptr [rdx]
+    // Assembly fallback: mov eax, dword ptr [rbp + 0xc]
+    if (dword ptr [rbx - 0xaac], eax) {
+        // Jump Target: 0x6ed16 if check fails
+    ebp, 0x10 += ...; // Addition operation
+    // Assembly fallback: mov dword ptr [rsp + 0x14], esi
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov esi, dword ptr [rbx - 0xab4]
+    // Assembly fallback: jmp 0x6ea00
+    // Assembly fallback: movzx ecx, byte ptr [rbp + rax]
+    if (ecx, 0x61) {
+        // Jump Target: 0x6e9fd if check fails
+    if (ecx, 0x7a) {
+        // Jump Target: 0x6e9fd if check fails
+    ecx, 0x20 = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: mov byte ptr [rsi + rax], cl
+    eax, 1 -= ...; // Subtraction operation
+    // Assembly fallback: jns 0x6e9eb
+    // Assembly fallback: mov eax, esi
+    // Assembly fallback: mov esi, dword ptr [rsp + 0x14]
+    // Assembly fallback: jmp 0x6e77a
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xc) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov ebp, edx
+    // Assembly fallback: mov ecx, dword ptr [rdx]
+    // Assembly fallback: call 0x858a0
+    // Assembly fallback: mov edx, ebp
+    // Assembly fallback: mov dword ptr [rsp], eax
+    // Assembly fallback: fild dword ptr [rsp]
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: mov dword ptr [rsp + 0x10], 0x59c00000
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp]
+    // Assembly fallback: fild dword ptr [rsp]
+    // Assembly fallback: jmp 0x6e29d
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov dword ptr [rsp + 0x10], 0x59c00000
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp]
+    // Assembly fallback: mov ebp, dword ptr [rsp]
+    // Assembly fallback: mov dword ptr [rsp + 0x14], eax
+    // Assembly fallback: lea eax, [rdx + rax*8 - 0x10]
+    if (eax, edx) {
+        // Jump Target: 0x6eba7 if check fails
+    if (dword ptr [rax + 4], -0xe) {
+        // Jump Target: 0x6ebb2 if check fails
+    // Assembly fallback: fld qword ptr [rax]
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp]
+    // Assembly fallback: and ebp, dword ptr [rsp]
+    eax, 8 -= ...; // Subtraction operation
+    // Assembly fallback: jmp 0x6ea94
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov dword ptr [rsp + 0x10], 0x59c00000
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp]
+    // Assembly fallback: mov ebp, dword ptr [rsp]
+    // Assembly fallback: mov dword ptr [rsp + 0x14], eax
+    // Assembly fallback: lea eax, [rdx + rax*8 - 0x10]
+    if (eax, edx) {
+        // Jump Target: 0x6eba7 if check fails
+    if (dword ptr [rax + 4], -0xe) {
+        // Jump Target: 0x6ebb2 if check fails
+    // Assembly fallback: fld qword ptr [rax]
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp]
+    // Assembly fallback: or ebp, dword ptr [rsp]
+    eax, 8 -= ...; // Subtraction operation
+    // Assembly fallback: jmp 0x6eae6
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: mov dword ptr [rsp + 0x10], 0x59c00000
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp]
+    // Assembly fallback: mov ebp, dword ptr [rsp]
+    // Assembly fallback: mov dword ptr [rsp + 0x14], eax
+    // Assembly fallback: lea eax, [rdx + rax*8 - 0x10]
+    if (eax, edx) {
+        // Jump Target: 0x6eba7 if check fails
+    if (dword ptr [rax + 4], -0xe) {
+        // Jump Target: 0x6ebb2 if check fails
+    // Assembly fallback: fld qword ptr [rax]
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp]
+    ebp, dword ptr [rsp] = 0; // Register cleared (XOR optimization)
+    eax, 8 -= ...; // Subtraction operation
+    // Assembly fallback: jmp 0x6eb38
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: mov dword ptr [rsp + 0x10], 0x59c00000
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp]
+    // Assembly fallback: mov ebp, dword ptr [rsp]
+    // Assembly fallback: bswap ebp
+    // Assembly fallback: jmp 0x6eba7
+    if (eax, 2) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: mov dword ptr [rsp + 0x10], 0x59c00000
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp]
+    // Assembly fallback: mov ebp, dword ptr [rsp]
+    // Assembly fallback: not ebp
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: fild dword ptr [rsp]
+    // Assembly fallback: jmp 0x6e29d
+    // Assembly fallback: mov eax, dword ptr [rsp + 0x14]
+    // Assembly fallback: jmp 0x6ed1b
+    if (eax, 3) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 0xc], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fld qword ptr [rdx + 8]
+    // Assembly fallback: mov dword ptr [rsp + 0x10], 0x59c00000
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp + 8]
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp]
+    // Assembly fallback: mov ecx, dword ptr [rsp + 8]
+    // Assembly fallback: mov ebp, dword ptr [rsp]
+    // Assembly fallback: shl ebp, cl
+    // Assembly fallback: jmp 0x6eba7
+    if (eax, 3) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 0xc], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fld qword ptr [rdx + 8]
+    // Assembly fallback: mov dword ptr [rsp + 0x10], 0x59c00000
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp + 8]
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp]
+    // Assembly fallback: mov ecx, dword ptr [rsp + 8]
+    // Assembly fallback: mov ebp, dword ptr [rsp]
+    // Assembly fallback: shr ebp, cl
+    // Assembly fallback: jmp 0x6eba7
+    if (eax, 3) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 0xc], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fld qword ptr [rdx + 8]
+    // Assembly fallback: mov dword ptr [rsp + 0x10], 0x59c00000
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp + 8]
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp]
+    // Assembly fallback: mov ecx, dword ptr [rsp + 8]
+    // Assembly fallback: mov ebp, dword ptr [rsp]
+    // Assembly fallback: sar ebp, cl
+    // Assembly fallback: jmp 0x6eba7
+    if (eax, 3) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 0xc], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fld qword ptr [rdx + 8]
+    // Assembly fallback: mov dword ptr [rsp + 0x10], 0x59c00000
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp + 8]
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp]
+    // Assembly fallback: mov ecx, dword ptr [rsp + 8]
+    // Assembly fallback: mov ebp, dword ptr [rsp]
+    // Assembly fallback: rol ebp, cl
+    // Assembly fallback: jmp 0x6eba7
+    if (eax, 3) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 4], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    if (dword ptr [rdx + 0xc], -0xe) {
+        // Jump Target: 0x6ed1b if check fails
+    // Assembly fallback: fld qword ptr [rdx]
+    // Assembly fallback: fld qword ptr [rdx + 8]
+    // Assembly fallback: mov dword ptr [rsp + 0x10], 0x59c00000
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp + 8]
+    // Assembly fallback: fadd dword ptr [rsp + 0x10]
+    // Assembly fallback: fstp qword ptr [rsp]
+    // Assembly fallback: mov ecx, dword ptr [rsp + 8]
+    // Assembly fallback: mov ebp, dword ptr [rsp]
+    // Assembly fallback: ror ebp, cl
+    // Assembly fallback: jmp 0x6eba7
+    // Assembly fallback: mov eax, 3
+    // Assembly fallback: jmp 0x6ed1b
+    // Assembly fallback: mov eax, 2
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov esi, dword ptr [rdx - 4]
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: lea eax, [rdx + rax*8 - 8]
+    // Assembly fallback: lea ecx, [rax + 0xa0]
+    // Assembly fallback: mov dword ptr [rbp + 0x14], eax
+    // Assembly fallback: mov eax, dword ptr [rdx - 8]
+    if (ecx, dword ptr [rbp + 0x18]) {
+        // Jump Target: 0x6ed96 if check fails
+    // Assembly fallback: mov dword ptr [rsp], ebp
+    // Assembly fallback: call qword ptr [rax + 0x14]
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: jg 0x6e2a8
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x14]
+    ecx, edx -= ...; // Subtraction operation
+    // Assembly fallback: shr ecx, 3
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: lea eax, [rcx + 1]
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: jne 0x6ed72
+    // Assembly fallback: mov esi, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov ecx, dword ptr [rsi]
+    // Assembly fallback: movzx ebp, cl
+    // Assembly fallback: movzx ecx, ch
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: mov ecx, edx
+    // Assembly fallback: test esi, 3
+    // Assembly fallback: jne 0x6ed8a
+    // Assembly fallback: movzx ebp, byte ptr [rsi - 3]
+    // Assembly fallback: not ebp
+    // Assembly fallback: lea edx, [rdx + rbp*8]
+    // Assembly fallback: jmp 0x6d882
+    // Assembly fallback: mov ebp, esi
+    // Assembly fallback: and ebp, 0xfffffff8
+    edx, ebp -= ...; // Subtraction operation
+    // Assembly fallback: jmp 0x6d882
+    // Assembly fallback: mov edx, 0x14
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: call 0x7cbc0
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    eax, eax = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: jmp 0x6ed4f
+    // Assembly fallback: pop rbp
+    // Assembly fallback: mov dword ptr [rsp + 0x10], ebp
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: lea eax, [rdx + rax*8 - 8]
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: mov dword ptr [rbp + 0x14], eax
+    // Assembly fallback: call 0x82ef0
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov eax, dword ptr [rbp + 0x14]
+    eax, edx -= ...; // Subtraction operation
+    // Assembly fallback: shr eax, 3
+    eax, 1 += ...; // Addition operation
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x10]
+
+// --- Recovered Function Block ---
+void function_0x6edd9() {
+    return;
+}
+    // Assembly fallback: movzx eax, byte ptr [rbx - 0xa7f]
+    // Assembly fallback: test al, 0x20
+    // Assembly fallback: jne 0x6ee35
+    // Assembly fallback: test al, 0x10
+    // Assembly fallback: jne 0x6ee1e
+    // Assembly fallback: test al, 0xc
+    // Assembly fallback: je 0x6ee1e
+    // Assembly fallback: dec dword ptr [rbx - 0xa48]
+    // Assembly fallback: jmp 0x6ee1e
+    // Assembly fallback: movzx eax, byte ptr [rbx - 0xa7f]
+    // Assembly fallback: test al, 0x10
+    // Assembly fallback: jne 0x6ee35
+    // Assembly fallback: jmp 0x6ee1e
+    // Assembly fallback: movzx eax, byte ptr [rbx - 0xa7f]
+    // Assembly fallback: test al, 0x10
+    // Assembly fallback: jne 0x6ee35
+    // Assembly fallback: test al, 0xc
+    // Assembly fallback: je 0x6ee35
+    // Assembly fallback: dec dword ptr [rbx - 0xa48]
+    // Assembly fallback: je 0x6ee1e
+    // Assembly fallback: test al, 4
+    // Assembly fallback: je 0x6ee35
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov edx, esi
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: call 0x82520
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: movzx ebp, byte ptr [rsi - 4]
+    // Assembly fallback: movzx eax, word ptr [rsi - 2]
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4 + 0x26c]
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: mov ecx, dword ptr [rbp - 0x18]
+    // Assembly fallback: mov dword ptr [rsp + 0x14], ecx
+    // Assembly fallback: jmp 0x6ee31
+    // Assembly fallback: mov ebp, dword ptr [rdx - 8]
+    // Assembly fallback: mov ebp, dword ptr [rbp + 0x10]
+    // Assembly fallback: movzx eax, byte ptr [rbp - 0x39]
+    // Assembly fallback: lea eax, [rdx + rax*8]
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rbp + 0x14], eax
+    // Assembly fallback: mov edx, esi
+    // Assembly fallback: lea ecx, [rbx - 0x988]
+    // Assembly fallback: mov dword ptr [rbx - 0x93c], ebp
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: call 0x87a50
+    // Assembly fallback: jmp 0x6ee2e
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: jmp 0x6ee8d
+    // Assembly fallback: mov dword ptr [rsp + 0x18], esi
+    // Assembly fallback: or esi, 1
+    // Assembly fallback: lea eax, [rdx + rax*8 - 8]
+    // Assembly fallback: mov ebp, dword ptr [rsp + 0x30]
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: mov dword ptr [rbp + 0x14], eax
+    // Assembly fallback: mov edx, esi
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: call 0x823d0
+    // Assembly fallback: mov dword ptr [rsp + 0x18], 0
+    // Assembly fallback: and esi, 0xfffffffe
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov ecx, eax
+    // Assembly fallback: mov eax, dword ptr [rbp + 0x14]
+    eax, edx -= ...; // Subtraction operation
+    // Assembly fallback: mov ebp, ecx
+    // Assembly fallback: movzx ecx, byte ptr [rsi - 3]
+    // Assembly fallback: shr eax, 3
+    eax, 1 += ...; // Addition operation
+    // Assembly fallback: jmp rbp
+
+// --- Recovered Function Block ---
+void function_0x6eec7() {
+    // Assembly fallback: lea ebp, [rsp + 0xc]
+
+// --- Recovered Function Block ---
+void function_0x6eecc() {
+    // Assembly fallback: push rbx
+    // Assembly fallback: push rdx
+    // Assembly fallback: push rcx
+    // Assembly fallback: push rax
+    // Assembly fallback: movzx eax, byte ptr [rbp - 4]
+    // Assembly fallback: mov ah, byte ptr [rbp - 8]
+    // Assembly fallback: mov dword ptr [rbp - 4], edi
+    // Assembly fallback: mov dword ptr [rbp - 8], esi
+    // Assembly fallback: mov ebx, dword ptr [rbp]
+    // Assembly fallback: mov ecx, dword ptr [rbx - 0xa34]
+    // Assembly fallback: mov dword ptr [rbx - 0xa34], 0xfffffffc
+    // Assembly fallback: mov dword ptr [rbx - 0xac], eax
+    // Assembly fallback: mov dword ptr [rbx - 0xb0], ecx
+    esp, 0x50 -= ...; // Subtraction operation
+    // Assembly fallback: movsd qword ptr [rbp - 0x28], xmm7
+    // Assembly fallback: movsd qword ptr [rbp - 0x30], xmm6
+    // Assembly fallback: movsd qword ptr [rbp - 0x38], xmm5
+    // Assembly fallback: movsd qword ptr [rbp - 0x40], xmm4
+    // Assembly fallback: movsd qword ptr [rbp - 0x48], xmm3
+    // Assembly fallback: movsd qword ptr [rbp - 0x50], xmm2
+    // Assembly fallback: movsd qword ptr [rbp - 0x58], xmm1
+    // Assembly fallback: movsd qword ptr [rbp - 0x60], xmm0
+    // Assembly fallback: mov ebp, dword ptr [rbx - 0xa28]
+    // Assembly fallback: mov edx, dword ptr [rbx - 0xa24]
+    // Assembly fallback: mov dword ptr [rbx - 0x93c], ebp
+    // Assembly fallback: mov dword ptr [rbx - 0xa28], 0
+    // Assembly fallback: mov dword ptr [rbp + 0x10], edx
+    // Assembly fallback: lea edx, [rsp + 0x10]
+    // Assembly fallback: lea ecx, [rbx - 0x988]
+    // Assembly fallback: call 0x87830
+    // Assembly fallback: mov ecx, dword ptr [rbp + 0x28]
+    // Assembly fallback: and ecx, 0xfffffffc
+    // Assembly fallback: mov esp, ecx
+    // Assembly fallback: mov dword ptr [rcx + 0x30], ebp
+    // Assembly fallback: mov edx, dword ptr [rbp + 0x10]
+    // Assembly fallback: mov esi, dword ptr [rcx + 0x18]
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: js 0x6efa6
+    // Assembly fallback: mov dword ptr [rsp + 0x14], eax
+    // Assembly fallback: mov edi, dword ptr [rdx - 8]
+    // Assembly fallback: mov edi, dword ptr [rdi + 0x10]
+    // Assembly fallback: mov edi, dword ptr [rdi - 0x30]
+    // Assembly fallback: mov dword ptr [rbx - 0xa28], 0
+    // Assembly fallback: mov dword ptr [rbx - 0xa34], 0xffffffff
+    // Assembly fallback: mov eax, dword ptr [rsi]
+    // Assembly fallback: movzx ecx, ah
+    // Assembly fallback: movzx ebp, al
+    esi, 4 += ...; // Addition operation
+    // Assembly fallback: shr eax, 0x10
+    if (ebp, 0x55) {
+        // Jump Target: 0x6efa3 if check fails
+    // Assembly fallback: mov eax, dword ptr [rsp + 0x14]
+    // Assembly fallback: jmp qword ptr [rbx + rbp*4]
+    // Assembly fallback: neg eax
+    // Assembly fallback: mov ecx, ebp
+    // Assembly fallback: mov edx, eax
+    // Assembly fallback: call 0x7d140
+    // Assembly fallback: fnstcw word ptr [rsp + 4]
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov ax, 0x400
+    // Assembly fallback: or ax, word ptr [rsp + 4]
+    // Assembly fallback: and ax, 0xf7ff
+    // Assembly fallback: mov word ptr [rsp + 6], ax
+    // Assembly fallback: fldcw word ptr [rsp + 6]
+    // Assembly fallback: frndint 
+    // Assembly fallback: fldcw word ptr [rsp + 4]
+    // Assembly fallback: mov eax, dword ptr [rsp + 8]
+    return;
+}
+    // Assembly fallback: pxor xmm2, xmm2
+    // Assembly fallback: pcmpeqd xmm2, xmm2
+    // Assembly fallback: psrlq xmm2, 1
+    // Assembly fallback: mov eax, 0x43300000
+    // Assembly fallback: movd xmm3, eax
+    // Assembly fallback: pshufd xmm3, xmm3, 0x51
+    // Assembly fallback: movaps xmm1, xmm0
+    // Assembly fallback: andpd xmm1, xmm2
+    // Assembly fallback: ucomisd xmm3, xmm1
+    // Assembly fallback: jbe 0x6f030
+    // Assembly fallback: andnpd xmm2, xmm0
+    // Assembly fallback: addsd xmm1, xmm3
+    // Assembly fallback: subsd xmm1, xmm3
+    // Assembly fallback: orpd xmm1, xmm2
+    // Assembly fallback: mov eax, 0x3ff00000
+    // Assembly fallback: movd xmm2, eax
+    // Assembly fallback: pshufd xmm2, xmm2, 0x51
+    // Assembly fallback: cmpltsd xmm0, xmm1
+    // Assembly fallback: andpd xmm0, xmm2
+    // Assembly fallback: subsd xmm1, xmm0
+    // Assembly fallback: movaps xmm0, xmm1
+    return;
+}
+    // Assembly fallback: fnstcw word ptr [rsp + 4]
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov ax, 0x800
+    // Assembly fallback: or ax, word ptr [rsp + 4]
+    // Assembly fallback: and ax, 0xfbff
+    // Assembly fallback: mov word ptr [rsp + 6], ax
+    // Assembly fallback: fldcw word ptr [rsp + 6]
+    // Assembly fallback: frndint 
+    // Assembly fallback: fldcw word ptr [rsp + 4]
+    // Assembly fallback: mov eax, dword ptr [rsp + 8]
+    return;
+}
+    // Assembly fallback: pxor xmm2, xmm2
+    // Assembly fallback: pcmpeqd xmm2, xmm2
+    // Assembly fallback: psrlq xmm2, 1
+    // Assembly fallback: mov eax, 0x43300000
+    // Assembly fallback: movd xmm3, eax
+    // Assembly fallback: pshufd xmm3, xmm3, 0x51
+    // Assembly fallback: movaps xmm1, xmm0
+    // Assembly fallback: andpd xmm1, xmm2
+    // Assembly fallback: ucomisd xmm3, xmm1
+    // Assembly fallback: jbe 0x6f0b0
+    // Assembly fallback: andnpd xmm2, xmm0
+    // Assembly fallback: addsd xmm1, xmm3
+    // Assembly fallback: subsd xmm1, xmm3
+    // Assembly fallback: orpd xmm1, xmm2
+    // Assembly fallback: mov eax, 0xbff00000
+    // Assembly fallback: movd xmm2, eax
+    // Assembly fallback: pshufd xmm2, xmm2, 0x51
+    // Assembly fallback: cmpnlesd xmm0, xmm1
+    // Assembly fallback: andpd xmm0, xmm2
+    // Assembly fallback: subsd xmm1, xmm0
+    // Assembly fallback: movaps xmm0, xmm1
+    return;
+}
+    // Assembly fallback: fnstcw word ptr [rsp + 4]
+    // Assembly fallback: mov dword ptr [rsp + 8], eax
+    // Assembly fallback: mov ax, 0xc00
+    // Assembly fallback: or ax, word ptr [rsp + 4]
+    // Assembly fallback: mov word ptr [rsp + 6], ax
+    // Assembly fallback: fldcw word ptr [rsp + 6]
+    // Assembly fallback: frndint 
+    // Assembly fallback: fldcw word ptr [rsp + 4]
+    // Assembly fallback: mov eax, dword ptr [rsp + 8]
+    return;
+}
+    // Assembly fallback: pxor xmm2, xmm2
+    // Assembly fallback: pcmpeqd xmm2, xmm2
+    // Assembly fallback: psrlq xmm2, 1
+    // Assembly fallback: mov eax, 0x43300000
+    // Assembly fallback: movd xmm3, eax
+    // Assembly fallback: pshufd xmm3, xmm3, 0x51
+    // Assembly fallback: movaps xmm1, xmm0
+    // Assembly fallback: andpd xmm1, xmm2
+    // Assembly fallback: ucomisd xmm3, xmm1
+    // Assembly fallback: jbe 0x6f12f
+    // Assembly fallback: andnpd xmm2, xmm0
+    // Assembly fallback: movaps xmm0, xmm1
+    // Assembly fallback: addsd xmm1, xmm3
+    // Assembly fallback: subsd xmm1, xmm3
+    // Assembly fallback: mov eax, 0x3ff00000
+    // Assembly fallback: movd xmm3, eax
+    // Assembly fallback: pshufd xmm3, xmm3, 0x51
+    // Assembly fallback: cmpltsd xmm0, xmm1
+    // Assembly fallback: andpd xmm0, xmm3
+    // Assembly fallback: subsd xmm1, xmm0
+    // Assembly fallback: orpd xmm1, xmm2
+    // Assembly fallback: movaps xmm0, xmm1
+    return;
+}
+    // Assembly fallback: fld st(1)
+    // Assembly fallback: fdiv st(1)
+    // Assembly fallback: fnstcw word ptr [rsp + 4]
+    // Assembly fallback: mov ax, 0x400
+    // Assembly fallback: or ax, word ptr [rsp + 4]
+    // Assembly fallback: and ax, 0xf7ff
+    // Assembly fallback: mov word ptr [rsp + 6], ax
+    // Assembly fallback: fldcw word ptr [rsp + 6]
+    // Assembly fallback: frndint 
+    // Assembly fallback: fldcw word ptr [rsp + 4]
+    // Assembly fallback: fmulp st(1)
+    // Assembly fallback: fsubp st(1)
+    return;
+}
+    // Assembly fallback: fld1 
+    // Assembly fallback: fld qword ptr [rsp + 4]
+    // Assembly fallback: fyl2x 
+    return;
+}
+    // Assembly fallback: fldl2e 
+    // Assembly fallback: fmulp st(1)
+    // Assembly fallback: fst dword ptr [rsp + 4]
+    if (dword ptr [rsp + 4], 0x7f800000) {
+        // Jump Target: 0x6f190 if check fails
+    if (dword ptr [rsp + 4], 0xff800000) {
+        // Jump Target: 0x6f191 if check fails
+    // Assembly fallback: fld st(0)
+    // Assembly fallback: frndint 
+    // Assembly fallback: fsub st(1), st(0)
+    // Assembly fallback: fxch st(1)
+    // Assembly fallback: f2xm1 
+    // Assembly fallback: fld1 
+    // Assembly fallback: faddp st(1)
+    // Assembly fallback: fscale 
+    // Assembly fallback: fstp st(1)
+    return;
+}
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: fldz 
+    return;
+}
+    // Assembly fallback: fist dword ptr [rsp + 4]
+    // Assembly fallback: fild dword ptr [rsp + 4]
+    // Assembly fallback: fucompi st(1)
+    // Assembly fallback: jne 0x6f1eb
+    // Assembly fallback: jp 0x6f218
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: mov eax, dword ptr [rsp + 4]
+    if (eax, 1) {
+        // Jump Target: 0x6f1d5 if check fails
+    // Assembly fallback: test eax, 1
+    // Assembly fallback: jne 0x6f1c0
+    // Assembly fallback: fmul st(0)
+    // Assembly fallback: shr eax, 1
+    // Assembly fallback: jmp 0x6f1b3
+    // Assembly fallback: shr eax, 1
+    // Assembly fallback: je 0x6f1d4
+    // Assembly fallback: fld st(0)
+    // Assembly fallback: fmul st(0)
+    // Assembly fallback: shr eax, 1
+    // Assembly fallback: je 0x6f1d2
+    // Assembly fallback: jae 0x6f1c6
+    // Assembly fallback: fmul st(1), st(0)
+    // Assembly fallback: jmp 0x6f1c6
+    // Assembly fallback: fmulp st(1)
+    return;
+}
+    // Assembly fallback: je 0x6f1d4
+    // Assembly fallback: jb 0x6f1e6
+    // Assembly fallback: fld1 
+    // Assembly fallback: fdivrp st(1)
+    // Assembly fallback: neg eax
+    if (eax, 1) {
+        // Jump Target: 0x6f1d4 if check fails
+    // Assembly fallback: jmp 0x6f1b3
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: fld1 
+    return;
+}
+    // Assembly fallback: fst dword ptr [rsp + 4]
+    // Assembly fallback: fxch st(1)
+    // Assembly fallback: fst dword ptr [rsp + 8]
+    // Assembly fallback: mov eax, dword ptr [rsp + 4]
+    // Assembly fallback: shl eax, 1
+    if (eax, 0xff000000) {
+        // Jump Target: 0x6f223 if check fails
+    // Assembly fallback: mov eax, dword ptr [rsp + 8]
+    // Assembly fallback: shl eax, 1
+    // Assembly fallback: je 0x6f248
+    if (eax, 0xff000000) {
+        // Jump Target: 0x6f248 if check fails
+    // Assembly fallback: fyl2x 
+    // Assembly fallback: jmp 0x6f17e
+    // Assembly fallback: fld1 
+    // Assembly fallback: fucompi st(2)
+    // Assembly fallback: je 0x6f220
+    // Assembly fallback: fxch st(1)
+    // Assembly fallback: fstp st(0)
+    return;
+}
+    // Assembly fallback: fabs 
+    // Assembly fallback: fld1 
+    // Assembly fallback: fucompi st(1)
+    // Assembly fallback: je 0x6f243
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: fabs 
+    // Assembly fallback: fldz 
+    // Assembly fallback: mov eax, 0
+    // Assembly fallback: setb al
+    // Assembly fallback: ror eax, 1
+    eax, dword ptr [rsp + 4] = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: jns 0x6f243
+    // Assembly fallback: fxch st(1)
+    // Assembly fallback: fstp st(1)
+    // Assembly fallback: fabs 
+    return;
+}
+    if (dword ptr [rsp + 4], 0) {
+        // Jump Target: 0x6f243 if check fails
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: je 0x6f25a
+    // Assembly fallback: fldz 
+    return;
+}
+    // Assembly fallback: mov dword ptr [rsp + 4], 0x7f800000
+    // Assembly fallback: fld dword ptr [rsp + 4]
+    return;
+}
+    // Assembly fallback: cvtsd2si eax, xmm1
+    // Assembly fallback: cvtsi2sd xmm2, eax
+    // Assembly fallback: ucomisd xmm1, xmm2
+    // Assembly fallback: jne 0x6f2df
+    // Assembly fallback: jp 0x6f344
+    if (eax, 1) {
+        // Jump Target: 0x6f2af if check fails
+    // Assembly fallback: test eax, 1
+    // Assembly fallback: jne 0x6f293
+    // Assembly fallback: mulsd xmm0, xmm0
+    // Assembly fallback: shr eax, 1
+    // Assembly fallback: jmp 0x6f284
+    // Assembly fallback: shr eax, 1
+    // Assembly fallback: je 0x6f2ae
+    // Assembly fallback: movaps xmm1, xmm0
+    // Assembly fallback: mulsd xmm0, xmm0
+    // Assembly fallback: shr eax, 1
+    // Assembly fallback: je 0x6f2aa
+    // Assembly fallback: jae 0x6f29a
+    // Assembly fallback: mulsd xmm1, xmm0
+    // Assembly fallback: jmp 0x6f29a
+    // Assembly fallback: mulsd xmm0, xmm1
+    return;
+}
+    // Assembly fallback: je 0x6f2ae
+    // Assembly fallback: jb 0x6f2d0
+    // Assembly fallback: neg eax
+    // Assembly fallback: call 0x6f284
+    // Assembly fallback: mov eax, 0x3ff00000
+    // Assembly fallback: movd xmm1, eax
+    // Assembly fallback: pshufd xmm1, xmm1, 0x51
+    // Assembly fallback: divsd xmm1, xmm0
+    // Assembly fallback: movaps xmm0, xmm1
+    return;
+}
+    // Assembly fallback: mov eax, 0x3ff00000
+    // Assembly fallback: movd xmm0, eax
+    // Assembly fallback: pshufd xmm0, xmm0, 0x51
+    return;
+}
+    // Assembly fallback: movsd qword ptr [rsp + 0xc], xmm1
+    // Assembly fallback: movsd qword ptr [rsp + 4], xmm0
+    if (dword ptr [rsp + 0xc], 0) {
+        // Jump Target: 0x6f2ff if check fails
+    // Assembly fallback: mov eax, dword ptr [rsp + 0x10]
+    // Assembly fallback: shl eax, 1
+    if (eax, 0xffe00000) {
+        // Jump Target: 0x6f35c if check fails
+    if (dword ptr [rsp + 4], 0) {
+        // Jump Target: 0x6f31d if check fails
+    // Assembly fallback: mov eax, dword ptr [rsp + 8]
+    // Assembly fallback: shl eax, 1
+    // Assembly fallback: je 0x6f3a0
+    if (eax, 0xffe00000) {
+        // Jump Target: 0x6f3ac if check fails
+    // Assembly fallback: fld qword ptr [rsp + 0xc]
+    // Assembly fallback: fld qword ptr [rsp + 4]
+    // Assembly fallback: fyl2x 
+    // Assembly fallback: fld st(0)
+    // Assembly fallback: frndint 
+    // Assembly fallback: fsub st(1), st(0)
+    // Assembly fallback: fxch st(1)
+    // Assembly fallback: f2xm1 
+    // Assembly fallback: fld1 
+    // Assembly fallback: faddp st(1)
+    // Assembly fallback: fscale 
+    // Assembly fallback: fstp st(1)
+    // Assembly fallback: fstp qword ptr [rsp + 4]
+    // Assembly fallback: movsd xmm0, qword ptr [rsp + 4]
+    return;
+}
+    // Assembly fallback: mov eax, 0x3ff00000
+    // Assembly fallback: movd xmm2, eax
+    // Assembly fallback: pshufd xmm2, xmm2, 0x51
+    // Assembly fallback: ucomisd xmm0, xmm2
+    // Assembly fallback: je 0x6f35b
+    // Assembly fallback: movaps xmm0, xmm1
+    return;
+}
+    // Assembly fallback: pxor xmm2, xmm2
+    // Assembly fallback: pcmpeqd xmm2, xmm2
+    // Assembly fallback: psrlq xmm2, 1
+    // Assembly fallback: andpd xmm0, xmm2
+    // Assembly fallback: mov eax, 0x3ff00000
+    // Assembly fallback: movd xmm2, eax
+    // Assembly fallback: pshufd xmm2, xmm2, 0x51
+    // Assembly fallback: ucomisd xmm0, xmm2
+    // Assembly fallback: je 0x6f35b
+    // Assembly fallback: movmskpd eax, xmm1
+    // Assembly fallback: xorps xmm0, xmm0
+    // Assembly fallback: mov ah, al
+    // Assembly fallback: setb al
+    al, ah = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: jne 0x6f35b
+    // Assembly fallback: mov eax, 0x7ff00000
+    // Assembly fallback: movd xmm0, eax
+    // Assembly fallback: pshufd xmm0, xmm0, 0x51
+    return;
+}
+    // Assembly fallback: movmskpd eax, xmm1
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: jne 0x6f391
+    // Assembly fallback: xorps xmm0, xmm0
+    return;
+}
+    // Assembly fallback: movmskpd eax, xmm1
+    // Assembly fallback: test eax, eax
+    // Assembly fallback: je 0x6f391
+    // Assembly fallback: xorps xmm0, xmm0
+    return;
+}
+    // Assembly fallback: mov eax, dword ptr [rsp + 0xc]
+    // Assembly fallback: fld qword ptr [rsp + 4]
+    if (eax, 1) {
+        // Jump Target: 0x6efb1 if check fails
+    // Assembly fallback: je 0x6f031
+    if (eax, 3) {
+        // Jump Target: 0x6f0b1 if check fails
+    // Assembly fallback: ja 0x6f3dd
+    // Assembly fallback: fsqrt 
+    return;
+}
+    if (eax, 5) {
+        // Jump Target: 0x6f162 if check fails
+    // Assembly fallback: je 0x6f166
+    if (eax, 7) {
+        // Jump Target: 0x6f3fa if check fails
+    // Assembly fallback: ja 0x6f401
+    // Assembly fallback: fldln2 
+    // Assembly fallback: fxch st(1)
+    // Assembly fallback: fyl2x 
+    return;
+}
+    // Assembly fallback: fld1 
+    // Assembly fallback: fxch st(1)
+    // Assembly fallback: fyl2x 
+    return;
+}
+    if (eax, 9) {
+        // Jump Target: 0x6f40f if check fails
+    // Assembly fallback: ja 0x6f412
+    // Assembly fallback: fldlg2 
+    // Assembly fallback: fxch st(1)
+    // Assembly fallback: fyl2x 
+    return;
+}
+    // Assembly fallback: fsin 
+    return;
+}
+    if (eax, 0xb) {
+        // Jump Target: 0x6f41c if check fails
+    // Assembly fallback: ja 0x6f421
+    // Assembly fallback: fcos 
+    return;
+}
+    // Assembly fallback: fptan 
+    // Assembly fallback: fstp st(0)
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: mov eax, dword ptr [rsp + 0x14]
+    // Assembly fallback: fld qword ptr [rsp + 4]
+    // Assembly fallback: fld qword ptr [rsp + 0xc]
+    if (eax, 1) {
+        // Jump Target: 0x6f438 if check fails
+    // Assembly fallback: ja 0x6f43b
+    // Assembly fallback: faddp st(1)
+    return;
+}
+    // Assembly fallback: fsubp st(1)
+    return;
+}
+    if (eax, 3) {
+        // Jump Target: 0x6f445 if check fails
+    // Assembly fallback: ja 0x6f448
+    // Assembly fallback: fmulp st(1)
+    return;
+}
+    // Assembly fallback: fdivp st(1)
+    return;
+}
+    if (eax, 5) {
+        // Jump Target: 0x6f130 if check fails
+    // Assembly fallback: je 0x6f196
+    if (eax, 7) {
+        // Jump Target: 0x6f463 if check fails
+    // Assembly fallback: ja 0x6f468
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: fchs 
+    return;
+}
+    // Assembly fallback: fstp st(0)
+    // Assembly fallback: fabs 
+    return;
+}
+    if (eax, 9) {
+        // Jump Target: 0x6f472 if check fails
+    // Assembly fallback: ja 0x6f479
+    // Assembly fallback: fpatan 
+    return;
+}
+    // Assembly fallback: fxch st(1)
+    // Assembly fallback: fscale 
+    // Assembly fallback: fstp st(1)
+    return;
+}
+    if (eax, 0xb) {
+        // Jump Target: 0x6f487 if check fails
+    // Assembly fallback: ja 0x6f48e
+    // Assembly fallback: fucomi st(1)
+    // Assembly fallback: fcmovnbe st(0), st(1)
+    // Assembly fallback: fstp st(1)
+    return;
+}
+    // Assembly fallback: fucomi st(1)
+    // Assembly fallback: fcmovbe st(0), st(1)
+    // Assembly fallback: fstp st(1)
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: pushfq 
+    // Assembly fallback: pop rdx
+    // Assembly fallback: mov ecx, edx
+    edx, 0x200000 = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: push rdx
+    // Assembly fallback: popfq 
+    // Assembly fallback: pushfq 
+    // Assembly fallback: pop rdx
+    eax, eax = 0; // Register cleared (XOR optimization)
+    if (ecx, edx) {
+        // Jump Target: 0x6f4bc if check fails
+    // Assembly fallback: mov eax, dword ptr [rsp + 4]
+    // Assembly fallback: push rdi
+    // Assembly fallback: push rbx
+    // Assembly fallback: cpuid 
+    // Assembly fallback: mov edi, dword ptr [rsp + 0x10]
+    // Assembly fallback: mov dword ptr [rdi], eax
+    // Assembly fallback: mov dword ptr [rdi + 4], ebx
+    // Assembly fallback: mov dword ptr [rdi + 8], ecx
+    // Assembly fallback: mov dword ptr [rdi + 0xc], edx
+    // Assembly fallback: pop rbx
+    // Assembly fallback: pop rdi
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x1006b250
+    // Assembly fallback: push 0x100057a0
+    // Assembly fallback: mov ecx, 0x10080b10
+    // Assembly fallback: call 0xb2100
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x40
+    // Assembly fallback: call 0x7b910
+    // Assembly fallback: push 0x1006abc0
+    // Assembly fallback: mov dword ptr [rax], eax
+    // Assembly fallback: mov dword ptr [rax + 4], eax
+    // Assembly fallback: mov dword ptr [rax + 8], eax
+    // Assembly fallback: mov word ptr [rax + 0xc], 0x101
+    // Assembly fallback: movabs dword ptr [0x48199e81007f018], eax
+    byte ptr [rbx - 0x333cf73c], al += ...; // Addition operation
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x1006ac30
+    // Assembly fallback: call 0xb769d
+    // Assembly fallback: pop rcx
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x1006d41c
+    // Assembly fallback: push 0x10010800
+    // Assembly fallback: mov ecx, 0x10081d68
+    // Assembly fallback: call 0xb2100
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x1006ace0
+    // Assembly fallback: call 0xb769d
+    // Assembly fallback: pop rcx
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x1006acf0
+    // Assembly fallback: call 0xb769d
+    // Assembly fallback: pop rcx
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0
+    // Assembly fallback: call 0xc0990
+    // Assembly fallback: push rax
+    // Assembly fallback: call 0xc09f8
+    esp, 8 += ...; // Addition operation
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x6f580() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push -1
+    // Assembly fallback: push 0x1006aa4f
+    // Assembly fallback: movabs eax, dword ptr fs:[0xfd44a15000000000]

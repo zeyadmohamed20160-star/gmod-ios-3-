@@ -1,0 +1,41 @@
+[*] Loaded file: C:/Users/Zezo/Documents/GitHub/gmod ios 2\bin\gmpublish.exe (339456 bytes)
+[*] Located C++ Code Section (.text)
+[*] Size: 247808 bytes | Base Address: 0x3F000
+[*] Forcing instruction dump pipeline...
+[*] Translating assembly pipeline to C++ pseudocode...
+
+    // Assembly fallback: push 0x43d460
+    // Assembly fallback: call 0x54a9a
+    // Assembly fallback: pop rcx
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x43d470
+    // Assembly fallback: call 0x54a9a
+    // Assembly fallback: pop rcx
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: push 0x43d510
+    // Assembly fallback: call 0x54a9a
+    // Assembly fallback: pop rcx
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x3f030() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: push -1
+    // Assembly fallback: push 0x43d21f
+    // Assembly fallback: movabs eax, dword ptr fs:[0x794a15000000000]
+    byte ptr [r11], r14b += ...; // Addition operation

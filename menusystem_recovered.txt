@@ -1,0 +1,113 @@
+[*] Loaded file: C:/Users/Zezo/Documents/GitHub/gmod ios 2\garrysmod\bin\menusystem.dll (2522760 bytes)
+[*] Located C++ Code Section (.text)
+[*] Size: 1815040 bytes | Base Address: 0x1BE000
+[*] Forcing instruction dump pipeline...
+[*] Translating assembly pipeline to C++ pseudocode...
+
+
+// --- Recovered Function Block ---
+void function_0x1be000() {
+    // Assembly fallback: mov ebp, esp
+    esp, 0x24 -= ...; // Subtraction operation
+    // Assembly fallback: lea eax, [rbp - 0x24]
+    // Assembly fallback: push rax
+    // Assembly fallback: call qword ptr [rip + 0x101bd0bc]
+    // Assembly fallback: mov eax, dword ptr [rbp - 0x10]
+    // Assembly fallback: mov esp, ebp
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+    // Assembly fallback: int3 
+
+// --- Recovered Function Block ---
+void function_0x1be020() {
+    // Assembly fallback: mov ebp, esp
+    // Assembly fallback: mov eax, dword ptr [rbp + 8]
+    if (rax, 0x23) {
+        // Jump Target: 0x1be0b5 if check fails
+    // Assembly fallback: jmp qword ptr [rax*4 + 0x100010bc]
+    // Assembly fallback: mov eax, 1
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 2
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 3
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 4
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 5
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 6
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 7
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 8
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 9
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 0xa
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 0xb
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 0xc
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 0xd
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 0xe
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 0xf
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 0x10
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 0x11
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: mov eax, 0x12
+    // Assembly fallback: pop rbp
+    return;
+}
+    eax, eax = 0; // Register cleared (XOR optimization)
+    // Assembly fallback: pop rbp
+    return;
+}
+    // Assembly fallback: lea ecx, [rcx]
