@@ -15,7 +15,7 @@ jobs:
     - name: 🛰️ Download Source Repository Assets
       uses: actions/checkout@v4
       with:
-        lfs: true # Crucial: Tells the runner machine to fully pull down LFS pointer assets
+        lfs: false # Swapped to false so missing raw LFS pointer assets won't cause hard crashes on checkout
 
     - name: 🐍 Initialize Python Interpreter Environment
       uses: actions/setup-python@v5
@@ -71,7 +71,6 @@ jobs:
         </plist>
         PLIST
         
-        # --- FIXED ABSOLUTE PATH RESOURCE PIPELINE ENGINE ---
         # Look directly at the repository root path context configuration layout 
         if [ -d "$GITHUB_WORKSPACE/gmod_assets" ]; then
           echo "[+] Located asset directory folder map. Mass packing game resources..."
