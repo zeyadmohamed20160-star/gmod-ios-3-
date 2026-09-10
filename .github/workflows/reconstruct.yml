@@ -37,7 +37,7 @@ jobs:
         cd ios_project/build
         cmake -G "Unix Makefiles" -DCMAKE_OSX_SYSROOT=iphoneos ..
 
-    - name: 📱 Execute Makefile Compilation Pipeline & Sign Target App Bundle (.ipa Package)
+    - name: 📱 Execute Makefile Compilation Pipeline & Bundle Asset Resources
       run: |
         cd ios_project/build
         make GModMobile
@@ -67,6 +67,13 @@ jobs:
         </dict>
         </plist>
         PLIST
+        
+        # --- NEW RESOURCE PIPELINE ENGINE ---
+        # If the user pushed real game assets, crawl and copy them right into the app container folder layout
+        if [ -d "../gmod_assets" ]; then
+          print "[*] Located gmod_assets deployment archive. Mass copying resource packages into .app container..."
+          cp -R ../gmod_assets/* ios_project/Payload/GModMobile.app/
+        fi
         
         cd ios_project
         zip -r GModMobile_Unsigned.ipa Payload
