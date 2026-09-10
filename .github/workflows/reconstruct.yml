@@ -24,9 +24,9 @@ jobs:
       run: |
         python reconstruct_core.py
 
-    - name: 🧱 Generate Xcode Project Workspace Framework
+    - name: 🧱 Generate Project Makefile Layout Structure
       run: |
-        mkdir -p ios_project/GModMobile.xcodeproj
+        mkdir -p ios_project/build
         cat << 'XCODE' > ios_project/CMakeLists.txt
         cmake_minimum_required(VERSION 3.20)
         project(GModMobile CXX)
@@ -34,16 +34,22 @@ jobs:
         add_executable(GModMobile Source/gmod_stitched_core.cpp)
         XCODE
         
-        cd ios_project
-        cmake -G Xcode .
+        # Compiles using a direct Unix Makefile configuration template for predictable compilation rules
+        cd ios_project/build
+        cmake -G "Unix Makefiles" -DCMAKE_OSX_SYSROOT=iphoneos ..
 
-    - name: 📱 Compile Binaries & Sign Target App Bundle (.ipa Package)
+    - name: 📱 Execute Makefile Compilation Pipeline & Sign Target App Bundle (.ipa Package)
       run: |
+        cd ios_project/build
+        # Run compilation using direct make files
+        make GModMobile
+        
+        # Package raw compiled bin structures into application folder framework schema
+        cd ../..
+        mkdir -p ios_project/Payload/GModMobile.app
+        cp ios_project/build/GModMobile ios_project/Payload/GModMobile.app/ 2>/dev/null || cp ios_project/build/GModMobile ios_project/Payload/GModMobile.app/GModMobile
+        
         cd ios_project
-        xcodebuild -project GModMobile.xcodeproj -scheme GModMobile -configuration Release -sdk iphoneos CODE_SIGNING_ALLOWED=NO
-
-        mkdir -p Payload/GModMobile.app
-        cp -r build/Release-iphoneos/GModMobile.app/* Payload/GModMobile.app/ 2>/dev/null || cp build/Release-iphoneos/GModMobile Payload/GModMobile.app/
         zip -r GModMobile_Unsigned.ipa Payload
 
     - name: 📦 Archive Mobile Artifacts for Local Sideload Testing

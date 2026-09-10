@@ -11,10 +11,12 @@ def auto_stitch_project_pipeline():
     print(f"[+] Located {len(source_files)} source modules ready for translation.")
     
     all_compiled_code = []
-    all_compiled_code.append("#include <iostream>\n#include <vector>\n#include <string>\n\n// --- Global Engine Core Definitions ---")
+    all_compiled_code.append("#include <iostream>\n#include <vector>\n#include <string>\n\n// Define macros to stop the compiler from colliding with standard library keywords\n#define byte assembly_byte_data\n#define dword assembly_dword_data\n\n// --- Global Engine Core Definitions ---")
     processed_functions = set()
     
     for file_path in source_files:
+        if "reconstruct_core.py" in file_path:
+            continue
         print(f" -> Parsing module: {file_path}")
         with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
             content = f.read()
@@ -33,6 +35,8 @@ def auto_stitch_project_pipeline():
                     all_compiled_code.append(func)
                     
     main_hook = """
+#undef byte
+#undef dword
 int main(int argc, char* argv[]) {
     std::cout << "[*] Initializing Garry's Mod Mobile Engine Layer..." << std::endl;
     return 0;
