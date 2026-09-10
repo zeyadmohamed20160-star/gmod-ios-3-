@@ -34,7 +34,6 @@ jobs:
         add_executable(GModMobile Source/gmod_stitched_core.cpp)
         XCODE
         
-        # Force CMake to output a real, native Apple Xcode IDE workspace architecture structure instead of loose makefiles
         cd ios_project
         cmake -G "Xcode" -DCMAKE_OSX_SYSROOT=iphoneos .
 
@@ -44,9 +43,17 @@ jobs:
         # Run native xcode builds to generate optimized mobile binaries
         xcodebuild -project GModMobile.xcodeproj -scheme GModMobile -configuration Release -sdk iphoneos CODE_SIGNING_ALLOWED=NO
         
-        # Reconstruct structural payload application framework deployment schema
+        # Explicitly build the required Payload identity structure layers manually
         mkdir -p Payload/GModMobile.app
-        cp -r Release-iphoneos/GModMobile.app/* Payload/GModMobile.app/ 2>/dev/null || cp -r build/Release-iphoneos/GModMobile.app/* Payload/GModMobile.app/
+        
+        # Copy the native executable target into the structural framework
+        if [ -f "Release-iphoneos/GModMobile" ]; then
+          cp "Release-iphoneos/GModMobile" Payload/GModMobile.app/GModMobile
+        elif [ -f "build/Release-iphoneos/GModMobile" ]; then
+          cp "build/Release-iphoneos/GModMobile" Payload/GModMobile.app/GModMobile
+        else
+          cp -r Release-iphoneos/GModMobile.app/* Payload/GModMobile.app/ 2>/dev/null || cp -r build/Release-iphoneos/GModMobile.app/* Payload/GModMobile.app/
+        fi
         
         # Inject standard required Info.plist template metadata for iOS targets
         cat << 'PLIST' > Payload/GModMobile.app/Info.plist
