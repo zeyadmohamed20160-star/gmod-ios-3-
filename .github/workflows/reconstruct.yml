@@ -34,20 +34,39 @@ jobs:
         add_executable(GModMobile Source/gmod_stitched_core.cpp)
         XCODE
         
-        # Compiles using a direct Unix Makefile configuration template for predictable compilation rules
         cd ios_project/build
         cmake -G "Unix Makefiles" -DCMAKE_OSX_SYSROOT=iphoneos ..
 
     - name: 📱 Execute Makefile Compilation Pipeline & Sign Target App Bundle (.ipa Package)
       run: |
         cd ios_project/build
-        # Run compilation using direct make files
         make GModMobile
         
-        # Package raw compiled bin structures into application folder framework schema
         cd ../..
         mkdir -p ios_project/Payload/GModMobile.app
-        cp ios_project/build/GModMobile ios_project/Payload/GModMobile.app/ 2>/dev/null || cp ios_project/build/GModMobile ios_project/Payload/GModMobile.app/GModMobile
+        cp ios_project/build/GModMobile ios_project/Payload/GModMobile.app/GModMobile
+        
+        # Inject standard required Info.plist template metadata for iOS target validation
+        cat << 'PLIST' > ios_project/Payload/GModMobile.app/Info.plist
+        <?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://apple.com">
+        <plist version="1.0">
+        <dict>
+            <key>CFBundleExecutable</key>
+            <string>GModMobile</string>
+            <key>CFBundleIdentifier</key>
+            <string>com.zezo.gmodmobile</string>
+            <key>CFBundleName</key>
+            <string>GModMobile</string>
+            <key>CFBundleShortVersionString</key>
+            <string>1.0</string>
+            <key>CFBundleVersion</key>
+            <string>1</string>
+            <key>LSRequiresIPhoneOS</key>
+            <true/>
+        </dict>
+        </plist>
+        PLIST
         
         cd ios_project
         zip -r GModMobile_Unsigned.ipa Payload
