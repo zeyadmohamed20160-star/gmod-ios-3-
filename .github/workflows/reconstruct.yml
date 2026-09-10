@@ -1,0 +1,54 @@
+name: Garry's Mod Mobile IPA Construction Engine Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-ipa-workspace:
+    name: Run Cross-Platform Refiner and Apple IPA Compiler
+    runs-on: macos-latest
+
+    steps:
+    - name: 🛰️ Download Source Repository Assets
+      uses: actions/checkout@v4
+
+    - name: 🐍 Initialize Python Interpreter Environment
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: 🛠️ Run Smart Logic Refiner & Reconstruction Pipeline
+      run: |
+        python reconstruct_core.py
+
+    - name: 🧱 Generate Xcode Project Workspace Framework
+      run: |
+        mkdir -p ios_project/GModMobile.xcodeproj
+        cat << 'XCODE' > ios_project/CMakeLists.txt
+        cmake_minimum_required(VERSION 3.20)
+        project(GModMobile CXX)
+        set(CMAKE_CXX_STANDARD 17)
+        add_executable(GModMobile Source/gmod_stitched_core.cpp)
+        XCODE
+        
+        cd ios_project
+        cmake -G Xcode .
+
+    - name: 📱 Compile Binaries & Sign Target App Bundle (.ipa Package)
+      run: |
+        cd ios_project
+        xcodebuild -project GModMobile.xcodeproj -scheme GModMobile -configuration Release -sdk iphoneos CODE_SIGNING_ALLOWED=NO
+
+        mkdir -p Payload/GModMobile.app
+        cp -r build/Release-iphoneos/GModMobile.app/* Payload/GModMobile.app/ 2>/dev/null || cp build/Release-iphoneos/GModMobile Payload/GModMobile.app/
+        zip -r GModMobile_Unsigned.ipa Payload
+
+    - name: 📦 Archive Mobile Artifacts for Local Sideload Testing
+      uses: actions/upload-artifact@v4
+      with:
+        name: gmod-mobile-ios-sideload-package
+        path: ios_project/GModMobile_Unsigned.ipa
+        retention-days: 7
